@@ -20,7 +20,7 @@ Comme indiqué en introduction, il est supposé ici que nous travaillons sur des
 Ce chapitre concerne uniquement les éléments gérés dans le catalogue : catégories, étoiles, couleurs et l'utilisation de l'outil "Catégories"
 Les paramètres correspondants sont situés dans l'écran "Outils, Paramètres, Métadonnées" et illustrés dans la figure suivante
 
-![Outils Options métadonnées](/public/catalogage/xnvmp04.png)
+![Outils Options métadonnées](/catalogage/xnvmp04.png)
 
 ### Affecter une catégorie à une photo : écrire les mots-clés
 
@@ -100,7 +100,7 @@ Et surtout, vérifiez régulièrement une photo dans la zone "informations" les 
 La recherche de photos par mots clés se fait essentiellement dans l'écran "Filtre catégories"
 Il y a des réglages à effectuer tout d'abord, en cliquant dans le menu déroulant "Correspond" en haut de cette zone.
 
-![Options de filtrage](/public/catalogage/xnvmp05b.png)
+![Options de filtrage](/catalogage/xnvmp05b.png)
 
 Vous pouvez choisir "N'importe lequel" ou "Tous" selon que vous voulez rechercher les images correspondant à chacun des critères, ou à tous les critères.
 Le premier est un "OU", le deuxième un "ET". Cochez le deuxième.
@@ -109,7 +109,7 @@ Par exemple, pour rechercher dans toute l'année 2019, le dossier 2019 devra êt
 
 La liste des catégories est affichée, avec un triangle pour celles qui contiennent des sous-catégories. Cliquez un triangle pour voir les sous-catégories...
 
-![Filtre categories](/public/catalogage/xnvmp05.png)
+![Filtre categories](/catalogage/xnvmp05.png)
 
 Cliquez une catégorie ayant un nombre affiché dans les parenthèses : Après un instant, les photos ayant cette catégorie s'affichent. Et voilà le travail.
  Pour un deuxième critère, utilisez la touche Ctrl en combinaison avec le clic de souris.
