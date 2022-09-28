@@ -4,73 +4,64 @@ description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
 
-Disposition
-Vous pouvez ajuster l'affichage de l'écran principal à votre convenance en déplaçant les différentes zones d'affichage sans qu'elles se gênent.
-Ma méthode : Passez dans le menu Afficher, disposition, cliquer sur "Disposition 4".
-Vous allez pouvoir ensuite déplacer les différents éléments dans la fenêtre en les attrapant par leur bandeau d'en-tête avec la souris.
-Si vous disposez de deux écrans, un certain nombre d'éléments d'affichage peuvent être mis sur le deuxième écran.
-Je n'ai pas fais de tests sur un système à deux écrans, mais c'est certainement très intéressant
+## Disposition
 
+Vous pouvez ajuster l'affichage de l'écran principal à votre convenance en déplaçant les différentes zones d'affichage sans qu'elles se gênent. Ma méthode : Passez dans le menu Afficher, disposition, cliquer sur "Disposition 4".
 
-La zone Catégories
-Coller le panneau "Catégories" contre le bord droit, pour qu'il occupe toute la hauteur
-Glisser aussi le "groupe de catégories" (qui est en bas) sur "Catégories", ils se recouvrent, on y accèdera par les onglets que vous voyez à droite.
+Vous allez pouvoir ensuite déplacer les différents éléments dans la fenêtre en les attrapant par leur bandeau d'en-tête avec la souris. Si vous disposez de deux écrans, un certain nombre d'éléments d'affichage peuvent être mis sur le deuxième écran. Je n'ai pas fais de tests sur un système à deux écrans, mais c'est certainement très intéressant.
+
+## La zone Catégories
+
+Coller le panneau "Catégories" contre le bord droit, pour qu'il occupe toute la hauteur. Glisser aussi le "groupe de catégories" (qui est en bas) sur "Catégories", ils se recouvrent, on y accèdera par les onglets que vous voyez à droite.
+
 On obtient pour le moment ce type d'affichage, en ayant sélectionné l'onglet Catégories à droite :
 
 ecran principal
 Figure 1a
 
-Le bouton "Disposition" de la barre d'outils est illsutré sur la figure 1 , il permet de mémoriser les dispositions A, B, C, D, E.
-Cliquez ce bouton, et enregistrez cette disposition sous le nom "disposition A"
-L'avantage de cette disposition, c'est d'utiliser toute la hauteur de l'écran pour les dossiers et les catégories.
-Pour limiter la taille des illustrations ici (Figures 1a et 1b), j'ai nettement réduit la zone des vignettes, ce n'est pas l'affichage normal.
+Le bouton "Disposition" de la barre d'outils est illsutré sur la figure 1 , il permet de mémoriser les dispositions A, B, C, D, E. Cliquez ce bouton, et enregistrez cette disposition sous le nom "disposition A".
 
+L'avantage de cette disposition, c'est d'utiliser toute la hauteur de l'écran pour les dossiers et les catégories. Pour limiter la taille des illustrations ici (Figures 1a et 1b), j'ai nettement réduit la zone des vignettes, ce n'est pas l'affichage normal.
 
-Les Dossiers
-Par défaut dans cette disposition, vos dossiers sont en colonne à gauche, avec un petit onglet "Dossiers" si cette zone contient plusieurs écrans.
-Dans le menu Outils, Paramètres, Général vous pouvez choisir et fixer le dossier que vous voulez afficher à l'ouverture de XnViewMP.
-A gauche de cette zone il y a les onglets "Favoris" et "Filtre des catégories"
+## Les Dossiers
 
-Les vignettes
-Au centre de l'écran il y a zone d'affichage principale pour les vignettes, et leurs "Libellés" en dessous
-On verra plus loin que l'on peut choisir les libellés que l'on souhaite afficher.
+Par défaut dans cette disposition, vos dossiers sont en colonne à gauche, avec un petit onglet "Dossiers" si cette zone contient plusieurs écrans. Dans le menu Outils, Paramètres, Général vous pouvez choisir et fixer le dossier que vous voulez afficher à l'ouverture de XnViewMP. A gauche de cette zone il y a les onglets "Favoris" et "Filtre des catégories".
 
+## Les vignettes
 
-La zone Informations
-Passer dans le menu Afficher, Volet d'informations, cochez toutes les options.
-L'une des options, "Afficher", est un choix à deux modes : afficher, ou ne pas afficher le volet d'informations ; laissez-le affiché.
-Maintenant, sélectionnez une photo dans l'écran principal.
-Dans la zone Informations, on doit voir de 3 à 8 onglets selon le contenu de la photo: Propriétés, Histogramme, Exif, IPTC-IIM, XMP, ExifTool, GPS , Aperçu.
- (15/12/2020) V0.98 Dans la section [Preview] du fichier xnview.ini, modifiez la ligne showAlwaysTabs=true si vous souhaitez afficher tous les onglets, même vides.
+Au centre de l'écran il y a zone d'affichage principale pour les vignettes, et leurs "Libellés" en dessous. On verra plus loin que l'on peut choisir les libellés que l'on souhaite afficher.
 
+## La zone Informations
 
-La zone Aperçu
-Dans certains cas, l'aperçu est un onglet de la zone informations; Allez dans le menu "afficher, Volet d'informations", et décochez l'option "aperçu en onglet".
-Dans d'autres cas, il est indépendant, mais positionné SOUS la zone information, et accessible par un onglet situé en bas de cette zone, onglet qui va le ramener au premier plan.
-Il est donc maintenant "seul" dans sa zone, muni d'un bandeau, et au premier plan.
-Attrapez le par le bandeau et glissez-le à droite de la zone Informations, sans pour autant bousculer les catégories.
-Maintenant, l'aperçu de la photo est affiché à côté des autres informations, dans une fenêtre indépendante
-Ajustez la largeur des colonnes de dossiers et de catégories, puis la hauteur de la zone Informations pour avoir un aperçu confortable.
-Enregistrez à nouveau cette disposition , (Disposition B par exemple) : Ces réglages sont enregistrés dans le fichier xnview.ini et en cas de problème ou de nouvelle installation, vous pourrez retrouver cette disposition d'affichage.
+Passer dans le menu Afficher, Volet d'informations, cochez toutes les options. L'une des options, "Afficher", est un choix à deux modes : afficher, ou ne pas afficher le volet d'informations ; laissez-le affiché. Maintenant, sélectionnez une photo dans l'écran principal.
+
+Dans la zone Informations, on doit voir de 3 à 8 onglets selon le contenu de la photo: Propriétés, Histogramme, Exif, IPTC-IIM, XMP, ExifTool, GPS , Aperçu. (15/12/2020) V0.98 Dans la section [Preview] du fichier xnview.ini, modifiez la ligne showAlwaysTabs=true si vous souhaitez afficher tous les onglets, même vides.
+
+## La zone Aperçu
+
+Dans certains cas, l'aperçu est un onglet de la zone informations; Allez dans le menu "afficher, Volet d'informations", et décochez l'option "aperçu en onglet". Dans d'autres cas, il est indépendant, mais positionné SOUS la zone information, et accessible par un onglet situé en bas de cette zone, onglet qui va le ramener au premier plan.
+
+Il est donc maintenant "seul" dans sa zone, muni d'un bandeau, et au premier plan. Attrapez le par le bandeau et glissez-le à droite de la zone Informations, sans pour autant bousculer les catégories.
+
+Maintenant, l'aperçu de la photo est affiché à côté des autres informations, dans une fenêtre indépendante. Ajustez la largeur des colonnes de dossiers et de catégories, puis la hauteur de la zone Informations pour avoir un aperçu confortable. Enregistrez à nouveau cette disposition, (Disposition B par exemple) : ces réglages sont enregistrés dans le fichier xnview.ini et en cas de problème ou de nouvelle installation, vous pourrez retrouver cette disposition d'affichage.
 
 Voici la disposition obtenue
 
 ecran principal
 Figure 1b
 
-La zone principale, les vignettes et libellés. Paramétrage
-La plus grande zone de l'écran affiche les vignettes, et on peut appeler cette zone "le navigateur" (ou "explorateur" ou "browser") bien que la zone "Dossiers" en fasse partie aussi.
-Dans cette zone principale d'affichage des vignettes, vous pouvez choisir les informations que vous souhaitez afficher sous chaque miniature :
-Par défaut, le choix Vignettes + Libellés est sélectionné, et il est paramétrable (à mon sens, c'est le mode le plus pratique; voir aussi le paragraphe suivant "utilisation")
+## La zone principale, les vignettes et libellés, paramétrage
 
-Les libellés
-Le paramétrage des libellés est situé dans le menu Outils, Paramètres, (explorateur) Vignettes, onglet Libellés.
-Dans cet onglet, on peut faire passer des informations du tableau de gauche vers celui de droite pour les ajouter sous les vignettes, ou au contraire les ramener de droite à gauche pour les enlever.
-Personnellement, j'affiche Filename, EXIF date taken, IPTC caption, IPTC Keywords, ce qui correspond à : Nom du fichier, Date de prise de vue, Légende, Mots clés.
+La plus grande zone de l'écran affiche les vignettes, et on peut appeler cette zone "le navigateur" (ou "explorateur" ou "browser") bien que la zone "Dossiers" en fasse partie aussi. Dans cette zone principale d'affichage des vignettes, vous pouvez choisir les informations que vous souhaitez afficher sous chaque miniature : par défaut, le choix Vignettes + Libellés est sélectionné, et il est paramétrable (à mon sens, c'est le mode le plus pratique; voir aussi le paragraphe suivant "utilisation").
 
- (11/02/2021) Explorez également les nombreuses possibilités de libellés personnalisés :
-- Ajoutez un des libellés "Custom" proposés en bas de liste; quand vous l'avez passé du côté droit, sélectionnez-le.
-- Modifiez-le ensuite avec le bouton ">>" situé à droite de la case du bas. Vous pourrez choisir dans une liste de données exif, iptc, ou d'informations de fichiers.
+## Les libellés
+
+Le paramétrage des libellés est situé dans le menu Outils, Paramètres, (explorateur) Vignettes, onglet Libellés. Dans cet onglet, on peut faire passer des informations du tableau de gauche vers celui de droite pour les ajouter sous les vignettes, ou au contraire les ramener de droite à gauche pour les enlever. Personnellement, j'affiche Filename, EXIF date taken, IPTC caption, IPTC Keywords, ce qui correspond à : Nom du fichier, Date de prise de vue, Légende, Mots clés.
+
+(11/02/2021) Explorez également les nombreuses possibilités de libellés personnalisés :
+- ajoutez un des libellés "Custom" proposés en bas de liste; quand vous l'avez passé du côté droit, sélectionnez-le.
+- modifiez-le ensuite avec le bouton ">>" situé à droite de la case du bas. Vous pourrez choisir dans une liste de données exif, iptc, ou d'informations de fichiers.
+
 On peut aussi mettre deux informations en une seule ligne pour économiser de la place Exemple : Custom 1: {IPTC:City} {IPTC:State}
 Apparemment les champs XMP ne sont pas proposés, mais pour certains cas il y a une astuce: Notez au préalable le nom du champ XMP que vous souhaitez voir en libellé.
 Ensuite, ajoutez un champ "Custom", puis validez un champ IPTC quelconque. Et enfin, modifiez-le... Par exemple, remplacez {IPTC:City} par {XMP:City}
