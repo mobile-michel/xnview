@@ -4,398 +4,318 @@ description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
 
-Utiliser les catégories pour entrer les mots clés avec XnViewMP apporte un réel confort pour cette tâche fastidieuse mais importante.
-De plus, sans autre manipulation, vous pourrez utiliser le "filtre de catégories" et obtenir une sélection de photos avec un seul clic.
-Il y a donc deux aspects complètement indépendants : faciliter la saisie, et pouvoir filtrer des lots de photos très facilement.
-Pour info, il existe dans d'autres logiciels une notion de "catégories" qui nomme ainsi des ensembles de mots clés; ce n'est pas du tout ce qui est défini dans XnViewMP par le mot "catégories", ne confondons pas.
+Utiliser les catégories pour entrer les mots clés avec XnViewMP apporte un réel confort pour cette tâche fastidieuse mais importante. De plus, sans autre manipulation, vous pourrez utiliser le "filtre de catégories" et obtenir une sélection de photos avec un seul clic.
 
+Il y a donc deux aspects complètement indépendants : faciliter la saisie, et pouvoir filtrer des lots de photos très facilement. Pour info, il existe dans d'autres logiciels une notion de "catégories" qui nomme ainsi des ensembles de mots clés; ce n'est pas du tout ce qui est défini dans XnViewMP par le mot "catégories", ne confondons pas.
 
-Chapitre 5A - Utiliser les Catégories de XnViewMP pour mettre des mots clés dans les photos
-Chapitre 4 top Chapitre 5B
-Nous avons vu dans le chapitre précédent le paramétrage à appliquer (Outils, Paramètres, Métadonnées) pour utiliser les catégories.
-Et donc vous allez utiliser les catégories pour entrer vos mots clés, c'est à dire cocher les cases correspondantes dans la zone Catégories.
+## Utiliser les Catégories de XnViewMP pour mettre des mots clés dans les photos
 
-J'ouvre une parenthèse importante sur la méthode décrite dans le chapitre 3 :
-Si vous le souhaitez, vous pouvez commencer à saisir vos premiers mots-clés dans l'écran "Editer les métadonnées" ( Ctrl i ) sans utiliser le panneau de catégories.
-Il faut alors cocher la première option de métadonnées (Importer les mots clés XMP ou IPTC dans les catégories) qu'on a vue au chapitre précédent :
+Nous avons vu dans le chapitre précédent le paramétrage à appliquer (Outils, Paramètres, Métadonnées) pour utiliser les catégories. Et donc vous allez utiliser les catégories pour entrer vos mots clés, c'est à dire cocher les cases correspondantes dans la zone Catégories.
+
+J'ouvre une parenthèse importante sur la méthode décrite dans le chapitre 3 : si vous le souhaitez, vous pouvez commencer à saisir vos premiers mots-clés dans l'écran "Editer les métadonnées" ( Ctrl i ) sans utiliser le panneau de catégories. Il faut alors cocher la première option de métadonnées (Importer les mots clés XMP ou IPTC dans les catégories) qu'on a vue au chapitre précédent :
 
 Outils Options métadonnées
 Figure 14
-De cette façon, des catégories vont se créer automatiquement; Mais il est difficile de créer des véritables hiérarchies par cet écran de saisie sans artifices.
-Décochez donc cette première option pour passer à la suite, et on n'utilisera plus la fenêtre d'édition iptc/xmp pour les mots clés, mais seulement le panneau "catégories"
-Parenthèse refermée.
 
+De cette façon, des catégories vont se créer automatiquement; Mais il est difficile de créer des véritables hiérarchies par cet écran de saisie sans artifices. Décochez donc cette première option pour passer à la suite, et on n'utilisera plus la fenêtre d'édition iptc/xmp pour les mots clés, mais seulement le panneau "catégories". Parenthèse refermée.
 
-Si vous partez de zéro, n'oubliez pas les conseils que je donne sur le choix des mots clés vers le bas de cette autre page ,
-et vous devez vous préparer une liste de mots dans un tableau ou un fichier texte (fichier que XnViewMP peut générer très facilement à partir des catégories, voir ici)
-Il vous suffit de garder ce tableau de mots-clés (imprimé ?) près de vous, pour vous y référer pendant que vous marquez vos photos, et en même temps l'améliorer progressivement.
+Si vous partez de zéro, n'oubliez pas les conseils que je donne sur le choix des mots clés vers le bas de cette autre page, et vous devez vous préparer une liste de mots dans un tableau ou un fichier texte (fichier que XnViewMP peut générer très facilement à partir des catégories, voir ici). Il vous suffit de garder ce tableau de mots-clés (imprimé ?) près de vous, pour vous y référer pendant que vous marquez vos photos, et en même temps l'améliorer progressivement.
 
- (11/12/2020) Les mots-clés hiérarchisés
-Les mots clés hiérarchisés ne sont pas parfaitement normalisés, mais vouloir les éviter à tout prix nous priverait d'un vrai confort d'utilisation; autant donc les utiliser.
-Dans ce cas, la liste de catégories sera thématique en quelque sorte, comme dans l'exemple suivant à trois niveaux hiérarchiques.
-Les mots clés correspondants sont écrits en suivant la norme Adobe Lightroom, en XMP, métadonnée XMP-lr:HierarchicalSubject(n)
-Ils offrent un avantage incomparable, c'est de pouvoir faire un travail de marquage progressivement, en commençant par des catégories assez généralistes.
-Cela permet de démarrer bien plus vite, en marquant très vite des lots importants de photos.
-De plus, les catégories seront présentées dans une liste courte, dans un ordre relativement facile à parcourir du regard.
-Je suggère cependant d'éviter de mettre un trop grand nombre de sous-catégories au début, car cela va notablement vous ralentir, voire vous décourager lors du marquage.
-Vous pouvez à la place ajouter un mot en légende dans les quelques cas où c'est judicieux, et si il apparaît utile plus tard d'en faire des catégories, ce sera assez simple si iptc est utilisé
-En effet, en sélectionnant d'abord la catégorie parent, la "Recherche rapide" permet de filtrer selon le contenu des légendes iptc, afin de catégoriser après coup avec plus de détail.
+### Les mots-clés hiérarchisés
 
-La zone Catégories
-Elle permet d'affecter des catégories aux photos et de construire l'organisation des catégories.
-Ces catégories sont visibles également dans l'onglet "Filtre catégories", onglet situé à gauche de l'écran, sous les "Dossiers".
-Souvenez-vous que chaque mot présent dans cette liste de catégories est un mot clé, et doit être unique et précis.
-Evitez les mots "divers" ou "autres", écrivez par exemple "autre_reptile".
-Pas d'inquiétude excessive cependant, il sera toujours possible de remplacer une catégorie ou un mot clé par un autre ultérieurement.
+Les mots clés hiérarchisés ne sont pas parfaitement normalisés, mais vouloir les éviter à tout prix nous priverait d'un vrai confort d'utilisation; autant donc les utiliser. Dans ce cas, la liste de catégories sera thématique en quelque sorte, comme dans l'exemple suivant à trois niveaux hiérarchiques.
+
+Les mots clés correspondants sont écrits en suivant la norme Adobe Lightroom, en XMP, métadonnée XMP-lr:HierarchicalSubject(n). Ils offrent un avantage incomparable, c'est de pouvoir faire un travail de marquage progressivement, en commençant par des catégories assez généralistes. Cela permet de démarrer bien plus vite, en marquant très vite des lots importants de photos.
+
+De plus, les catégories seront présentées dans une liste courte, dans un ordre relativement facile à parcourir du regard. Je suggère cependant d'éviter de mettre un trop grand nombre de sous-catégories au début, car cela va notablement vous ralentir, voire vous décourager lors du marquage.
+
+Vous pouvez à la place ajouter un mot en légende dans les quelques cas où c'est judicieux, et si il apparaît utile plus tard d'en faire des catégories, ce sera assez simple si iptc est utilisé. En effet, en sélectionnant d'abord la catégorie parent, la "Recherche rapide" permet de filtrer selon le contenu des légendes iptc, afin de catégoriser après coup avec plus de détail.
+
+### La zone Catégories
+
+Elle permet d'affecter des catégories aux photos et de construire l'organisation des catégories. Ces catégories sont visibles également dans l'onglet "Filtre catégories", onglet situé à gauche de l'écran, sous les "Dossiers".
+
+Souvenez-vous que chaque mot présent dans cette liste de catégories est un mot clé, et doit être unique et précis. Evitez les mots "divers" ou "autres", écrivez par exemple "autre_reptile". Pas d'inquiétude excessive cependant, il sera toujours possible de remplacer une catégorie ou un mot clé par un autre ultérieurement.
 
 Categories
 Figure 15 illustration des principales fonctions accessibles dans le volet des catégories.
 
-Repérez bien la petite flèche pointe en bas qui donne accès au menu des catégories, que je détaillerai plus loin.
-Il y a à côté un bouton à trois petits points qui permet de déplier et replier l'ensemble des sous-catégories.
-Vous voyez également les petits onglets à droite pour passer à l'affichage "Groupes de catégories"
-Sur la figure 15, j'ai illustré aussi le clic-droit sur une catégorie, qui permet les actions classiques (renommer, déplacer, supprimer etc...)
-Si vous souhaitez réorganiser vos catégories, il est préférable de le faire ici: faites un clic droit sur une catégorie, et cliquez sur un des choix offerts ...
-Mais il y a des précautions à prendre, lisez attentivement le chapitre 5C
-Avant de faire d'importants bouleversements, faites un petit essai, puis refermez et réouvrez XnView pour vérifier que vos manips sont bien acceptées.
-Mais notez bien que modifier les catégories ne modifie pas les mots-clés correspondants dans les photos. Donc, à ce stade, ne modifiez que des catégories vides.
-Un truc bête : vous devez sélectionner au moins une photo pour pouvoir agir dans le volet des catégories. C'est comme ça.
-Si XnViewMP refuse de prendre en compte vos réglages ou vos actions, c'est probablement parce-que son dossier d'installation est protégé par Windows
-C'est pour cette raison que je proposais au tout début de cette documentation de ne pas l'installer dans le dossier program_files.
+Repérez bien la petite flèche pointe en bas qui donne accès au menu des catégories, que je détaillerai plus loin. Il y a à côté un bouton à trois petits points qui permet de déplier et replier l'ensemble des sous-catégories.
 
+Vous voyez également les petits onglets à droite pour passer à l'affichage "Groupes de catégories". Sur la figure 15, j'ai illustré aussi le clic-droit sur une catégorie, qui permet les actions classiques (renommer, déplacer, supprimer etc...)
 
-Affecter une catégorie
-Donc, vous avez sélectionné une ou plusieurs photos.
+Si vous souhaitez réorganiser vos catégories, il est préférable de le faire ici: faites un clic droit sur une catégorie, et cliquez sur un des choix offerts. Mais il y a des précautions à prendre, lisez attentivement le chapitre 5C.
 
-Et vous cliquez dans la case de la catégorie que vous voulez affecter. Tout est là.
+Avant de faire d'importants bouleversements, faites un petit essai, puis refermez et réouvrez XnView pour vérifier que vos manips sont bien acceptées. Mais notez bien que modifier les catégories ne modifie pas les mots-clés correspondants dans les photos. Donc, à ce stade, ne modifiez que des catégories vides.
 
-Il y a d'autres façons de faire, qui sont utiles si vous avez des centaines de catégories, mais ce sera précisé dans les paragraphes "Mode de recherche" et suivants, un peu plus bas.
-Vous pouvez aussi utiliser le bouton Catégories de la barre d'outils pour affecter des catégories à vos photos, c'est parfois plus commode.
+Un truc bête : vous devez sélectionner au moins une photo pour pouvoir agir dans le volet des catégories. C'est comme ça. Si XnViewMP refuse de prendre en compte vos réglages ou vos actions, c'est probablement parce-que son dossier d'installation est protégé par Windows. C'est pour cette raison que je proposais au tout début de cette documentation de ne pas l'installer dans le dossier program_files.
+
+### Affecter une catégorie
+
+Donc, vous avez sélectionné une ou plusieurs photos. Et vous cliquez dans la case de la catégorie que vous voulez affecter. Tout est là.
+
+Il y a d'autres façons de faire, qui sont utiles si vous avez des centaines de catégories, mais ce sera précisé dans les paragraphes "Mode de recherche" et suivants, un peu plus bas. Vous pouvez aussi utiliser le bouton Catégories de la barre d'outils pour affecter des catégories à vos photos, c'est parfois plus commode.
 
 Categories
 Figure 16 Les catégories
 
-Si, dans les paramètres (Outils, Paramètres, Métadonnées), vous avez choisi d'affecter les catégories "parent" (6e option) vous verrez que le fait de cocher "moineau" va cocher automatiquement "oiseau" et "animal".
-Si, dans les paramètres, vous avez choisi la 2e option "exporter les catégories vers les mots clés (IPTC et XMP)", eh bien votre photo contient
-désormais les mots clés IPTC:keywords animal, oiseau, moineau et XMP-dc:subject(1) animal , subject(2) oiseau et subject(3) moineau
+Si, dans les paramètres (Outils, Paramètres, Métadonnées), vous avez choisi d'affecter les catégories "parent" (6e option) vous verrez que le fait de cocher "moineau" va cocher automatiquement "oiseau" et "animal". Si, dans les paramètres, vous avez choisi la 2e option "exporter les catégories vers les mots clés (IPTC et XMP)", eh bien votre photo contient désormais les mots clés IPTC:keywords animal, oiseau, moineau et XMP-dc:subject(1) animal , subject(2) oiseau et subject(3) moineau.
+
 Il y aura aussi les mots clés hiérarchiques XMP, qui dans notre exemple auront cette forme :
 Lr:HierarchicalSubject[1] animal
 Lr:HierarchicalSubject[2] animal|oiseau
 Lr:HierarchicalSubject[3] animal|oiseau|moineau
-Vous pouvez vérifier tous ces mots clés dans le panneau informations, onglet IPTC, onglet XMP et onglet Exiftool.
-Attention, l'écriture des mots clés ne se fait effectivement qu'au moment où vous "relâchez" la sélection de photos (en cliquant une autre photo)
-Vous pouvez ajuster la nature et la forme de l'écriture des mots clés avec les diverses options de l'écran Outils, Paramètres, Métadonnées.
 
-Simultanément, XnViewMP inscrit dans sa base de données de catégories les informations correspondantes. Je détaille le rôle de cette base de données dans le chapitre 6.
-Et vous allez pouvoir utiliser le filtre de catégories décrit dans le chapitre 5B
-Attention, pour que la correspondance entre les catégories affectées et les mots clés XMP reste bonne, si vous faites des modifications de mots-clés utilisez exclusivement les catégories.
-Réciproquement, si vous modifiez des catégories, il faut s'assurer que les mots clés correspondants seront mis à jour (donc, au minimum, que les photos qui contiennent ces mots clés soient sélectionnées)
+Vous pouvez vérifier tous ces mots clés dans le panneau informations, onglet IPTC, onglet XMP et onglet Exiftool. Attention, l'écriture des mots clés ne se fait effectivement qu'au moment où vous "relâchez" la sélection de photos (en cliquant une autre photo). Vous pouvez ajuster la nature et la forme de l'écriture des mots clés avec les diverses options de l'écran Outils, Paramètres, Métadonnées.
 
-Les trois paragraphes qui suivent décrivent des réglages et options qui concernent l'utilisation des catégories.
-On accède à ces choix dans XnViewMP via le menu des catégories, (la petite flèche blanche pointe en bas située à droite de la case de saisie de catégorie)
+Simultanément, XnViewMP inscrit dans sa base de données de catégories les informations correspondantes. Je détaille le rôle de cette base de données dans le chapitre 6. Et vous allez pouvoir utiliser le filtre de catégories décrit dans le chapitre 5B.
+
+Attention, pour que la correspondance entre les catégories affectées et les mots clés XMP reste bonne, si vous faites des modifications de mots-clés utilisez exclusivement les catégories. Réciproquement, si vous modifiez des catégories, il faut s'assurer que les mots clés correspondants seront mis à jour (donc, au minimum, que les photos qui contiennent ces mots clés soient sélectionnées).
+
+Les trois paragraphes qui suivent décrivent des réglages et options qui concernent l'utilisation des catégories. On accède à ces choix dans XnViewMP via le menu des catégories, (la petite flèche blanche pointe en bas située à droite de la case de saisie de catégorie).
 
 Categories
 Figure 17 Menu des catégories
 
+### Menu des catégories : Mode de recherche
 
-Menu des catégories : Mode de recherche
 On a ici 3 choix:
 - correspondance partielle au début : la recherche s'effectue en tapant les premières lettres de la catégorie.
 - correspondance partielle partout : la recherche se fait sur un groupe de lettres ou un mot quelconque
-- utiliser une expression régulière : "expression régulière" c'est un mode de recherche respectant une syntaxe normalisée (voir chapitre 11R-3 ).
-Ces options s'appliquent lorsque vous recherchez une catégorie, en utilisant la case de saisie située juste à côté, au même niveau.
-Si vous avez plusieurs centaines de mots-clés, donc plusieurs centaines de catégories, cette fonction de recherche peut vous éviter de parcourir
-du regard toute la liste, à la recherche d'une catégorie perdue au fond d'une arborescence. Il ne s'agit pas du tout de recherche dans les photos.
+- utiliser une expression régulière : "expression régulière" c'est un mode de recherche respectant une syntaxe normalisée (voir chapitre 11R-3).
 
+Ces options s'appliquent lorsque vous recherchez une catégorie, en utilisant la case de saisie située juste à côté, au même niveau. Si vous avez plusieurs centaines de mots-clés, donc plusieurs centaines de catégories, cette fonction de recherche peut vous éviter de parcourir du regard toute la liste, à la recherche d'une catégorie perdue au fond d'une arborescence. Il ne s'agit pas du tout de recherche dans les photos.
 
-Menu des catégories : Auto-correction
- L'option auto-correction dans le menu "gestion" concerne probablement aussi la saisie des noms de catégories et la correction automatique de certains mots que vous choisissez ...
-Les équivalences entre le mot entré au clavier et celui qui sera utilisé se situent dans le menu Outils, Paramètres, auto text correction.
+### Menu des catégories : Auto-correction
+
+L'option auto-correction dans le menu "gestion" concerne probablement aussi la saisie des noms de catégories et la correction automatique de certains mots que vous choisissez. Les équivalences entre le mot entré au clavier et celui qui sera utilisé se situent dans le menu Outils, Paramètres, auto text correction.
+
 Je suppose que ça permet d'utiliser des abréviations, pour gagner du temps lors de la frappe clavier.
-.doc.
 
+### Menu des catégories : Action
 
-Menu des catégories : Action
 Il y a deux choix qui s'excluent : Assigner une catégorie ou Ouvrir l'arbre.
-- Si vous cochez "Ouvrir l'arbre", il est sous-entendu que vous avez au préalable "replié" toutes les catégories hiérarchiques, en cliquant sur les trois petits points.
-Entrez alors quelques lettres d'une catégorie, puis cliquez la suggestion qui correspond à votre recherche, et l'arborescence de cette catégorie va s'ouvrir.
-- Si vous cochez "assigner une catégorie" la même manip que ci-dessus va affecter la catégorie à la photo sélectionnée.
- (06/08/2022) L'option Métadonnées "Apply parent keywords" est devenue fonctionnelle depuis les versions V0.9x ou V1
-.bug.
-Une dernière astuce avant les groupes de catégories, les raccourcis : allez voir dans le chapitre 5C, le paragraphe "Editer"
+- si vous cochez "Ouvrir l'arbre", il est sous-entendu que vous avez au préalable "replié" toutes les catégories hiérarchiques, en cliquant sur les trois petits points. Entrez alors quelques lettres d'une catégorie, puis cliquez la suggestion qui correspond à votre recherche, et l'arborescence de cette catégorie va s'ouvrir;
+- si vous cochez "assigner une catégorie" la même manip que ci-dessus va affecter la catégorie à la photo sélectionnée.
 
+L'option Métadonnées "Apply parent keywords" est devenue fonctionnelle depuis les versions V0.9x ou V1. Une dernière astuce avant les groupes de catégories, les raccourcis : allez voir dans le chapitre 5C, le paragraphe "Editer".
 
+### La zone "Groupe de Catégories"
 
-La zone "Goupe de Catégories"  (06/12/2019) (Categories sets en anglais)
-Selon l'agencement d'écran que vous avez choisi, ce panneau, accessible par un onglet, peut se situer sous les catégories, ou sous les dossiers, ou sous le filtre des catégories.
-Dans ce paragraphe, pour simplifier l'écriture je parle surtout de "catégories", mais selon vos choix et réglages de métadonnées, les mots-clés IPTC ou XMP correspondants vont évidemment être gérés en même temps.
-Le but de ce panneau est donc de vous fournir un accès (encore) plus pratique aux catégories que vous souhaitez ajouter à vos photos.
+Selon l'agencement d'écran que vous avez choisi, ce panneau, accessible par un onglet, peut se situer sous les catégories, ou sous les dossiers, ou sous le filtre des catégories. Dans ce paragraphe, pour simplifier l'écriture je parle surtout de "catégories", mais selon vos choix et réglages de métadonnées, les mots-clés IPTC ou XMP correspondants vont évidemment être gérés en même temps. Le but de ce panneau est donc de vous fournir un accès (encore) plus pratique aux catégories que vous souhaitez ajouter à vos photos.
 
-Vous allez pouvoir créer quelques groupes, par exemple "famille", "nature", "paysage" contenant des catégories que vous utilisez souvent.
-Dans ces groupes, vous allez donc ajouter des catégories existantes, qui deviendront accessibles sous forme de boutons.
-L'avantage, c'est que vous y accéderez d'un seul clic, que vous n'avez pas à fouiller dans une longue liste, et que les catégories parentes peuvent s'ajouter sans "polluer" votre affichage.
+Vous allez pouvoir créer quelques groupes, par exemple "famille", "nature", "paysage" contenant des catégories que vous utilisez souvent. Dans ces groupes, vous allez donc ajouter des catégories existantes, qui deviendront accessibles sous forme de boutons. L'avantage, c'est que vous y accéderez d'un seul clic, que vous n'avez pas à fouiller dans une longue liste, et que les catégories parentes peuvent s'ajouter sans "polluer" votre affichage.
 
-Cliquez sur le bouton "Gestion", puis dans la fenêtre qui apparaît, cliquez sur "Ajouter un groupe", disons "Nature"
-Dans la case "Recherche de catégorie", tapez quelques lettres pour obtenir des suggestions de catégories parmi vos catégories existantes.
-Par exemple, tapez fle pour pouvoir cliquer "fleurs", puis ois pour oiseau, chat, arbre etc ...
+Cliquez sur le bouton "Gestion", puis dans la fenêtre qui apparaît, cliquez sur "Ajouter un groupe", disons "Nature". Dans la case "Recherche de catégorie", tapez quelques lettres pour obtenir des suggestions de catégories parmi vos catégories existantes. Par exemple, tapez fle pour pouvoir cliquer "fleurs", puis ois pour oiseau, chat, arbre etc.
 
 Categories sets
 Figure 17b Gestion des groupes de catégories.
-.set.categorie-set.categories-set.
-Remarquez qu'un onglet s'ajoute dans cette fenêtre pour chaque groupe de catégories que vous créez
-A la fin validez avec OK
 
-Voilà, une rubrique "Nature" est disponible dans le panneau "Groupes de catégories".
-"Dépliez" ce groupe en cliquant la petite flèche triangulaire, les boutons correspondants aux catégories sont maintenant accessibles.
+Remarquez qu'un onglet s'ajoute dans cette fenêtre pour chaque groupe de catégories que vous créez. A la fin validez avec OK.
+
+Voilà, une rubrique "Nature" est disponible dans le panneau "Groupes de catégories". "Dépliez" ce groupe en cliquant la petite flèche triangulaire, les boutons correspondants aux catégories sont maintenant accessibles.
 
 Categories sets
 Figure 17c Groupes de catégories.
 
-Sélectionnez une image, faites un clic sur le bouton "Chat" et si vous gérez les catégories parentes, les catégories Animal, Mammifère, Félidé, Chat sont aussitôt affectés à cette image
-Et selon vos réglages de métadonnées, les mots-clés correspondants s'inscrivent dans les photos.
+Sélectionnez une image, faites un clic sur le bouton "Chat" et si vous gérez les catégories parentes, les catégories Animal, Mammifère, Félidé, Chat sont aussitôt affectés à cette image. Et selon vos réglages de métadonnées, les mots-clés correspondants s'inscrivent dans les photos.
 
-Pour vous donner des idées d'utilisation, sachez qu'une catégorie peut figurer dans plusieurs groupes, par exemple si vous constituez vos groupes selon un contexte pour accélerer le marquage de dossiers de photos (vacances, travail, sport) un même mot clé peut exister dans les divers groupes.
-Ces groupes n'ont pas de lien logique ni sémantique avec les hiérarchies de catégories, ils sont la seulement pour gagner du temps pour marquer des sessions de prises de vue.
-Par exemple le mot-clé "canoé" peut exister dans le groupe sport et le groupe vacances, mais dans vos catégories, "canoé" n'est présent qu'une fois, par exemple dans "Activités | Canoé"
-Autre exemple, le mot clé "voiture" peut être mis dans un groupe "collection", un groupe "voyage", un groupe "travail" parce qu'on rencontre des voitures dans ces trois situations.
+Pour vous donner des idées d'utilisation, sachez qu'une catégorie peut figurer dans plusieurs groupes, par exemple si vous constituez vos groupes selon un contexte pour accélerer le marquage de dossiers de photos (vacances, travail, sport) un même mot clé peut exister dans les divers groupes. Ces groupes n'ont pas de lien logique ni sémantique avec les hiérarchies de catégories, ils sont la seulement pour gagner du temps pour marquer des sessions de prises de vue.
 
-Les groupes de catégories préétablis :
+Par exemple le mot-clé "canoé" peut exister dans le groupe sport et le groupe vacances, mais dans vos catégories, "canoé" n'est présent qu'une fois, par exemple dans "Activités | Canoé". Autre exemple, le mot clé "voiture" peut être mis dans un groupe "collection", un groupe "voyage", un groupe "travail" parce qu'on rencontre des voitures dans ces trois situations.
+
+### Les groupes de catégories préétablis
+
 Il y a trois groupes de catégories qui sont déjà présents dans cette fenêtre.
-- Attribué(s) : Dans ce groupe, vous voyez sous forme de boutons les catégories affectées aux photos sélectionnées.
-        En cliquant un bouton, vous supprimez la catégorie et éventuellement le mot-clé de la photo.
-- Historique : Dans ce groupe on trouve les catégories récemment utilisées
-- Suggéré(s) : catégories suggérées (?)
+- attribué(s) : Dans ce groupe, vous voyez sous forme de boutons les catégories affectées aux photos sélectionnées. En cliquant un bouton, vous supprimez la catégorie et éventuellement le mot-clé de la photo;
+- historique : Dans ce groupe on trouve les catégories récemment utilisées;
+- suggéré(s) : catégories suggérées (?).
 
- (27/02/2021) Sauvegarde de la disposition .set.
-En haut à droite du panneau Groupe de catégories, il y a quelques boutons qui permettent de gérer la façon dont les groupes sont affichés.
-L'idée est de préparer ces groupes de catégories pour des sessions de marquage "spécialisées"
-Par exemple, vous avez un grand nombre de photos de paysage à taguer suite à vos vacances.
-Repliez les groupes peu utiles dans ce cas (Famille, Maison, Travail, Champignons ...) et dépliez des groupes sur le thème voyage.
-Avec le petit bouton +, nommez cette disposition "Voyage"
-Une autre fois, vous avez des centaines de photos de champignons à taguer.
-Repliez les autres groupes, et dépliez le groupe "Champignons" avec tous les mots clés fréquemment utilisés. Nommez cette disposition "Myco"
-Voilà , en fonction de la tonalité des lots de photos à taguer, vous optimisez l'affichage des groupes avec les dispositions que vous aurez préparées.
+### Sauvegarde de la disposition
 
+En haut à droite du panneau Groupe de catégories, il y a quelques boutons qui permettent de gérer la façon dont les groupes sont affichés. L'idée est de préparer ces groupes de catégories pour des sessions de marquage "spécialisées".
 
-Chapitre 5B - Utiliser les Catégories de XnViewMP pour retrouver des photos
-Chapitre 5A top Chapitre 5C
-Le filtre de catégories
+Par exemple, vous avez un grand nombre de photos de paysage à taguer suite à vos vacances. Repliez les groupes peu utiles dans ce cas (Famille, Maison, Travail, Champignons) et dépliez des groupes sur le thème voyage.
+
+Avec le petit bouton +, nommez cette disposition "Voyage". Une autre fois, vous avez des centaines de photos de champignons à taguer.
+
+Repliez les autres groupes, et dépliez le groupe "Champignons" avec tous les mots clés fréquemment utilisés. Nommez cette disposition "Myco". Voilà, en fonction de la tonalité des lots de photos à taguer, vous optimisez l'affichage des groupes avec les dispositions que vous aurez préparées.
+
+## Utiliser les Catégories de XnViewMP pour retrouver des photos
+
+### Le filtre de catégories
 
 Dans l'onglet "Filtre Catégories" à gauche de l'écran principal près de l'onglet "Dossiers", vous visualisez la hiérarchie des catégories, avec le nombre de photos par catégories.
+
 Categories filtrage
 Figure 18 Le filtre de catégories
 
-Et là, en cliquant sur une catégorie, XnView affiche les photos correspondantes dont le nombre est précisé entre parenthèses.
-C'est prodigieux...
+Et là, en cliquant sur une catégorie, XnView affiche les photos correspondantes dont le nombre est précisé entre parenthèses. C'est prodigieux! En utilisant le filtre de catégories, vous allez pouvoir regarder vos photos par thèmes, vous pourrez retrouver une photo parmi des milliers etc.
 
-En utilisant le filtre de catégories, vous allez pouvoir regarder vos photos par thèmes, vous pourrez retrouver une photo parmi des milliers etc ...
-Si vous voulez voir vos images sélectionnées en grand, il faut éviter de double-cliquer une photo, ce qui vous amènerait directement dans le dossier d'origine de la photo.
-Vous pouvez par exemple utiliser la touche F11 qui affiche l'image en plein écran, ou d'autres méthodes décrites à la fin du dernier paragraphe "Conseils divers" de ce chapitre.
+Si vous voulez voir vos images sélectionnées en grand, il faut éviter de double-cliquer une photo, ce qui vous amènerait directement dans le dossier d'origine de la photo. Vous pouvez par exemple utiliser la touche F11 qui affiche l'image en plein écran, ou d'autres méthodes décrites à la fin du dernier paragraphe "Conseils divers" de ce chapitre.
 
 Je détaille maintenant les diverses options et méthodes de filtrage.
 
+### Filtrer les photos (écran Filtre de catégories)
 
-Filtrer les photos (écran Filtre de catégories)
 Tout en haut de la zone "Filtre de catégories", il y a un menu dont l'intitulé "Correspond" va vous permettre d'ajuster vos critères de recherche.
 
 Options de filtrage
 Figure 19 Les options de filtrage
 
-Notez d'abord que vous pouvez sélectionner plusieurs catégories, en les cliquant en combinaison avec la touche Ctrl de votre clavier.
-Par défaut, Xnviewmp va afficher l'addition des photos de toutes les catégories sélectionnées, c'est à dire qu'il s'agit d'un "OU"
-En effet, dans le menu "Correspond", la valeur "N'importe lequel" est cochée par défaut, c'est donc les photos correspondant à n'importe lequel des critères qui seront affichées.
+Notez d'abord que vous pouvez sélectionner plusieurs catégories, en les cliquant en combinaison avec la touche Ctrl de votre clavier. Par défaut, Xnviewmp va afficher l'addition des photos de toutes les catégories sélectionnées, c'est à dire qu'il s'agit d'un "OU". En effet, dans le menu "Correspond", la valeur "N'importe lequel" est cochée par défaut, c'est donc les photos correspondant à n'importe lequel des critères qui seront affichées.
 
-Si vous voulez réaliser un "ET", c'est donc "Tous" que vous allez cocher dans le menu, pour que tous les critères soient satisfaits.
-A mon avis, c'est cette option qui doit être ordinairement utilisée quand on fait des recherches multicritères ...
-Cette option va donc s'appliquer sur un ensemble de catégories sélectionnées (uniquement catégories ...)
+Si vous voulez réaliser un "ET", c'est donc "Tous" que vous allez cocher dans le menu, pour que tous les critères soient satisfaits. A mon avis, c'est cette option qui doit être ordinairement utilisée quand on fait des recherches multicritères. Cette option va donc s'appliquer sur un ensemble de catégories sélectionnées (uniquement catégories).
 
- (01/10/2019) Pour exclure une catégorie de la recherche, sélectionnez-la en combinaison avec la touche Alt (Alt clic)
-Par exemple, pour obtenir tous les insectes qui ne sont ni papillons ni coléopteres , cliquez Insectes, Alt papillons, Alt Coleopteres
-(on obtiendrait 365 résultats dans l'exemple de la figure 20 : 518-37-116 = 365)
+Pour exclure une catégorie de la recherche, sélectionnez-la en combinaison avec la touche Alt (Alt clic). Par exemple, pour obtenir tous les insectes qui ne sont ni papillons ni coléopteres , cliquez Insectes, Alt papillons, Alt Coleopteres (on obtiendrait 365 résultats dans l'exemple de la figure 20 : 518-37-116 = 365).
 
-Il y a une option qui perturbe l'usage du Control-Clic, c'est : Outils, Paramètres, Métadonnées, "Automatically apply parent keywords"
-Quand cette option est cochée, le Ctrl-Clic sélectionne toutes les sous-catégories d'une catégorie..bug.
-Si on a choisi "tous" dans le menu "correspond", le résultat est presque toujours vide (c'est rare qu'un insecte soit à la fois coléoptère ET papillon).
-Soit vous désélectionnez les sous-catégories pour arriver au résultat, soit, et c'est le plus simple, vous décochez l'option en question quand vous utilisez les filtres de catégories.
+Il y a une option qui perturbe l'usage du Control-Clic, c'est : Outils, Paramètres, Métadonnées, "Automatically apply parent keywords". Quand cette option est cochée, le Ctrl-Clic sélectionne toutes les sous-catégories d'une catégorie.
+
+Si on a choisi "tous" dans le menu "correspond", le résultat est presque toujours vide (c'est rare qu'un insecte soit à la fois coléoptère ET papillon). Soit vous désélectionnez les sous-catégories pour arriver au résultat, soit, et c'est le plus simple, vous décochez l'option en question quand vous utilisez les filtres de catégories.
 
 Options de filtrage
 Figure 20
 
 Les trois autres options de la figure 19 définissent sur quel ensemble de photos vous souhaitez réaliser cette recherche.
-- Global, c'est sur l'ensemble des photos qui sont présentes dans la base de données.
-- Dossier courant, c'est celui qui est affiché dans l'onglet "Dossiers" (et qui peut avoir changé entre temps si vous avez double-cliqué une photo)
-- Dossier courant récursif : cette option inclut tous les sous-dossiers du dossier courant. Si vous avez rangé vos photos par années, vous disposez donc aisément du critère année.
+- global, c'est sur l'ensemble des photos qui sont présentes dans la base de données;
+- dossier courant, c'est celui qui est affiché dans l'onglet "Dossiers" (et qui peut avoir changé entre temps si vous avez double-cliqué une photo);
+- dossier courant récursif : cette option inclut tous les sous-dossiers du dossier courant. Si vous avez rangé vos photos par années, vous disposez donc aisément du critère année.
 
- (01/10/2019) En résumé :
-Décochez l'option "Automatically apply parent keywords"
-Sélectionnez "Corespond, Tous" et "Global"
-Sélectionnez une catégorie, ou plusieurs catégories avec la touche Ctrl, ou des catégories à exclure avec la touche Alt.
+### En résumé
 
-On est là au coeur de l'utilisation des mots-clés et de XnViewMP : en deux secondes vous retrouvez les photos répondant à plusieurs critères.
-Et dire qu'il m'a fallu attendre décembre 2016 pour découvrir cette fonction. Pour être honnête, avant j'utilisais surtout Picasa pour mes filtrages par mots clés.
-Voici un exemple : Si vous avez stocké vos photos par années, sélectionnez dans l'explorateur de Xnviewmp l'année 2017 par exemple.
-Dans l'onglet "Filtre des catégories",dans le menu "Correspond", sélectionnez "Dossier courant récursif" et cliquez une catégorie, "anniversaire" par exemple.
-Vous obtenez aussitôt toutes les photos anniversaire de 2017 !
+- décochez l'option "Automatically apply parent keywords";
+- sélectionnez "Corespond, Tous" et "Global";
+- sélectionnez une catégorie, ou plusieurs catégories avec la touche Ctrl, ou des catégories à exclure avec la touche Alt.
 
+On est là au coeur de l'utilisation des mots-clés et de XnViewMP : en deux secondes vous retrouvez les photos répondant à plusieurs critères. Et dire qu'il m'a fallu attendre décembre 2016 pour découvrir cette fonction. Pour être honnête, avant j'utilisais surtout Picasa pour mes filtrages par mots clés.
 
-Les autres filtrages
+Voici un exemple : Si vous avez stocké vos photos par années, sélectionnez dans l'explorateur de Xnviewmp l'année 2017 par exemple. Dans l'onglet "Filtre des catégories",dans le menu "Correspond", sélectionnez "Dossier courant récursif" et cliquez une catégorie, "anniversaire" par exemple. Vous obtenez aussitôt toutes les photos anniversaire de 2017 !
 
- (12/02/2019) Personnes
-Il s'agit d'une nouveauté de la version V0.98. XnViewMp peut désormais récupérer des métadonnées de noms de personnes qui ont été écrites par d'autres logiciels.
-Picasa et Windows Live Photo Gallery , pour ne citer que ces deux logiciels anciens, étaient capables de reconnaître automatiquement les personnes figurant sur les photos, après une phase d'apprentissage.
-Les noms des personnes, ainsi que l'emplacement du visage dans l'image sont notés dans des métadonnées XMP.
-Il est probable que d'autres logiciels, présents ou futurs, et offrant ces possibilités d'identification automatisée de visages vont se répandre rapidement.
-Les métadonnées reconnues en lecture par XnViewMP sont : (doc à faire)
-Pour le moment, XnViewMP ne permet pas d'écrire, modifier ni supprimer ces métadonnées.
-Le filtre de catégories de personnes est très restreint dans son fonctionnement, puisqu'on ne peut pas le combiner avec les autres catégories.
-Pour l'instant, on peut sélectionner une seule personne à la fois, et aucun autre critère en même temps.
+## Les autres filtrages
 
+### Personnes
 
-Filtrage par notes ou par couleurs
-Dans le début de la zone "filtre des catégories" il y a la possibilité de rechercher ou filtrer des photos en utilisant ces deux types de marquages, de la même façon que les autres catégories.
-C'est à dire qu'on peut les utiliser séparément ou combinées avec d'autres catégories (avec Ctrl clic), pour affiner votre recherche.
-Cette combinaison repose sur un "ET" logique : on recherche des photos d'une catégorie ET marquées par étoiles ou couleurs. (le menu "correspond" ne s'applique qu'aux catégories)
+Il s'agit d'une nouveauté de la version V0.98. XnViewMp peut désormais récupérer des métadonnées de noms de personnes qui ont été écrites par d'autres logiciels. Picasa et Windows Live Photo Gallery , pour ne citer que ces deux logiciels anciens, étaient capables de reconnaître automatiquement les personnes figurant sur les photos, après une phase d'apprentissage.
+
+Les noms des personnes, ainsi que l'emplacement du visage dans l'image sont notés dans des métadonnées XMP. Il est probable que d'autres logiciels, présents ou futurs, et offrant ces possibilités d'identification automatisée de visages vont se répandre rapidement.
+
+Les métadonnées reconnues en lecture par XnViewMP sont : (doc à faire). Pour le moment, XnViewMP ne permet pas d'écrire, modifier ni supprimer ces métadonnées.
+
+Le filtre de catégories de personnes est très restreint dans son fonctionnement, puisqu'on ne peut pas le combiner avec les autres catégories. Pour l'instant, on peut sélectionner une seule personne à la fois, et aucun autre critère en même temps.
+
+### Filtrage par notes ou par couleurs
+
+Dans le début de la zone "filtre des catégories" il y a la possibilité de rechercher ou filtrer des photos en utilisant ces deux types de marquages, de la même façon que les autres catégories. C'est à dire qu'on peut les utiliser séparément ou combinées avec d'autres catégories (avec Ctrl clic), pour affiner votre recherche. Cette combinaison repose sur un "ET" logique : on recherche des photos d'une catégorie ET marquées par étoiles ou couleurs (le menu "correspond" ne s'applique qu'aux catégories).
 
 Rechercher
 Figure 21. Filtre catégories
 
-Il reste un bug décrit en fin de chapitre 9 si vous combinez des critères (étoiles, couleurs, catégories). .bug.
-Vous trouvez plus de précisions sur ces méthodes complémentaires de marquage par notes ou par couleurs dans le chapitre 9
+Il reste un bug décrit en fin de chapitre 9 si vous combinez des critères (étoiles, couleurs, catégories). Vous trouvez plus de précisions sur ces méthodes complémentaires de marquage par notes ou par couleurs dans le chapitre 9.
 
+### Autres
 
-Autres
 Toujours dans la même zone de filtre de catégories, on trouve le choix "Autres", qui contient 3 lignes :
-- Marque(s) (0) : Des "marques" peuvent être affectées à des photos, et on peut donc filtrer avec ce critère.
+- marque(s) (0) : Des "marques" peuvent être affectées à des photos, et on peut donc filtrer avec ce critère;
 
-Il s'agit d'un marquage géré en interne par XnViewMp, car aucune métadonnée normalisée ne correspond aux marques.
-C'est un outil pratique, mais qui s'écarte du thème de cette page où on souhaite décrire des méthodes "normalisées" liées aux métadonnées.
-Vous pouvez utiliser ce marquage de manière temporaire, par exemple pour préparer une sélection de photos destinées à un ami, ou à un traitement particulier, surtout en combinaison avec un autre filtre.
-Les diverses fonctions pour mettre ou enlever des marquages sont accessibles avec le clic-droit sur une sélection de photos, inutile de détailler ici, c'est assez évident.
-Un autre moyen de marquage très efficace consiste à cocher les petites cases situées près de chaque vignette.
-Si ces cases ne sont pas affichées, allez valider "marque" dans dans Outils, Paramètres,Vignettes,Superposition...
+Il s'agit d'un marquage géré en interne par XnViewMp, car aucune métadonnée normalisée ne correspond aux marques. C'est un outil pratique, mais qui s'écarte du thème de cette page où on souhaite décrire des méthodes "normalisées" liées aux métadonnées.
 
-- Sans catégorie : C'est un filtrage intéressant, qui permet de retrouver des photos auxquelles on a oublié d'attribuer des catégories.
-Ces deux premiers critères peuvent se combiner avec les autres catégories ordinaires.
-- Tout : Ce critère fonctionne à partir de la version V0.89. Il est à utiliser en combinaison avec le choix "Correspond, Dossier courant récursif" du filtre des catégories.
-Ca permet de voir la totalité d'un dossier (et des sous-dossiers) pendant des phases de tâtonnement de filtrages.
+Vous pouvez utiliser ce marquage de manière temporaire, par exemple pour préparer une sélection de photos destinées à un ami, ou à un traitement particulier, surtout en combinaison avec un autre filtre. Les diverses fonctions pour mettre ou enlever des marquages sont accessibles avec le clic-droit sur une sélection de photos, inutile de détailler ici, c'est assez évident.
 
-Attention, si vous avez sélectionné "Correspond, Global" évitez de cliquer sur "tout" car ça risque de prendre beaucoup de temps pour afficher vos 70 000 photos !
+Un autre moyen de marquage très efficace consiste à cocher les petites cases situées près de chaque vignette. Si ces cases ne sont pas affichées, allez valider "marque" dans dans Outils, Paramètres,Vignettes,Superposition.
 
-Et pour utiliser tout ça de manière efficace, n'oubliez pas de passer régulièrement dans le menu "correspond" pour bien cibler les dossiers sur lesquels vous travaillez.
+- sans catégorie : C'est un filtrage intéressant, qui permet de retrouver des photos auxquelles on a oublié d'attribuer des catégories. Ces deux premiers critères peuvent se combiner avec les autres catégories ordinaires.
 
+- tout : Ce critère fonctionne à partir de la version V0.89. Il est à utiliser en combinaison avec le choix "Correspond, Dossier courant récursif" du filtre des catégories. Ca permet de voir la totalité d'un dossier (et des sous-dossiers) pendant des phases de tâtonnement de filtrages.
 
-Autres moyens de filtrage hors filtre de catégories
-Les filtrages et tris utilisant les boutons de la barre d'outils sont décrits au chapitre 11, paragraphes 11C et 11D.
-Notez que l'utilisation des boutons de tri ou filtrage de la barre d'outils peut se faire "en plus" d'un filtrage dans le filtre des catégories, ce qui mutilplie les possibilités.
+Attention, si vous avez sélectionné "Correspond, Global" évitez de cliquer sur "tout" car ça risque de prendre beaucoup de temps pour afficher vos 70 000 photos ! Et pour utiliser tout ça de manière efficace, n'oubliez pas de passer régulièrement dans le menu "correspond" pour bien cibler les dossiers sur lesquels vous travaillez.
 
-La fonction Rechercher
-Celle-ci est accessible de quatre façons : dans le menu Outils-Rechercher, ou avec le bouton représentant des jumelles dans la barre d'outils, ou encore Ctrl F.
-Une autre possibilité, dans la zone d'affichage des dossiers, avec un clic-droit sur un nom de dossier, cliquez "Rechercher" , ce qui préselectionne ce dossier pour la recherche.
-J'ai déplacé cette section, car elle est extrêmement riche, allez vite voir comment utiliser cette fonction dans le chapitre 11R
+### Autres moyens de filtrage hors filtre de catégories
 
+Les filtrages et tris utilisant les boutons de la barre d'outils sont décrits au chapitre 11, paragraphes 11C et 11D. Notez que l'utilisation des boutons de tri ou filtrage de la barre d'outils peut se faire "en plus" d'un filtrage dans le filtre des catégories, ce qui mutilplie les possibilités.
 
-Conseils divers
-- L'utilisation du catalogue rend la recherche très rapide, mais uniquement pour les mots-clés, marquages, étoiles, couleurs, noms et emplacements (chemins) des images.
-Les autres métadonnées ne figurent pas dans le catalogue, et donc les recherches sont bien plus lentes.
-Les possibilités de recherches sont quelque peu différentes sur les métadonnées IPTC et sur les métadonnées XMP, ce qui justifie encore que l'on abandonne pas tout de suite les IPTC...
-.choix.choisir.iptc-ou-xmp.norme.
-- Evitez de modifier les catégories dans la zone de filtrage (ça semblait moins fiable), utilisez de préférence les méthodes décrites précédemment chapitre 5A dans le panneau "catégories".
-En fait, j'ai fait récemment beaucoup de suppressions de catégories vides dans cette zone, ça fonctionne parfaitement ...
+### La fonction Rechercher
 
-- Si vous constatez des erreurs dans la façon dont le filtrage répond, vérifiez d'abord dans le browser et dans le menu "Correspond" que vous ciblez les bons dossiers.
-Après, il peut arriver que la base de données (le catalogue) contienne des anomalies; ça m'est déjà arrivé.
-Pour y remédier, j'ai lancé une reconstruction de la base de données. C'est d'une efficacité radicale, mais il y a aussi des moyens plus simples ou plus rapides...
-.reconstruire.
-- Ces recherches de fichiers (dans le panneau Filtre de catégories plutôt) vous permettent aussi de mettre vos mots clés en plusieurs passages.
-Par exemple, vous aviez rapidement mis vos photos d'oiseaux dans la catégorie Oiseau.
-Vous sélectionnez le filtre oiseau à gauche, et dans les photos affichées vous pouvez maintenant ajouter des catégories (= des mots clés) supplémentaires , moineau, mésange etc...
-De cette façon, vous pouvez interrompre et reprendre votre travail d'indexation à volonté (mais lisez les précautions, chapitre 5D)
+Celle-ci est accessible de quatre façons : dans le menu Outils-Rechercher, ou avec le bouton représentant des jumelles dans la barre d'outils, ou encore Ctrl F. Une autre possibilité, dans la zone d'affichage des dossiers, avec un clic-droit sur un nom de dossier, cliquez "Rechercher" , ce qui préselectionne ce dossier pour la recherche. J'ai déplacé cette section, car elle est extrêmement riche, allez vite voir comment utiliser cette fonction dans le chapitre 11R.
 
-Conserver le résultat du filtrage
-- Dans ces phases d'affichage "filtré", si vous double-cliquez une photo, vous allez quitter la sélection filtrée, et vous vous retrouverez dans le dossier d'origine de la photo.
-Pour éviter ça, par exemple pour scruter un détail de photo dans une phase de retouche de mots-clés, il y a plusieurs solutions :
-Vous pouvez utiliser le zoom dans l'aperçu (si vous avez configuré la molette de la souris ...)
-Ou utiliser l'affichage en plein écran (touche F11), c'est alors une sorte de diaporama qui affiche votre sélection;
-vous avez des boutons pour passer à la photo précédente ou suivante dans la sélection, et un bandeau de vignettes en approchant le pointeur de souris du haut de l'écran.
-Appuyez sur la touche Echap pour quitter le diaporama et revenir à l'affichage ordinaire de la sélection filtrée.
+### Conseils divers
 
-Mais surtout, il y a une option à modifier pour que vous puissiez conserver le résultat de la recherche tout en ayant la possibilité de double cliquer les photos :
-Il faut passer dans Outils, Paramètres, Interface, et décocher la case "Synchroniser l'explorateur lorsque la vue est fermée"
-Et si, sans remettre cette option, vous avez besoin d'accéder au dossier d'une photo, un clic droit dessus et vous trouvez le choix "ouvrir le dossier contenant" (ou Ctrl O)
-Dans Outils, Paramètres, Interface, Raccourcis, on peut modifier ce Ctrl O si il ne fonctionne pas.
-Vous pouvez aussi "archiver" le résultat de votre recherche dans un fichier texte, en utilisant l'outil "liste de fichiers" décrit au chapitre 11B fig 39
+- l'utilisation du catalogue rend la recherche très rapide, mais uniquement pour les mots-clés, marquages, étoiles, couleurs, noms et emplacements (chemins) des images. Les autres métadonnées ne figurent pas dans le catalogue, et donc les recherches sont bien plus lentes.
+Les possibilités de recherches sont quelque peu différentes sur les métadonnées IPTC et sur les métadonnées XMP, ce qui justifie encore que l'on abandonne pas tout de suite les IPTC;
+- évitez de modifier les catégories dans la zone de filtrage (ça semblait moins fiable), utilisez de préférence les méthodes décrites précédemment chapitre 5A dans le panneau "catégories". En fait, j'ai fait récemment beaucoup de suppressions de catégories vides dans cette zone, ça fonctionne parfaitement;
+- si vous constatez des erreurs dans la façon dont le filtrage répond, vérifiez d'abord dans le browser et dans le menu "Correspond" que vous ciblez les bons dossiers. Après, il peut arriver que la base de données (le catalogue) contienne des anomalies; ça m'est déjà arrivé.
+Pour y remédier, j'ai lancé une reconstruction de la base de données. C'est d'une efficacité radicale, mais il y a aussi des moyens plus simples ou plus rapides.
+- ces recherches de fichiers (dans le panneau Filtre de catégories plutôt) vous permettent aussi de mettre vos mots clés en plusieurs passages. Par exemple, vous aviez rapidement mis vos photos d'oiseaux dans la catégorie Oiseau. Vous sélectionnez le filtre oiseau à gauche, et dans les photos affichées vous pouvez maintenant ajouter des catégories (= des mots clés) supplémentaires, moineau, mésange, etc. De cette façon, vous pouvez interrompre et reprendre votre travail d'indexation à volonté (mais lisez les précautions, chapitre 5D).
 
+### Conserver le résultat du filtrage
 
-Chapitre 5C - Gestion et paramétrage des Catégories
-Chapitre 5B top Chapitre 5D
-Clic-Droit sur une catégorie : 7 options pour gérér vos catégories
-Dans la figure ci-dessous, on voit les 7 choix possibles obtenus par un clic-droit sur une catégorie
+Dans ces phases d'affichage "filtré", si vous double-cliquez une photo, vous allez quitter la sélection filtrée, et vous vous retrouverez dans le dossier d'origine de la photo. Pour éviter ça, par exemple pour scruter un détail de photo dans une phase de retouche de mots-clés, il y a plusieurs solutions :
+- vous pouvez utiliser le zoom dans l'aperçu (si vous avez configuré la molette de la souris);
+- ou utiliser l'affichage en plein écran (touche F11), c'est alors une sorte de diaporama qui affiche votre sélection. vous avez des boutons pour passer à la photo précédente ou suivante dans la sélection, et un bandeau de vignettes en approchant le pointeur de souris du haut de l'écran. Appuyez sur la touche Echap pour quitter le diaporama et revenir à l'affichage ordinaire de la sélection filtrée.
+
+Mais surtout, il y a une option à modifier pour que vous puissiez conserver le résultat de la recherche tout en ayant la possibilité de double cliquer les photos : il faut passer dans Outils, Paramètres, Interface, et décocher la case "Synchroniser l'explorateur lorsque la vue est fermée". Et si, sans remettre cette option, vous avez besoin d'accéder au dossier d'une photo, un clic droit dessus et vous trouvez le choix "ouvrir le dossier contenant" (ou Ctrl O).
+
+Dans Outils, Paramètres, Interface, Raccourcis, on peut modifier ce Ctrl O si il ne fonctionne pas. Vous pouvez aussi "archiver" le résultat de votre recherche dans un fichier texte, en utilisant l'outil "liste de fichiers" décrit au chapitre 11B fig 39.
+
+## Gestion et paramétrage des Catégories
+
+Clic-Droit sur une catégorie : 7 options pour gérér vos catégories. Dans la figure ci-dessous, on voit les 7 choix possibles obtenus par un clic-droit sur une catégorie.
 
 Categories
 Figure 27
 
-- Les deux premiers choix, nouvelle catégorie et nouvelle sous-catégorie ne posent aucun problème; vous pouvez y aller à fond.
-Mais pour les autres actions, il faut savoir que les modifications faites ici ne seront pas répercutées automatiquement dans les métadonnées.
+Les deux premiers choix, nouvelle catégorie et nouvelle sous-catégorie ne posent aucun problème; vous pouvez y aller à fond. Mais pour les autres actions, il faut savoir que les modifications faites ici ne seront pas répercutées automatiquement dans les métadonnées.
 
-- Donc pour utiliser le choix suivant, "renommer", on risque de créer une divergence entre le nom de catégorie et les mots clés des photos.
-Pour cette tâche, en attendant de trouver une meilleure méthode, je procède en plusieurs étapes:
-1) Affichez les photos contenues dans l'actuel nom de la catégorie (filtre catégories) et sélectionnez-les toutes.
-2) Avec un clic-droit, renommez la catégorie.
-3) Pour l'ensemble des photos sélectionnées, décochez la catégorie, et cochez-la à nouveau.(Vérifiez si vous souhaitez ou non cocher les catégories parent)
-4) Dans filtre des catégories, cliquez sur une autre catégorie quelconque, puis revenez sur celle dont vous venez de changer le nom.
-5) Vérifiez dans au moins une des photos (zone informations) que vos mots clés sont corrects et conformes au nouveau nom de la catégorie.
+Donc pour utiliser le choix suivant, "renommer", on risque de créer une divergence entre le nom de catégorie et les mots clés des photos. Pour cette tâche, en attendant de trouver une meilleure méthode, je procède en plusieurs étapes:
+1. affichez les photos contenues dans l'actuel nom de la catégorie (filtre catégories) et sélectionnez-les toutes;
+2. avec un clic-droit, renommez la catégorie;
+3. pour l'ensemble des photos sélectionnées, décochez la catégorie, et cochez-la à nouveau (vérifiez si vous souhaitez ou non cocher les catégories parent);
+4. dans filtre des catégories, cliquez sur une autre catégorie quelconque, puis revenez sur celle dont vous venez de changer le nom;
+5. vérifiez dans au moins une des photos (zone informations) que vos mots clés sont corrects et conformes au nouveau nom de la catégorie.
 
+### Suppression de catégorie
 
-Suppression de catégorie
-- Pour "supprimer", je ne supprime que des catégories vides pour éviter de créer des écarts entre des mots clés existants et des catégories supprimées.
+Pour "supprimer", je ne supprime que des catégories vides pour éviter de créer des écarts entre des mots clés existants et des catégories supprimées. Soyez attentifs si vous utilisez le bouton Suppr du clavier, selon qu'une image ou une catégorie est sélectionnée, l'effet sera différent !
 
-Soyez attentifs si vous utilisez le bouton Suppr du clavier, selon qu'une image ou une catégorie est sélectionnée, l'effet sera différent !
+J'ai supprimé par erreur une catégorie contenant des centaines d'images; le catalogue a donc perdu ce contenu. Pour rattraper ça, il faut recréer la catégorie, activer l'option Outils, métadonnées, "importer les mots clés XMP ou IPTC dans les catégories DB", et décocher la suivante.
 
-J'ai supprimé par erreur une catégorie contenant des centaines d'images; le catalogue a donc perdu ce contenu.
-Pour rattraper ça, il faut recréer la catégorie, activer l'option Outils, métadonnées, "importer les mots clés XMP ou IPTC dans les catégories DB", et décocher la suivante.
-Il faut ensuite retrouver les images qui avaient ce mot clé, donc utiliser la fonction "Rechercher" décrite dans le chapitre 11R .
-Pour cette recherche, décochez l'option "utilisation du catalogue" (justement !), puis lancez la recherche des images contenant le mot clé concerné (IPTC keyword par exemple).
-La recherche terminée, cliquez "parcourir", sélectionnez toutes les photos (Ctrl A), et cliquez sur "Mise à jour du catalogue avec les fichiers" du menu Afficher.
-Evitez dans cette phase de cocher ou décocher des cases de catégories.
-A la fin, déselectionnez les images, remettez les options Outils, Métadonnées comme elles étaient.
-Allez voir dans le filtre des catégories si votre catégorie a retrouvé le nombre de photos initial.
+Il faut ensuite retrouver les images qui avaient ce mot clé, donc utiliser la fonction "Rechercher" décrite dans le chapitre 11R. Pour cette recherche, décochez l'option "utilisation du catalogue" (justement !), puis lancez la recherche des images contenant le mot clé concerné (IPTC keyword par exemple).
 
+La recherche terminée, cliquez "parcourir", sélectionnez toutes les photos (Ctrl A), et cliquez sur "Mise à jour du catalogue avec les fichiers" du menu Afficher. Evitez dans cette phase de cocher ou décocher des cases de catégories.
 
-"Déplacer vers" et "Mélanger avec",
-Pour ces deux fonctions, n'imaginant pas les répercussions possibles, j'ai préféré éviter de les utiliser.
-Pour ce type de manipulations, j'affecte une catégorie provisoire aux photos, et je leur enlève la catégorie que je veux modifier.
-Quand celle-ci est vide, je la déplace, modifie etc; puis je l'assigne aux photos, ce qui met à jour les mots clés, et enfin j'enlève la catégorie provisoire.
-Je me trompe peut-être mais je considère que seul le fait d'assigner ou enlever une catégorie force la mise à jour des mots-clés dans les photos.
+A la fin, déselectionnez les images, remettez les options Outils, Métadonnées comme elles étaient. Allez voir dans le filtre des catégories si votre catégorie a retrouvé le nombre de photos initial.
 
+### "Déplacer vers" et "Mélanger avec"
 
-Editer
-Un clic sur "Editer" ouvre une petite fenêtre contenant divers champs.  (Paragraphe à améliorer) .doc.
-Il y a un champ "Libellé", c'est le nom de la catégorie, un champ "Parent" pour son rattachement, un champ "Commentaire" et un champ "Raccourci"
-Ces deux premiers champs semblent modifiables, mais je n'ai jamais essayé d'y toucher.
-Le commentaire est géré en interne par Xnviewmp (je ne sais pas où il est enregistré) et ce n'est pas une métadonnée. Il permet de commenter une catégorie ... pourquoi pas ?
-La petite case "ne pas exporter" concerne je suppose l'exportation au format texte des libellés des catégories. J'ai cru lire dans le forum qu'il y a un bug lié a cette case.
-Le champ "Raccourci" permet de lier l'appui d'une touche du clavier à l'affectation d'une catégorie.
-Ce raccourci est d'une efficacité impressionnante, mais il faut une certaine rigueur et de l'habitude pour bien s'en servir.
+Pour ces deux fonctions, n'imaginant pas les répercussions possibles, j'ai préféré éviter de les utiliser. Pour ce type de manipulations, j'affecte une catégorie provisoire aux photos, et je leur enlève la catégorie que je veux modifier.
 
+Quand celle-ci est vide, je la déplace, modifie etc; puis je l'assigne aux photos, ce qui met à jour les mots clés, et enfin j'enlève la catégorie provisoire. Je me trompe peut-être mais je considère que seul le fait d'assigner ou enlever une catégorie force la mise à jour des mots-clés dans les photos.
 
-Un cas particulier:
-Il m'est arrivé plusieurs fois qu'une catégorie se doublonne. Essayez d'abord de fermer, puis réouvrir XnView, ça suffit généralement à éliminer le problème.
-Si le problème persiste, huit étapes pour le résoudre :
-1) affichez les photos qu'elle contient (filtre catégories) et sélectionnez tout.
-2) créez une nouvelle catégorie provisoire "toto"
-3) affectez la catégorie toto, et enlevez l'ancienne.
-4) supprimez l'ancienne catégorie doublonnée qui est maintenant vide.
-5) affichez la catégorie toto et sélectionnez tout.
-6) re-créez la catégorie souhaitée (celle qui avait doublonné).
-7) affectez la nouvelle catégorie, et enlevez "toto" à toutes les photos.
-8) supprimez toto
+### Editer
 
+Un clic sur "Editer" ouvre une petite fenêtre contenant divers champs (Paragraphe à améliorer). Il y a un champ "Libellé", c'est le nom de la catégorie, un champ "Parent" pour son rattachement, un champ "Commentaire" et un champ "Raccourci".
 
-Menu des catégories : Gestion des catégories
+Ces deux premiers champs semblent modifiables, mais je n'ai jamais essayé d'y toucher. Le commentaire est géré en interne par Xnviewmp (je ne sais pas où il est enregistré) et ce n'est pas une métadonnée. Il permet de commenter une catégorie, pourquoi pas ? La petite case "ne pas exporter" concerne je suppose l'exportation au format texte des libellés des catégories. J'ai cru lire dans le forum qu'il y a un bug lié a cette case.
+
+Le champ "Raccourci" permet de lier l'appui d'une touche du clavier à l'affectation d'une catégorie. Ce raccourci est d'une efficacité impressionnante, mais il faut une certaine rigueur et de l'habitude pour bien s'en servir.
+
+### Un cas particulier
+
+Il m'est arrivé plusieurs fois qu'une catégorie se doublonne. Essayez d'abord de fermer, puis réouvrir XnView, ça suffit généralement à éliminer le problème. Si le problème persiste, huit étapes pour le résoudre :
+1. affichez les photos qu'elle contient (filtre catégories) et sélectionnez tout;
+2. créez une nouvelle catégorie provisoire "toto";
+3. affectez la catégorie toto, et enlevez l'ancienne;
+4. supprimez l'ancienne catégorie doublonnée qui est maintenant vide;
+5. affichez la catégorie toto et sélectionnez tout;
+6. re-créez la catégorie souhaitée (celle qui avait doublonné);
+7. affectez la nouvelle catégorie, et enlevez "toto" à toutes les photos;
+8. supprimez toto.
+
+### Menu des catégories : Gestion des catégories
+
 Ce menu n'est pas évident à trouver : C'est la flèche pointe en bas, sous la barre de titre de la zone catégories.
 
+### Gestion des catégories : Exporter
 
-Gestion des catégories : Exporter
 XnViewMP a une fonction d'exportation (et importation) des catégories vers un fichier texte qui est très pratique.
 Il s'agit d'exporter uniquement les libellés des catégories, ce qui équivaut au dictionnaire de mots clés (et non pas l'ensemble du contenu des catégories)
 Distinguez bien ce type d'importation/exportation de celui qui sera décrit au paragraphe suivant, qui justement gère le "contenu" des catégories.
