@@ -11,7 +11,7 @@ Il s'agit ici d'écrire, mettre à jour ou effacer d'autres métadonnées "class
 Ces métadonnées "classiques" sont situées dans les deux groupes, IPTC et XMP, chaque métadonnée du groupe IPTC étant "mise en parallèle" avec une du groupe XMP.
 En voici une liste partielle, je n'ai mis ici que les champs couramment utilisés par des particuliers :
 
-![Options de filtrage](./public/catalogage/xnvmp13.png)
+![Options de filtrage](/catalogage/xnvmp13.png)
 
 ## Paramétrage
 
@@ -23,7 +23,7 @@ Sept onglets regroupent l'essentiel des champs IPTC (ou XMP) proposés par XnVie
 Depuis la version V0.98, il existe une autre fenêtre, aux fonctions symétriques, nommée "Editer XMP".
 Pour le moment ignorons-la, car elle concerne des métadonnées XMP spécifiques qu'on n'utilisera pas.
 
-![Editer métadonnées Options](./public/catalogage/xnvmp02.png)
+![Editer métadonnées Options](/catalogage/xnvmp02.png)
 
 Figure 14
 
@@ -84,7 +84,7 @@ Sélectionnez la vignette correspondante dans l'écran principal, et parcourez l
  Avant de marquer des milliers de photos, vérifiez régulièrement ce que vous faites dans les onglets d'informations IPTC, XMP et ExifTool.
 L'onglet ExifTool vous permet d'afficher toutes les métadonnées telles qu'elles sont lues par cet excellent utilitaire.
 
-![EXIF](./public/catalogage/xnvmp12.png)
+![EXIF](/catalogage/xnvmp12.png)
 
 ## Les métadonnées qui ne sont ni IPTC ni XMP
 
