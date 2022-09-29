@@ -4,37 +4,32 @@ description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
 
-Marquage des photos par étoiles ou couleurs
-Un moyen rapide utilisé par de nombreux photographes pour faire un premier tri des photos consiste à utiliser des étoiles (ou "notes", "rating" en anglais)
-Il existe un deuxième type de marquage des photos, les "libellés de couleur", dont le fonctionnement est similaire à celui des étoiles.
-Je vais utiliser ici les mots "étoile" et "couleur" au lieu de "note" et "libellé de couleur", ça me paraît plus clair, même si on s'écarte des termes utilisés dans XnViewMP.
+## Marquage des photos par étoiles ou couleurs
 
-C'est une fonctionnalité qui existe depuis longtemps, ce qui signifie que les plus anciens marquages sont situés dans les métadonnées exif.
-(Métadonnées : EXIF:IFD0:Rating et EXIF:IFD0:RatingPercent)
-L'utilisation des "exif" dans ce but est progressivement abandonné, car on considère que les exif sont plutôt des données techniques gérées par l'appareil photo.
-Rien n'interdit de continuer à les utiliser, mais la tendance récente est d'utiliser les métadonnées XMP pour ce marquage.
-(Métadonnées : XMP:XMP-xmp:Rating et XMP:XMP-microsoft:RatingPercent)
-L'explorateur de Windows 7 gère parfaitement ces quatre métadonnées de "rating", et les étoiles qui vont avec.
-Je viens de voir qu'il a existé (chez Adobe) des métadonnées du groupe XAP dans les XMP ... xap:Rating ce qui promet des non-compatibilités...
-et aussi des bugs liés au logiciel Nikon capture NX2.
+Un moyen rapide utilisé par de nombreux photographes pour faire un premier tri des photos consiste à utiliser des étoiles (ou "notes", "rating" en anglais). Il existe un deuxième type de marquage des photos, les "libellés de couleur", dont le fonctionnement est similaire à celui des étoiles. Je vais utiliser ici les mots "étoile" et "couleur" au lieu de "note" et "libellé de couleur", ça me paraît plus clair, même si on s'écarte des termes utilisés dans XnViewMP.
 
-Il y a des précautions à prendre, car la plupart des logiciels gèrent ce type de marquage essentiellement dans leur propre base de données, ce qui vous expose au risque de tout perdre en cas de plantage de la base de données, ou d'abandon du logiciel.
-Pour XnViewMP, comme pour d'autres logiciels, pensez à vérifier votre paramétrage pour que le marquage se fasse dans les métadonnées des photos.
-Dans notre cas : Outils, Paramètres, Métadonnées ; cochez la case "exporter la note vers xmp". Vous pouvez cocher également l'option "Exporter le libellé de couleur vers xmp"
-D'autant que la manip de sauvegarde/récupération de la base de données que je décris ci-dessous (Chapitre 10 paragraphe 6) n'inclut pas les étoiles et couleurs
+C'est une fonctionnalité qui existe depuis longtemps, ce qui signifie que les plus anciens marquages sont situés dans les métadonnées exif
+(Métadonnées : EXIF:IFD0:Rating et EXIF:IFD0:RatingPercent). L'utilisation des "exif" dans ce but est progressivement abandonné, car on considère que les exif sont plutôt des données techniques gérées par l'appareil photo.
 
-Les versions récentes de XnViewMP apportent des améliorations dans le fonctionnement des étoiles (lecture, mise à jour)
-XnViewMP inscrit systématiquement les marquages par étoiles et par couleurs dans sa base de données dans les trois cas suivants:
-- au moment ou on marque une photo, - lorsqu'on inclut des dossiers dans le catalogue, - lors de l'affichage des dossiers de photos dans le browser.
-Depuis la V0.87 , étoiles et couleurs peuvent être inscrits dans un fichier xmp sidecar. Cochez l'option "mise à jour ou création du sidecar xmp" si vous utilisez ce type de marquage.
-XnviewMP ne lit ni ne met à jour les étoiles dans les deux métadonnées EXIF qui ont été utilisées par d'autres logiciels dans les années 2000.
-Si vous souhaitez rajeunir ces marquages exif en les recopiant en XMP, il faudra utiliser Exiftool, ou peut-être que l'explorateur de Windows suffirait (à essayer).
-Avec la fonctionnalité "ouvrir avec" de XnViewMP, on doit pouvoir faire cette manip de recopie avec Exiftool. (-xmp:rating<exif:rating) et (-xmp:ratingpercent<exif:ratingpercent)
-Allez voir les exemples du chapitre 11N pour paramétrer ces fonctions.
+Rien n'interdit de continuer à les utiliser, mais la tendance récente est d'utiliser les métadonnées XMP pour ce marquage (métadonnées : XMP:XMP-xmp:Rating et XMP:XMP-microsoft:RatingPercent). L'explorateur de Windows 7 gère parfaitement ces quatre métadonnées de "rating", et les étoiles qui vont avec. Je viens de voir qu'il a existé (chez Adobe) des métadonnées du groupe XAP dans les XMP ... xap:Rating ce qui promet des non-compatibilités et aussi des bugs liés au logiciel Nikon capture NX2.
 
-Marquage par étoiles ou couleurs
-Vous pouvez marquer des lots de photos en faisant un clic-droit, menu "notes et libellés de couleur"
-Pour les étoiles, avec la touche Ctrl, combinée avec un chiffre de 0 à 5 c'est plus efficace.
+Il y a des précautions à prendre, car la plupart des logiciels gèrent ce type de marquage essentiellement dans leur propre base de données, ce qui vous expose au risque de tout perdre en cas de plantage de la base de données, ou d'abandon du logiciel. Pour XnViewMP, comme pour d'autres logiciels, pensez à vérifier votre paramétrage pour que le marquage se fasse dans les métadonnées des photos.
+
+Dans notre cas : Outils, Paramètres, Métadonnées ; cochez la case "exporter la note vers xmp". Vous pouvez cocher également l'option "Exporter le libellé de couleur vers xmp". D'autant que la manip de sauvegarde/récupération de la base de données que je décris ci-dessous (Chapitre 10 paragraphe 6) n'inclut pas les étoiles et couleurs.
+
+Les versions récentes de XnViewMP apportent des améliorations dans le fonctionnement des étoiles (lecture, mise à jour). XnViewMP inscrit systématiquement les marquages par étoiles et par couleurs dans sa base de données dans les trois cas suivants:
+- au moment ou on marque une photo;
+- lorsqu'on inclut des dossiers dans le catalogue;
+- lors de l'affichage des dossiers de photos dans le browser.
+
+Depuis la V0.87 , étoiles et couleurs peuvent être inscrits dans un fichier xmp sidecar. Cochez l'option "mise à jour ou création du sidecar xmp" si vous utilisez ce type de marquage. XnviewMP ne lit ni ne met à jour les étoiles dans les deux métadonnées EXIF qui ont été utilisées par d'autres logiciels dans les années 2000.
+
+Si vous souhaitez rajeunir ces marquages exif en les recopiant en XMP, il faudra utiliser Exiftool, ou peut-être que l'explorateur de Windows suffirait (à essayer). Avec la fonctionnalité "ouvrir avec" de XnViewMP, on doit pouvoir faire cette manip de recopie avec Exiftool (-xmp:rating<exif:rating) et (-xmp:ratingpercent<exif:ratingpercent). Allez voir les exemples du chapitre 11N pour paramétrer ces fonctions.
+
+## Marquage par étoiles ou couleurs
+
+Vous pouvez marquer des lots de photos en faisant un clic-droit, menu "notes et libellés de couleur". Pour les étoiles, avec la touche Ctrl, combinée avec un chiffre de 0 à 5 c'est plus efficace.
+
 Pour un usage intensif, je suggère d'ajouter les étoiles dans la barre d'outils (choisissez les outils incluant "passer à la photo suivante", c'est toujours plus pratique)
 L'ajout d'outils dans la barre d'outils est décrit en fin de chapitre 1
 étoiles
