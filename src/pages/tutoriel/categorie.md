@@ -4,95 +4,95 @@ description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
 
-Utiliser les catégories pour entrer les mots clés avec XnViewMP apporte un réel confort pour cette tâche fastidieuse mais importante. De plus, sans autre manipulation, vous pourrez utiliser le "filtre de catégories" et obtenir une sélection de photos avec un seul clic.
+Utiliser les catégories pour entrer les mots-clés avec XnViewMP apporte un réel confort pour cette tâche fastidieuse mais importante. De plus, sans autre manipulation, vous pourrez utiliser le `Filtre de catégories` et obtenir une sélection de photos avec un seul clic.
 
-Il y a donc deux aspects complètement indépendants : faciliter la saisie, et pouvoir filtrer des lots de photos très facilement. Pour info, il existe dans d'autres logiciels une notion de "catégories" qui nomme ainsi des ensembles de mots clés; ce n'est pas du tout ce qui est défini dans XnViewMP par le mot "catégories", ne confondons pas.
+Il y a donc deux aspects complètement indépendants: faciliter la saisie et pouvoir filtrer des lots de photos très facilement. Pour info, il existe dans d'autres logiciels une notion de "catégories" qui nomme ainsi des ensembles de mots-clés. Ce n'est pas du tout ce qui est défini dans XnViewMP par le mot "catégories", ne confondons pas.
 
-## Utiliser les Catégories de XnViewMP pour mettre des mots clés dans les photos
+## Utiliser les catégories de XnViewMP pour mettre des mots-clés dans les photos
 
-Nous avons vu dans le chapitre précédent le paramétrage à appliquer (Outils, Paramètres, Métadonnées) pour utiliser les catégories. Et donc vous allez utiliser les catégories pour entrer vos mots clés, c'est à dire cocher les cases correspondantes dans la zone Catégories.
+Nous avons vu dans le chapitre précédent le paramétrage à appliquer `Outils, Paramètres, Métadonnées` pour utiliser les catégories. Et donc vous allez utiliser les catégories pour entrer vos mots-clés, c'est à dire cocher les cases correspondantes dans la zone `Catégories`.
 
-J'ouvre une parenthèse importante sur la méthode décrite dans le chapitre 3 : si vous le souhaitez, vous pouvez commencer à saisir vos premiers mots-clés dans l'écran "Editer les métadonnées" ( Ctrl i ) sans utiliser le panneau de catégories. Il faut alors cocher la première option de métadonnées (Importer les mots clés XMP ou IPTC dans les catégories) qu'on a vue au chapitre précédent :
+J'ouvre une parenthèse importante sur la méthode décrite dans le chapitre 3: si vous le souhaitez, vous pouvez commencer à saisir vos premiers mots-clés dans l'écran `Editer les métadonnées` (Ctrl+i) sans utiliser le panneau de catégories. Il faut alors cocher la première option de métadonnées `Importer les mots-clés XMP ou IPTC dans les catégories` qu'on a vue au chapitre précédent:
 
 Outils Options métadonnées
 Figure 14
 
-De cette façon, des catégories vont se créer automatiquement; Mais il est difficile de créer des véritables hiérarchies par cet écran de saisie sans artifices. Décochez donc cette première option pour passer à la suite, et on n'utilisera plus la fenêtre d'édition iptc/xmp pour les mots clés, mais seulement le panneau "catégories". Parenthèse refermée.
+De cette façon, des catégories vont se créer automatiquement. Mais il est difficile de créer des véritables hiérarchies par cet écran de saisie sans artifices. Décochez donc cette première option pour passer à la suite et on n'utilisera plus la fenêtre d'édition IPTC/XMP pour les mots-clés, mais seulement le panneau `Catégories`.
 
-Si vous partez de zéro, n'oubliez pas les conseils que je donne sur le choix des mots clés vers le bas de cette autre page, et vous devez vous préparer une liste de mots dans un tableau ou un fichier texte (fichier que XnViewMP peut générer très facilement à partir des catégories, voir ici). Il vous suffit de garder ce tableau de mots-clés (imprimé ?) près de vous, pour vous y référer pendant que vous marquez vos photos, et en même temps l'améliorer progressivement.
+Si vous partez de zéro, n'oubliez pas les conseils que je donne sur le choix des mots-clés vers le bas de cette autre page et vous devez vous préparer une liste de mots dans un tableau ou un fichier texte (fichier que XnViewMP peut générer très facilement à partir des catégories). Il vous suffit de garder ce tableau de mots-clés près de vous pour vous y référer pendant que vous marquez vos photos et en même temps l'améliorer progressivement.
 
 ### Les mots-clés hiérarchisés
 
-Les mots clés hiérarchisés ne sont pas parfaitement normalisés, mais vouloir les éviter à tout prix nous priverait d'un vrai confort d'utilisation; autant donc les utiliser. Dans ce cas, la liste de catégories sera thématique en quelque sorte, comme dans l'exemple suivant à trois niveaux hiérarchiques.
+Les mots-clés hiérarchisés ne sont pas parfaitement normalisés, mais vouloir les éviter à tout prix nous priverait d'un vrai confort d'utilisation, autant donc les utiliser. Dans ce cas, la liste de catégories sera thématique en quelque sorte, comme dans l'exemple suivant à trois niveaux hiérarchiques.
 
-Les mots clés correspondants sont écrits en suivant la norme Adobe Lightroom, en XMP, métadonnée XMP-lr:HierarchicalSubject(n). Ils offrent un avantage incomparable, c'est de pouvoir faire un travail de marquage progressivement, en commençant par des catégories assez généralistes. Cela permet de démarrer bien plus vite, en marquant très vite des lots importants de photos.
+Les mots-clés correspondants sont écrits en suivant la norme Adobe Lightroom, en XMP, métadonnée XMP-lr:HierarchicalSubject(n). Ils offrent un avantage incomparable, c'est de pouvoir faire un travail de marquage progressivement, en commençant par des catégories assez généralistes. Cela permet de démarrer bien plus vite, en marquant très vite des lots importants de photos.
 
 De plus, les catégories seront présentées dans une liste courte, dans un ordre relativement facile à parcourir du regard. Je suggère cependant d'éviter de mettre un trop grand nombre de sous-catégories au début, car cela va notablement vous ralentir, voire vous décourager lors du marquage.
 
-Vous pouvez à la place ajouter un mot en légende dans les quelques cas où c'est judicieux, et si il apparaît utile plus tard d'en faire des catégories, ce sera assez simple si iptc est utilisé. En effet, en sélectionnant d'abord la catégorie parent, la "Recherche rapide" permet de filtrer selon le contenu des légendes iptc, afin de catégoriser après coup avec plus de détail.
+Vous pouvez à la place ajouter un mot en légende dans les quelques cas où c'est judicieux, et s'il apparaît utile plus tard d'en faire des catégories, ce sera assez simple si IPTC est utilisé. En effet, en sélectionnant d'abord la catégorie parent, la `Recherche rapide` permet de filtrer selon le contenu des légendes IPTC afin de catégoriser après coup avec plus de détail.
 
-### La zone Catégories
+### La zone catégories
 
-Elle permet d'affecter des catégories aux photos et de construire l'organisation des catégories. Ces catégories sont visibles également dans l'onglet "Filtre catégories", onglet situé à gauche de l'écran, sous les "Dossiers".
+Elle permet d'affecter des catégories aux photos et de construire l'organisation des catégories. Ces catégories sont visibles également dans l'onglet `Filtre catégories`, onglet situé à gauche de l'écran sous les `Dossiers`.
 
-Souvenez-vous que chaque mot présent dans cette liste de catégories est un mot clé, et doit être unique et précis. Evitez les mots "divers" ou "autres", écrivez par exemple "autre_reptile". Pas d'inquiétude excessive cependant, il sera toujours possible de remplacer une catégorie ou un mot clé par un autre ultérieurement.
+Souvenez-vous que chaque mot présent dans cette liste de catégories est un mot-clé et doit être unique et précis. Evitez les mots "divers" ou "autres", écrivez par exemple "autre_reptile". Pas d'inquiétude excessive cependant, il sera toujours possible de remplacer une catégorie ou un mot-clé par un autre ultérieurement.
 
 Categories
 Figure 15 illustration des principales fonctions accessibles dans le volet des catégories.
 
-Repérez bien la petite flèche pointe en bas qui donne accès au menu des catégories, que je détaillerai plus loin. Il y a à côté un bouton à trois petits points qui permet de déplier et replier l'ensemble des sous-catégories.
+Repérez bien la petite flèche pointe en bas qui donne accès au menu des catégories que je détaillerai plus loin. Il y a à côté un bouton à trois petits points qui permet de déplier et replier l'ensemble des sous-catégories.
 
-Vous voyez également les petits onglets à droite pour passer à l'affichage "Groupes de catégories". Sur la figure 15, j'ai illustré aussi le clic-droit sur une catégorie, qui permet les actions classiques (renommer, déplacer, supprimer etc...)
+Vous voyez également les petits onglets à droite pour passer à l'affichage `Groupes de catégories`. Sur la figure 15, j'ai illustré aussi le clic-droit sur une catégorie, qui permet les actions classiques (renommer, déplacer, supprimer, etc).
 
-Si vous souhaitez réorganiser vos catégories, il est préférable de le faire ici: faites un clic droit sur une catégorie, et cliquez sur un des choix offerts. Mais il y a des précautions à prendre, lisez attentivement le chapitre 5C.
+Si vous souhaitez réorganiser vos catégories, il est préférable de le faire ici: faites un clic droit sur une catégorie et cliquez sur un des choix offerts. Mais il y a des précautions à prendre, lisez attentivement le chapitre 5C.
 
-Avant de faire d'importants bouleversements, faites un petit essai, puis refermez et réouvrez XnView pour vérifier que vos manips sont bien acceptées. Mais notez bien que modifier les catégories ne modifie pas les mots-clés correspondants dans les photos. Donc, à ce stade, ne modifiez que des catégories vides.
+Avant de faire d'importants bouleversements, faites un petit essai, puis refermez et réouvrez XnViewMP pour vérifier que vos manipulations sont bien acceptées. Mais notez bien que modifier les catégories ne modifie pas les mots-clés correspondants dans les photos. Donc, à ce stade, ne modifiez que des catégories vides.
 
-Un truc bête : vous devez sélectionner au moins une photo pour pouvoir agir dans le volet des catégories. C'est comme ça. Si XnViewMP refuse de prendre en compte vos réglages ou vos actions, c'est probablement parce-que son dossier d'installation est protégé par Windows. C'est pour cette raison que je proposais au tout début de cette documentation de ne pas l'installer dans le dossier program_files.
+Un truc bête: vous devez sélectionner au moins une photo pour pouvoir agir dans le volet des catégories, c'est comme ça. Si XnViewMP refuse de prendre en compte vos réglages ou vos actions, c'est probablement parce que son dossier d'installation est protégé par Windows. C'est pour cette raison que je proposais au tout début de cette documentation de ne pas l'installer dans le dossier program_files.
 
 ### Affecter une catégorie
 
-Donc, vous avez sélectionné une ou plusieurs photos. Et vous cliquez dans la case de la catégorie que vous voulez affecter. Tout est là.
+Donc, vous avez sélectionné une ou plusieurs photos et vous cliquez dans la case de la catégorie que vous voulez affecter. Tout est là.
 
-Il y a d'autres façons de faire, qui sont utiles si vous avez des centaines de catégories, mais ce sera précisé dans les paragraphes "Mode de recherche" et suivants, un peu plus bas. Vous pouvez aussi utiliser le bouton Catégories de la barre d'outils pour affecter des catégories à vos photos, c'est parfois plus commode.
+Il y a d'autres façons de faire qui sont utiles si vous avez des centaines de catégories, mais ce sera précisé dans les paragraphes "Mode de recherche" et suivants, un peu plus bas. Vous pouvez aussi utiliser le bouton `Catégories` de la barre d'outils pour affecter des catégories à vos photos, c'est parfois plus commode.
 
 Categories
 Figure 16 Les catégories
 
-Si, dans les paramètres (Outils, Paramètres, Métadonnées), vous avez choisi d'affecter les catégories "parent" (6e option) vous verrez que le fait de cocher "moineau" va cocher automatiquement "oiseau" et "animal". Si, dans les paramètres, vous avez choisi la 2e option "exporter les catégories vers les mots clés (IPTC et XMP)", eh bien votre photo contient désormais les mots clés IPTC:keywords animal, oiseau, moineau et XMP-dc:subject(1) animal , subject(2) oiseau et subject(3) moineau.
+Si, dans les paramètres `Outils, Paramètres, Métadonnées` vous avez choisi d'affecter les catégories "parent" (6e option) vous verrez que le fait de cocher "moineau" va cocher automatiquement "oiseau" et "animal". Si, dans les paramètres, vous avez choisi la 2e option `exporter les catégories vers les mots clés (IPTC et XMP)`, eh bien votre photo contient désormais les mots-clés IPTC:keywords animal, oiseau, moineau et XMP-dc:subject(1) animal, subject(2) oiseau et subject(3) moineau.
 
-Il y aura aussi les mots clés hiérarchiques XMP, qui dans notre exemple auront cette forme :
-Lr:HierarchicalSubject[1] animal
-Lr:HierarchicalSubject[2] animal|oiseau
-Lr:HierarchicalSubject[3] animal|oiseau|moineau
+Il y aura aussi les mots-clés hiérarchiques XMP qui dans notre exemple auront cette forme:
+- Lr:HierarchicalSubject[1] animal
+- Lr:HierarchicalSubject[2] animal|oiseau
+- Lr:HierarchicalSubject[3] animal|oiseau|moineau
 
-Vous pouvez vérifier tous ces mots clés dans le panneau informations, onglet IPTC, onglet XMP et onglet Exiftool. Attention, l'écriture des mots clés ne se fait effectivement qu'au moment où vous "relâchez" la sélection de photos (en cliquant une autre photo). Vous pouvez ajuster la nature et la forme de l'écriture des mots clés avec les diverses options de l'écran Outils, Paramètres, Métadonnées.
+Vous pouvez vérifier tous ces mots-clés dans le panneau informations, onglet IPTC, onglet XMP et onglet Exiftool. Attention, l'écriture des mots-clés ne se fait effectivement qu'au moment où vous "relâchez" la sélection de photos (en cliquant une autre photo). Vous pouvez ajuster la nature et la forme de l'écriture des mots-clés avec les diverses options de l'écran `Outils, Paramètres, Métadonnées`.
 
 Simultanément, XnViewMP inscrit dans sa base de données de catégories les informations correspondantes. Je détaille le rôle de cette base de données dans le chapitre 6. Et vous allez pouvoir utiliser le filtre de catégories décrit dans le chapitre 5B.
 
-Attention, pour que la correspondance entre les catégories affectées et les mots clés XMP reste bonne, si vous faites des modifications de mots-clés utilisez exclusivement les catégories. Réciproquement, si vous modifiez des catégories, il faut s'assurer que les mots clés correspondants seront mis à jour (donc, au minimum, que les photos qui contiennent ces mots clés soient sélectionnées).
+Attention, pour que la correspondance entre les catégories affectées et les mots-clés XMP reste bonne, si vous faites des modifications de mots-clés utilisez exclusivement les catégories. Réciproquement, si vous modifiez des catégories, il faut s'assurer que les mots-clés correspondants seront mis à jour (donc, au minimum, que les photos qui contiennent ces mots-clés soient sélectionnées).
 
-Les trois paragraphes qui suivent décrivent des réglages et options qui concernent l'utilisation des catégories. On accède à ces choix dans XnViewMP via le menu des catégories, (la petite flèche blanche pointe en bas située à droite de la case de saisie de catégorie).
+Les trois paragraphes qui suivent décrivent des réglages et options qui concernent l'utilisation des catégories. On accède à ces choix dans XnViewMP via le menu des catégories (la petite flèche blanche pointe en bas située à droite de la case de saisie de catégorie).
 
 Categories
 Figure 17 Menu des catégories
 
-### Menu des catégories : Mode de recherche
+### Menu des catégories, mode de recherche
 
 On a ici 3 choix:
-- correspondance partielle au début : la recherche s'effectue en tapant les premières lettres de la catégorie.
-- correspondance partielle partout : la recherche se fait sur un groupe de lettres ou un mot quelconque
-- utiliser une expression régulière : "expression régulière" c'est un mode de recherche respectant une syntaxe normalisée (voir chapitre 11R-3).
+- correspondance partielle au début, la recherche s'effectue en tapant les premières lettres de la catégorie;
+- correspondance partielle partout, la recherche se fait sur un groupe de lettres ou un mot quelconque;
+- utiliser une expression régulière, c'est un mode de recherche respectant une syntaxe normalisée (voir chapitre 11R-3).
 
-Ces options s'appliquent lorsque vous recherchez une catégorie, en utilisant la case de saisie située juste à côté, au même niveau. Si vous avez plusieurs centaines de mots-clés, donc plusieurs centaines de catégories, cette fonction de recherche peut vous éviter de parcourir du regard toute la liste, à la recherche d'une catégorie perdue au fond d'une arborescence. Il ne s'agit pas du tout de recherche dans les photos.
+Ces options s'appliquent lorsque vous recherchez une catégorie en utilisant la case de saisie située juste à côté, au même niveau. Si vous avez plusieurs centaines de mots-clés, donc plusieurs centaines de catégories, cette fonction de recherche peut vous éviter de parcourir du regard toute la liste, à la recherche d'une catégorie perdue au fond d'une arborescence. Il ne s'agit pas du tout de recherche dans les photos.
 
-### Menu des catégories : Auto-correction
+### Menu des catégories, auto-correction
 
-L'option auto-correction dans le menu "gestion" concerne probablement aussi la saisie des noms de catégories et la correction automatique de certains mots que vous choisissez. Les équivalences entre le mot entré au clavier et celui qui sera utilisé se situent dans le menu Outils, Paramètres, auto text correction.
+L'option auto-correction dans le menu `gestion` concerne probablement aussi la saisie des noms de catégories et la correction automatique de certains mots que vous choisissez. Les équivalences entre le mot entré au clavier et celui qui sera utilisé se situent dans le menu `Outils, Paramètres, auto text correction`.
 
 Je suppose que ça permet d'utiliser des abréviations, pour gagner du temps lors de la frappe clavier.
 
-### Menu des catégories : Action
+### Menu des catégories, action
 
 Il y a deux choix qui s'excluent : Assigner une catégorie ou Ouvrir l'arbre.
 - si vous cochez "Ouvrir l'arbre", il est sous-entendu que vous avez au préalable "replié" toutes les catégories hiérarchiques, en cliquant sur les trois petits points. Entrez alors quelques lettres d'une catégorie, puis cliquez la suggestion qui correspond à votre recherche, et l'arborescence de cette catégorie va s'ouvrir;
@@ -421,8 +421,8 @@ Les solutions :
 - Souvenez-vous aussi qu'il faut obligatoirement sélectionner une photo pour pouvoir agir dans le panneau catégories.
 - Evitez de faire fonctionner xnviewmp sans aucune catégorie. Créez ou importez des catégories avant de faire des autres manips..impossible.categories-vide.aucune.
 
-Chapitre 5D - Astuces et précautions pour utiliser les catégories
-Chapitre 5C top Chapitre 6
+## Astuces et précautions pour utiliser les catégories
+
 Tout n'est pas magique dans le domaine des métadonnées, surtout si vous avez déjà des mots-clés hétéroclites provenant d'autres logiciels.
 prenez le temps d'étudier ce domaine, et faites toujours quelques essais avant de passer des heures à rentrer des métadonnées.
  (10/02/2018) Ce chapitre était anciennement numéroté chapitre 7; il a perdu une partie de son contenu qui est maintenant dispersé dans d'autres chapitres.
@@ -430,7 +430,8 @@ Les trois premiers paragraphes 5D1, 5D2, 5D3 sont anciens et devraient être ré
 
 
 
-5D1) Importer des photos ayant déjà des mots-clés
+### Importer des photos ayant déjà des mots-clés
+
  Avertissement. .bug.
 Il y a trois méthodes pour réaliser cette manip. Je n'ai pas obtenu de réponse claire de la part du développeur pour savoir laquelle est recommandée.
 - La première méthode consiste à utiliser la fonction "Mise à jour du catalogue avec les fichiers", que je trouvais peu pratique jusque là.
@@ -450,9 +451,8 @@ Seuls les xmp:xmp-lr:hierarchicalsubject, si ils sont déjà dans les photos, pe
 Il est possible de gérer une forme hiérarchisées des mots clés IPTC, en cochant les options correspondantes (Outils, Paramètres, Métadonnées...) mais je n'ai pas testé l'importation de ce type de mots clés pour déterminer si ça construit ou pas une hiérarchie correspondant de catégories.
 Cependant vous pourrez facilement réorganiser vos catégories plus tard en les hiérarchisant petit à petit, mais n'allez pas trop vite, et faites des sauvegardes intermédiaires.
 
+### Ajouter des mots clés hiérarchisés
 
-
-5D2) Ajouter des mots clés hiérarchisés
 Si vous aviez préparé des catégories hiérarchisées avant d'importer un dossier de photos, elles vont "accueillir" les photos ayant les mots clés correspondants, mais sans affecter les catégories "parent" ni créer les mots clés hiérarchisés xmp, car XnViewMP ne crée des mots-clés hiérarchisés qu'au moment où on clique sur une catégorie.
 Pour effectuer cette tâche, allez d'abord cocher des options, au minimum "Automatically apply parent keywords" et "Créer les données XMP" dans Outils, Paramètres, Métadonnées.
 - Sélectionnez une catégorie dans le "Filtre des catégories" : toutes les photos contenant ce mot-clé s'affichent.
@@ -463,18 +463,16 @@ Ca a plusieurs effets:
 3) Ca met à jour la base de données interne.
 Répétez l'opération pour toutes les catégories en bout de hiérarchie, pour que leurs catégories parent soient incluses.
 
+### Ajouter des mots clés en plusieurs passages
 
-
-5D3) Ajouter des mots clés en plusieurs passages
 Exemple : Vous avez mis la catégorie "animal" sur des centaines de photos, dans l'idée de les répartir plus tard en oiseaux, reptiles, mamifères.
 Vous voulez ensuite ajouter des sous-catégories (des reptiles, des chiens etc ...) aux photos qui n'en ont pas.
 Pour trouver les photos contenant uniquement "animal", vous devrez sélectionner aussi les sous-catégories déjà faites en combinaison avec la touche Alt du clavier, afin de les exclure. (Sinon, vous auriez pu dès le début créer une sous-catégorie provisoire "non_trié" pour faciliter la recherche de ce qui reste à faire).
 Vous pourrez alors vous concentrer sur les photos de la catégorie "animal" en réduisant progressivement le nombre de photos où il manque des sous-catégories.
 Pendant ce type de travail, pensez à modifier de temps en temps l'affichage (menu Afficher, Afficher en, Détails) pour visualiser toutes vos métadonnées (IPTC) dans un tableau.
 
+### Remarques concernant la mise à jour de l'affichage
 
-
-5D4)  (13/02/2018) Remarques concernant la mise à jour de l'affichage .bug.
 Les libellés sous les vignettes, qui reprennent des métadonnées, ne s'affichent pas toujours aussitôt après que celles-ci aient été modifiées.
 C'est le cas dans l'écran principal, que ce soit en affichage par vignettes ou en "Détails". Même la touche F5 (menu Afficher, Rafraichir) ne suffit pas toujours.
 Il semble qu'à partir des versions V0.99 il y ait un progrès dans la mise à jour des libellés ...
@@ -482,17 +480,15 @@ La solution consiste à visualiser un autre dossier d'images, puis à revenir au
 De même pour la zone informations, qui affiche les métadonnées d'une photo sélectionnée. Parfois, il vaut mieux sélectionner une autre photo, puis revenir à la photo souhaitée pour forcer la mise à jour de cet affichage (en particulier si vous modifiez des métadonnées avec un autre logiciel en même temps !)
 J'ai précisé aussi dans divers chapitres, que pour provoquer l'écriture dans les photos en ayant utilisé la fenêtre d'édition de métadonnées, il faut "relâcher" la sélection sur laquelle on vient d'agir, et éventuellement revenir dessus pour pouvoir actualiser et vérifier ce qu'on vient de modifier.
 
+### Anomalie dans le catalogue
 
-
-5D5)  (26/02/2018) Anomalie dans le catalogue .bug.
 Il m'est arrivé que des photos soient visibles dans le browser, dans leur dossier, ou après un filtrage, et que je ne puisse pas les visualiser en les cliquant.
 Le double-clic sur l'image ouvre un autre logiciel hors XnViewMP (la visionneuse Windows par exemple), et le mode plein écran ne fonctionne pas.
 Il semble que ce bug soit lié à une anomalie dans le catalogue. Pour y remédier, j'ai coché la première option dans "métadonnées" (importer les mots clés XMP ou IPTC dans les catégories DB), et la photo étant sélectionnée, cliqué sur "Affichage, Mise à jour du catalogue avec les fichiers"
 ... ce qui a pour effet de réécrire correctement les informations de cette photo dans le catalogue.
 
+### Mise à jour des fichiers avec le catalogue
 
-
-5D6)  (31/05/2018) Mise à jour des fichiers avec le catalogue.
 Cette fonction, accessible dans le menu "Afficher" permet d'écrire des métadonnées dans les photos, à partir des informations du catalogue.
 Les informations qui figurent dans le catalogue, outre les nom et emplacement des photos, sont : mots clés, étoiles, labels de couleur.
 Laissons de côté ici les manips qui permettent d'entrer ces informations dans le catalogue, qu'on voit au chapitre suivant; supposons qu'elles soient exactes.
