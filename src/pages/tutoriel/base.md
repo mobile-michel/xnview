@@ -37,8 +37,7 @@ Si, en dehors de XnViewMP, vous déplacez une photo, si vous changez son nom, si
 
 Cet écran est un peu ambigu dans le sens où il mélange les informations sur le cache des vignettes et la gestion du catalogue.
 
-Outils Options Catalogue
-Figure 31
+![Paramètres du catalogue](/tutoriel/xnvmp16.png)
 
 La première partie de la fenêtre concerne la gestion des vignettes et la taille maximale du fichier Thumb.db (le cache vignettes). Tout d'abord, il y a une option à vérifier dans `Outils, Paramètres, Explorateur, Vignette, Divers`: `Utiliser les vignettes intégrées`.
 
@@ -50,7 +49,7 @@ C'est donc une autre voie permettant d'utiliser les réglages de la rubrique `Ca
 - la boite déroulante de la première case `Compression`, il semble que la valeur `Avec perte - haute qualité WebP` soit le meilleur compromis à utiliser. J'ai longtemps utilisé `Avec perte - haute qualité Jpeg`, je n'ai pas perçu de différence;
 - les valeurs indiquées dans les cases `Largeur` et `Hauteur` sont les dimensions des vignettes que XnViewMP va enregistrer dans le fichier cache Thumb.db.
 
-Or, en fonction des réglages d'affichage des vignettes que vous avez choisi à l'écran (voir Chapitre 1 Vignettes), XnviewMP peut afficher vos vignettes avec une taille différente. Si ça correspond à un agrandissement, les vignettes affichées auront un léger flou. Si ça les réduit, c'est net, mais vous traitez des volumes de pixels inutilement, il y a donc un compromis à trouver.
+Or, en fonction des réglages d'affichage des vignettes que vous avez choisi à l'écran (voir Chapitre 1 Vignettes), XnViewMP peut afficher vos vignettes avec une taille différente. Si ça correspond à un agrandissement, les vignettes affichées auront un léger flou. Si ça les réduit, c'est net, mais vous traitez des volumes de pixels inutilement, il y a donc un compromis à trouver.
 
 En cliquant sur le bouton `Obtenir la taille des vignettes`, vous fixez la taille des vignettes dans le fichier cache à la même valeur que celle qui est actuellement utilisée à l'affichage. Personnellement, j'ai procédé de la façon suivante: j'ai agrandi mes vignettes un poil de plus que nécessaire et cliqué ce bouton.
 
@@ -110,8 +109,7 @@ Attaquons maintenant le vif du sujet. Vous voyez dans le tableau de la figure 31
 
 Un clic sur ce bouton dont j'ai déjà parlé au chapitre 2 donne cette fenêtre:
 
-Outils Options Catalogue
-Figure 32
+![Maintenance du catalogue](/tutoriel/xnvmp17.png)
 
 Les cases cochées par défaut sont celles de l'illustration. Laissez-les comme ça pour la plupart des cas. Les deux options `Supprimer les dossiers et les fichiers inexistants` fonctionnent bien car les suppressions de photos à l'aide de filtrages laissent parfois des photos "fantômes".
 

@@ -1,5 +1,5 @@
 ---
-title: 2 - Nettoyage des catégories et base de données, reconstruction
+title: Nettoyage des catégories et base de données, reconstruction
 description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
@@ -12,10 +12,9 @@ Commencez par désactiver des options : passez dans Outils, Paramètres, Métado
 
 Ensuite, dans Outils, Paramètres, Catalogue, Cliquez le bouton effacer tout, puis cliquez sur Optimisation : dans cette fenêtre intitulée maintenance du catalogue, cochez toutes les cases de suppression (sauf la première donc), et enfin cliquez Ok. Une fois l'effacement terminé, revenez dans la même fenêtre optimisation, et remettez les coches à leur état initial :
 
-maintenance catalogue
-Figure 3
+![Maintenance du catalogue](/tutoriel/xnvmp11.png)
 
-Il m'est arrivé que le bouton "effacer tout" ne fonctionne pas. La solution est de fermer XnviewMP, et de supprimer ou de renommer le fichier XnView.db (renommé en XnView.db.old, c'est réversible). Redémarrer XnviewMP et reprendre le nettoyage comme indiqué.
+Il m'est arrivé que le bouton "effacer tout" ne fonctionne pas. La solution est de fermer XnViewMP, et de supprimer ou de renommer le fichier XnView.db (renommé en XnView.db.old, c'est réversible). Redémarrer XnViewMP et reprendre le nettoyage comme indiqué.
 
 ## Effacer les catégories
 
@@ -23,7 +22,7 @@ Allez tout d'abord lire le paragraphe "Gestion des catégories: Exporter ou impo
 
 Pour tout effacer, sélectionnez une photo; (c'est indispensable pour pouvoir agir dans les catégories). Dans la zone "Catégories" à droite de l'écran, cliquez la flèche triangulaire pointe en bas, puis "gestion des catégories", puis "supprimer tout".
 
-J'ai testé cette manip d'effacement : c'est du brutal, ça efface instantanément toutes les catégories ! Et cela vide aussi la base de données. Remarque en passant, il vaut mieux créer tout de suite une catégorie (vide) avant de passer à la suite, car XnviewMP semble mal gérer une absence totale de catégories. Voila pour le nettoyage.
+J'ai testé cette manip d'effacement : c'est du brutal, ça efface instantanément toutes les catégories ! Et cela vide aussi la base de données. Remarque en passant, il vaut mieux créer tout de suite une catégorie (vide) avant de passer à la suite, car XnViewMP semble mal gérer une absence totale de catégories. Voila pour le nettoyage.
 
 Vous pourrez maintenant importer des dossiers de photos afin de reconstruire la base de données. Ce terme, "importer", mérite quelques précisions. Dans la plupart des logiciels de catalogage, il décrit l'action de "lire les métadonnées existant dans les photos pour construire une base de données".
 
@@ -45,6 +44,6 @@ Dans l'écran "Outils, Paramètres,Métadonnées" il faut :
 
 Ensuite, dans la rubrique suivante "Catalogue", laissez de préférence la case "répertoire de base pour les images" vide, et cliquer sur le bouton Ajouter dossier Import folder. Spécifiez les dossiers contenant les photos dont vous voulez qu'elles soient prises en compte dans la base de données.
 
-Répetez cette étape d'importation si il y a plusieurs dossiers de photos à inclure dans le catalogue. Si vous décidez d'ajouter d'un seul coup le dossier racine contenant toutes vous photos, XnViewMp va reconsruire entièrement la base de données, ce qui peut prendre plusieurs dizaines de minutes.
+Répetez cette étape d'importation si il y a plusieurs dossiers de photos à inclure dans le catalogue. Si vous décidez d'ajouter d'un seul coup le dossier racine contenant toutes vous photos, XnViewMP va reconsruire entièrement la base de données, ce qui peut prendre plusieurs dizaines de minutes.
 
 Parenthèse : En V0.90, le bouton Ajouter dossier semblait ne pas très bien fonctionner; il y a une autre solution qui consiste à sélectionner le lot d'images dans le browser, et utiliser la fonction "Mise à jour du catalogue avec les fichiers" du menu Afficher. Pour info, il y a une autre méthode pour sauvegarder au moins en partie (exporter ou importer) la base de données de XnViewMP (="le catalogue"), moins radicale que la reconstruction : voir ce paragraphe.

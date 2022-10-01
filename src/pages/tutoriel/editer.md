@@ -1,5 +1,5 @@
 ---
-title: 3 - Éditer les métadonnées IPTC/XMP
+title: Éditer les métadonnées IPTC/XMP
 description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
@@ -35,8 +35,7 @@ Sélectionnez au moins deux photos, puis ouvrez la fenêtre `Editer IPTC/XMP`: v
 
 Sept onglets regroupent l'essentiel des champs IPTC, et le huitième onglet, `Options` est à étudier:
 
-Editer métadonnées Options
-Figure 4
+![Éditer les métadonnées, Options](/tutoriel/xnvmp02.png)
 
 A priori, dans cet onglet `Options`, pour le premier cadre `Sélection multiple`, cochez les trois premières cases afin de n'effacer aucune métadonnée sur des lots de photos par inadvertance (on a sélectionné au moins deux images justement pour pouvoir agir sur ces réglages de sélection multiple).
 
@@ -68,8 +67,7 @@ Depuis mai 2018, je laisse cette option décochée et apparemment je n'ai pas fa
 
 Une option importante est dans la boite déroulante `Mode` qui dépend de vos choix et de l'histoire de vos photos. J'utilise le mode `IPTC, Mise à jour ou création XMP` car j'avais des photos contenant déjà des tags IPTC et je veux les dupliquer en XMP. Il y a quatre modes possibles selon que vous voulez écrire seulement IPTC ou seulement XMP, ou copier l'un vers l'autre.
 
-Editer métadonnées Mode
-Figure 5
+![Éditer les métadonnées, Mode](/tutoriel/xnvmp02b.png)
 
 Lorsque vous changez cette option, refermez la fenêtre d'édition (même sans enregistrer) et réouvrez-la. La prise en compte de l'option semble se faire avec retard dans certains cas. Plus généralement, pour toute modification d'options, fermez et réouvrez cette fenêtre, ça ne mange pas de pain.
 
@@ -125,11 +123,11 @@ Pour le deuxième groupe, les champs qui seront créés sont iptc:ReleaseDate et
 
 Le champ `Nom de l'objet` (IPTC:Object Name et XMP:Title) est une métadonnée que je n'utilise pas. Windows7 la gère aussi, mais à sa manière avec l'explorateur sous l'intitulé `Titre`. (A ne pas confondre avec le `Titre` de XnViewMP qui correspond à la métadonnée Headline).
 
-Pour info, quand Windows 7 écrit un `Titre`, en fait il renseigne les métadonnées suivantes: IPTC:Caption-Abstract et XMP:Description (Légende pour XnViewMp), XMP:Title et IPTC:Object Name (Nom de l'objet), EXIF:ImageDescription, EXIF:XPTitle, et parfois EXIF:XPSubject.
+Pour info, quand Windows 7 écrit un `Titre`, en fait il renseigne les métadonnées suivantes: IPTC:Caption-Abstract et XMP:Description (Légende pour XnViewMP), XMP:Title et IPTC:Object Name (Nom de l'objet), EXIF:ImageDescription, EXIF:XPTitle, et parfois EXIF:XPSubject.
 
 Je ne sais pas à quoi servent les autres champs (localisation et son code, référence de transmission). Voici un tableau résumé des métadonnées IPTC et XMP classiques qui sont gérées dans ces sept onglets:
 
-tableau
+![Résumé des métadonnées IPTC et XMP classiques](/tutoriel/xnview3.png)
 
 Si vous voulez voir l'ensemble des métadonnées gérées dans ces onglets, allez à la fin du dernier chapitre, annexes.
 
@@ -137,8 +135,7 @@ Si vous voulez voir l'ensemble des métadonnées gérées dans ces onglets, alle
 
 Dans ces sept onglets, au bout de chaque champ de saisie, il y a une flèche triangulaire, qui vous donne accès à plusieurs choix. Ce triangle n'est pas très visible, il est un peu à droite de celui qui déploie le contenu de la boite déroulante.
 
-Editer métadonnées Mode
-Figure 6
+![Aides à la saisie](/tutoriel/xnvmp02c.png)
 
 `Insérer` offre la possibilité d'insérer dans le champ métadonnée une "info système" de la photo (nom, dossier, taille, date). `Insérer de` ou `copier en` permettent de récupérer une métadonnée provenant de ou à destination d'une autre métadonnée.
 
@@ -164,7 +161,9 @@ Vous pouvez choisir `Fichier texte` puis `Importer` (fig 9) pour pouvoir sélect
 
 Dans les trois méthodes, il faut ensuite cliquer la flèche pour faire monter le mot clé dans la grande zone sous la case du haut.
 
-Vous pouvez sélectionner plusieurs lignes simultanément pour entrer plusieurs mots clés à la fois. Si votre fichier texte contient des lignes du type `animal, oiseau, mésange`, ces trois mots vont pouvoir être entrés en un seul clic (la virgule est utilsée comme séparateur par XnViewMp, pour préparer l'écriture des trois mots clés, aussi bien en IPTC que XMP, sans hiérarchie).
+Vous pouvez sélectionner plusieurs lignes simultanément pour entrer plusieurs mots clés à la fois. Si votre fichier texte contient des lignes du type `animal, oiseau, mésange`, ces trois mots vont pouvoir être entrés en un seul clic (la virgule est utilsée comme séparateur par XnViewMP, pour préparer l'écriture des trois mots clés, aussi bien en IPTC que XMP, sans hiérarchie).
+
+![Onglet mots-clés](/tutoriel/xnvmp19.png)
 
 ### Editer métadonnées, Options
 
@@ -214,8 +213,7 @@ J'insiste: avant de marquer des milliers de photos, vérifiez régulièrement ce
 
 Le quatrième onglet `ExifTool` vous permet d'afficher toutes les métadonnées telles qu'elles sont lues par cet excellent utilitaire (indépendant de XnViewMP, voir Annexes). Parenthèse, XnViewMP utilise ses propres procédures pour lire et écrire les métadonnées dans les photos JPG, ce qui le rend plus rapide que d'autres logiciels utilisant ExifTool.
 
-Volet informations
-Figure 11
+![Volet d'informations](/tutoriel/xnvmp12.png)
 
 Remarque: si vous avez choisi d'afficher des métadonnées dans les libellés sous les vignettes, vous remarquerez que l'affichage ne se met pas à jour tout de suite.
 
@@ -260,8 +258,7 @@ Dans la liste de gauche, sélectionner l'outil `Editer IPTC/XMP` et faites le pa
 
 Toujours dans la fenêtre d'édition de métadonnées, dans l'onglet `Options`, il y a trois boutons, `Enregistrer le modèle` ou `Charger un modèle` ou `Charger un modèle V1`. Si vous désirez ajouter systématiquement les mêmes métadonnées à vos nouvelles photos (par exemple un nom d'auteur, un copyright), faites-le d'abord sur une photo et créez un "modèle" que vous enregistrez en lui choissant un nom. Par la suite, vous sélectionnerez un lot de photos et en cliquant sur `Charger le modèle` vous pourrez appliquer le modèle à tout le lot.
 
-Editer métadonnées Options
-Figure 10
+![Modèles](/tutoriel/xnvmp18.png)
 
 Je n'ai pas beaucoup testé ces modèles, vérifiez que cette manipulation n'efface pas à tort d'autres métadonnées.
 
@@ -284,8 +281,7 @@ Les coordonnées GPS, qui sont des données EXIF, ne sont pas modifiables ici, m
 
 Il y a un moyen commode d'effacer tout ou partie des métadonnées en passant par le menu `Outils, Métadonnées, Nettoyer`. Les choix suivants vous sont proposés:
 
-Editer métadonnées Mode
-Figure 12
+![Supprimer les métadonnées](/tutoriel/xnvmp02d.png)
 
 Il suffit de cocher les cases de votre choix et cliquer OK.
 
@@ -296,8 +292,7 @@ Le maniement des trois options du dernier onglet de la fenêtre `Editer les mét
 
 Sélectionnez votre lot de photos avant de lancer la fonction. Avec le bouton `Ajouter`, choisissez la métadonnée que vous voulez effacer (ou modifier). Laissez la case d'à côté vide pour une suppression (ou entrez un texte ou choisissez dans la liste si vous voulez inscrire autre chose). Si vous voulez traiter en même temps une deuxième métadonnée, cliquez de nouveau sur `Ajouter`, etc.
 
-Editer métadonnées Mode
-Figure 12B
+![Effacer des métadonnées](/tutoriel/xnvmp02f.png)
 
 Dans cette illustration, on va effacer la légende IPTC et la légende XMP et cliquez sur `Appliquer`.
 

@@ -1,5 +1,5 @@
 ---
-title: 9 - Notes et couleurs
+title: Notes et couleurs
 description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
@@ -22,7 +22,7 @@ Les versions récentes de XnViewMP apportent des améliorations dans le fonction
 - lorsqu'on inclut des dossiers dans le catalogue;
 - lors de l'affichage des dossiers de photos dans le browser.
 
-Depuis la V0.87 , étoiles et couleurs peuvent être inscrits dans un fichier xmp sidecar. Cochez l'option "mise à jour ou création du sidecar xmp" si vous utilisez ce type de marquage. XnviewMP ne lit ni ne met à jour les étoiles dans les deux métadonnées EXIF qui ont été utilisées par d'autres logiciels dans les années 2000.
+Depuis la V0.87 , étoiles et couleurs peuvent être inscrits dans un fichier xmp sidecar. Cochez l'option "mise à jour ou création du sidecar xmp" si vous utilisez ce type de marquage. XnViewMP ne lit ni ne met à jour les étoiles dans les deux métadonnées EXIF qui ont été utilisées par d'autres logiciels dans les années 2000.
 
 Si vous souhaitez rajeunir ces marquages exif en les recopiant en XMP, il faudra utiliser Exiftool, ou peut-être que l'explorateur de Windows suffirait (à essayer). Avec la fonctionnalité "ouvrir avec" de XnViewMP, on doit pouvoir faire cette manip de recopie avec Exiftool (-xmp:rating<exif:rating) et (-xmp:ratingpercent<exif:ratingpercent). Allez voir les exemples du chapitre 11N pour paramétrer ces fonctions.
 
@@ -32,8 +32,7 @@ Vous pouvez marquer des lots de photos en faisant un clic-droit, menu "notes et 
 
 Pour un usage intensif, je suggère d'ajouter les étoiles dans la barre d'outils (choisissez les outils incluant "passer à la photo suivante", c'est toujours plus pratique). L'ajout d'outils dans la barre d'outils est décrit en fin de chapitre 1.
 
-étoiles
-Figure 36
+![Étoiles](/tutoriel/xnvmp25.png)
 
 De la même façon, vous pouvez aussi ajouter les libellés de couleur dans la barre d'outils. Quand une photo est marquée par une étoile ou une couleur, le symbole correspondant est affiché en haut à gauche de la vignette. Ces symboles, et les quelques autres situés autour des vignettes, sont décrits en fin de chapitre 1 (configuration de l'affichage).
 
@@ -46,7 +45,7 @@ Chaque photographe peut choisir sa propre façon de mettre en oeuvre et d'utilis
 - trois étoiles pour des photos ordinaires;
 - quatre étoiles pour les bonnes photos;
 - cinq étoiles pour les très bonnes.
-- 
+
 Mais c'est à chacun de faire son propre usage et ses propres choix.
 
 ## Les couleurs

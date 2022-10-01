@@ -1,42 +1,40 @@
 ---
-title: 7 - Les fichiers sidecar ou compagnons
+title: Les fichiers sidecar ou compagnons
 description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
 
-Les métadonnées EXIF, je le rappelle, contiennent essentiellement des informations crées par l'appareil photo et sont intégrées dans le fichier de la photo. Les constructeur d'appareil photos sont parvenus à inclure ces métadonnées (exif) dans tous les formats raw (formats qui sont pourtant spécifiques à chaque marque).
+Les métadonnées EXIF, je le rappelle, contiennent essentiellement des informations crées par l'appareil photo et sont intégrées dans le fichier de la photo. Les constructeur d'appareil photos sont parvenus à inclure ces métadonnées (EXIF) dans tous les formats RAW (formats qui sont pourtant spécifiques à chaque marque).
 
-Les métadonnées IPTC et XMP peuvent aussi être embarquées dans les photos, mais seulement pour certains formats d'image : JPG, et quelques autres : png, tiff. Il se trouve que les appareils photo "performants" permettent d'enregistrer des photos au format RAW (c'est un terme générique), format qui a de nombreux avantages. Mais ce format de photo ne supporte pas les métadonnées iptc et xmp embarquées. Il ne supporte d'ailleurs pas du tout les métadonnées IPTC puisque c'est la norme XMP seule qui propose une solution.
+Les métadonnées IPTC et XMP peuvent aussi être embarquées dans les photos, mais seulement pour certains formats d'image: JPG et quelques autres: PNG, TIFF. Il se trouve que les appareils photo "performants" permettent d'enregistrer des photos au format RAW (c'est un terme générique), format qui a de nombreux avantages. Mais ce format de photo ne supporte pas les métadonnées IPTC et XMP embarquées. Il ne supporte d'ailleurs pas du tout les métadonnées IPTC puisque c'est la norme XMP seule qui propose une solution.
 
-Une autre forme de marquage a été développée, pour la norme XMP, qui consiste à écrire un fichier contenant les métadonnées "à côté" de chaque photo. On nomme ce fichier "sidecar" ou "compagnon". Il porte le même nom que la photo qu'il accompagne, mais avec l'extension xmp dans son nom.
+Une autre forme de marquage a été développée, pour la norme XMP, qui consiste à écrire un fichier contenant les métadonnées "à côté" de chaque photo. On nomme ce fichier "sidecar" ou "compagnon". Il porte le même nom que la photo qu'il accompagne, mais avec l'extension XMP dans son nom.
 
-On peut aussi trouver les termes "fichier annexe" ou "fichier xmp externe". J'emploierai ici surtout le mot "sidecar". La méthode est surtout adaptée aux photos au format RAW (NEF CR2 MRW ORF ...), car ces formats ne supportent pas toujours les métadonnées intégrées.
+On peut aussi trouver les termes "fichier annexe" ou "fichier XMP externe". J'emploierai ici surtout le mot "sidecar". La méthode est surtout adaptée aux photos au format RAW (NEF, CR2, MRW, ORF, etc), car ces formats ne supportent pas toujours les métadonnées intégrées.
 
-On est donc obligés d'utiliser des fichiers sidecar si on veut avoir des métadonnées personnelles avec ce type de formats d'images (presque obligés ; xnviewmp version V0.89 peut écrire des métadonnées xmp dans les photos au format ORF de mon Olympus, je ne sais pas si c'est raisonnable). Pour revenir aux fichiers JPG, en fait on a le choix, et on peut parfaitement utiliser aussi les fichiers sidecar.
+On est donc obligés d'utiliser des fichiers sidecar si on veut avoir des métadonnées personnelles avec ce type de formats d'images (presque obligés, XnViewMP version V0.89 peut écrire des métadonnées XMP dans les photos au format ORF de mon Olympus, je ne sais pas si c'est raisonnable). Pour revenir aux fichiers JPG, en fait on a le choix et on peut parfaitement utiliser aussi les fichiers sidecar.
 
-Certains utilisateurs considèrent d'ailleurs qu'il est moins "risqué" d'y mettre les métadonnées, sans toucher au fichier image original, et que c'est une solution d'avenir. D'autres, comme moi, pensent qu'il est plus simple d'embarquer les métadonnées dans les fichiers image jpg, et qu'il y a moins de risque de les égarer.
+Certains utilisateurs considèrent d'ailleurs qu'il est moins "risqué" d'y mettre les métadonnées, sans toucher au fichier image original, et que c'est une solution d'avenir. D'autres, comme moi, pensent qu'il est plus simple d'embarquer les métadonnées dans les fichiers image JPG et qu'il y a moins de risque de les égarer.
 
-Autre choix à faire, certains photographes stockent les images jpg et raw dans le même dossier, et souhaitent associer un fichier compagnon aux deux! Pour les distinguer, ils sont donc obligés de nommer ces 4 fichiers sur le modèle suivant:
+Autre choix à faire, certains photographes stockent les images JPG et RAW dans le même dossier et souhaitent associer un fichier compagnon aux deux! Pour les distinguer, ils sont donc obligés de nommer ces 4 fichiers sur le modèle suivant:
 - Image : DSC00001.JPG et compagnon DSC00001.JPG.XMP;
 - Image : DSC00001.RAW et compagnon DSC00001.RAW.XMP.
-- 
+
 D'où la présence d'une option de nommage -avec ou -sans extension, dans les paramètres de métadonnées de XnViewMP.
 
-Outils Options Catalogue
-Figure 33 Paramètres de métadonnées
+![Paramètres des métadonnées](/tutoriel/xnvmp44.png)
 
 ### Comment sont liés un fichier image et son sidecar
 
 Le "lien" entre ces deux fichiers n'existe que si un critère peut être utilisé pour cela : c'est en principe le nom du fichier qui est commun aux deux. On a donc une image, nommée par exemple DSCN00222.MRW, et un fichier sidecar DSCN00222.XMP qui contient des métadonnées XMP de cette image.
 
-Je crois savoir qu'un logiciel de chez Adobe "gère" ces deux fichiers comme un ensemble indissociable; ce n'est pas le cas de XnviewMP, ni de Windows. En fait, rien ne lie ces deux fichiers si ce n'est la méthode utilisée par le logiciel (et la personne qui l'utilise). Mais j'ai lu quelque part que Adobe Bridge serait sensible aux éventuelles différences de dates entre la photo et son sidecar.
+Je crois savoir qu'un logiciel de chez Adobe "gère" ces deux fichiers comme un ensemble indissociable; ce n'est pas le cas de XnViewMP, ni de Windows. En fait, rien ne lie ces deux fichiers si ce n'est la méthode utilisée par le logiciel (et la personne qui l'utilise). Mais j'ai lu quelque part que Adobe Bridge serait sensible aux éventuelles différences de dates entre la photo et son sidecar.
 
 Plus généralement, tout logiciel qui exploite ces fichiers fait le lien entre l'image et le sidecar uniquement parce-qu'ils portent le même nom. Ce qui ouvre la possibilité de fabriquer des fichiers sidecar en partant de photos jpg, puis de les déplacer vers un dossier contenant des photos RAW ayant les mêmes noms.
 
-Il y a eu pas mal d'évolutions dans la gestion des fichiers Sidecar depuis la version V0.91 de XnViewMp, et je n'ai pas forcément tout testé. Il y a des réglages à faire dans la partie basse de la fenêtre Outils, Paramètres, Liste fichiers, pour lier les fichiers images à leur compagnon, ou l'afficher:
+Il y a eu pas mal d'évolutions dans la gestion des fichiers Sidecar depuis la version V0.91 de XnViewMP, et je n'ai pas forcément tout testé. Il y a des réglages à faire dans la partie basse de la fenêtre Outils, Paramètres, Liste fichiers, pour lier les fichiers images à leur compagnon, ou l'afficher:
 
-Outils Options Catalogue
-Figure 34 Paramètres de gestion des fichiers sidecar
+![Paramètres de gestion des fichiers sidecar](/tutoriel/xnvmp43.png)
 
 Par défaut, la case "Montrer les fichiers compagnons" est cochée, ce qui me convient bien. Le fait de lier les deux fichiers consiste seulement à indiquer à XnViewMP si les manipulations faites sur l'un des deux fichiers doivent être faites également sur l'autre. Le lien n'existe donc que dans le fonctionnement de XnViewMP, et pas dans le disque dur où sont stockés les fichiers.
 
@@ -44,9 +42,7 @@ Par défaut, la case "Montrer les fichiers compagnons" est cochée, ce qui me co
 
 Il n'y a pas de paramétrage spécifique pour que XnViewMP lise les fichiers sidecar. Il le fait de la même façon que l'importation des mots clés intégrés aux photos, avec les mêmes options (importer les mots clés XMP ou IPTC dans les catégories DB) et avec le bouton "Import folder" de l'écran Outils, Paramètres, Catalogue.
 
-Il y a un petit bug, pour les fichiers sidecar la fonction "mise à jour du catalogue avec les fichiers" du menu Afficher ne fonctionne pas en V0.89, c'est à dire que cette fonction "ne lit pas" les fichiers sidecar. Apparemment le browser ne le fait pas à tous les coups non plus. Pour contourner le problème, utilisez le bouton "Import folder" (Outils, Paramètres, Catalogue), au besoin en ayant au préalable "Effacé" ce dossier dans le même tableau.
-
-A l'inverse, en V0.90 le bouton Import folder semble ne pas fonctionner à tous les coups. A partir de V0.90 on peut sélectionner le lot de fichiers dans le browser et utiliser la fonction "Mise à jour du catalogue avec les fichiers" du menu Afficher.
+À partir de V0.90 on peut sélectionner le lot de fichiers dans le browser et utiliser la fonction `Mise à jour du catalogue avec les fichiers` du menu Afficher.
 
 ### Affichage des métadonnées des fichiers sidecar
 
@@ -57,15 +53,15 @@ Les données XMP contenues dans ce type de fichier sont affichées de la façon 
 - les mots clés, notations et labels sont dans le catalogue, donc sont exploitables via le filtre des catégories, ce qui permet de s'assurer que les photos concernées sont bien marquées;
 - les notations et labels peuvent aussi être visualisés par des petits pictogrammes au-dessus des vignettes. (Outils, Paramètres, (explorateur), Vignettes, Superposition des icônes).
 
-### Paramètres de xnviewmp pour l'écriture des fichiers sidecar
+### Paramètres de XnViewMP pour l'écriture des fichiers sidecar
 
-L'option qui permet de paramétrer xnviewmp pour provoquer l'écriture de fichiers sidecar est située dans l'écran "Outils, Paramètres, Métadonnées" (voir plus haut la figure 33) "Mise à jour ou création du sidecar XMP". Cette option est indépendante des deux situées au-dessus, qui agissent sur les métadonnées intégrées aux photos. Si cette option est cochée, le fait d'affecter une catégorie à une photo va provoquer la création d'un fichier sidecar contenant les mots clés correspondants.
+L'option qui permet de paramétrer XnViewMP pour provoquer l'écriture de fichiers sidecar est située dans l'écran "Outils, Paramètres, Métadonnées" (voir plus haut la figure 33) "Mise à jour ou création du sidecar XMP". Cette option est indépendante des deux situées au-dessus, qui agissent sur les métadonnées intégrées aux photos. Si cette option est cochée, le fait d'affecter une catégorie à une photo va provoquer la création d'un fichier sidecar contenant les mots clés correspondants.
 
 Il y a deux formes possibles pour nommer les fichiers sidecar, l'extension .xmp va remplacer, ou s'ajouter à l'extension de nom du fichier image. Dans ce même écran, deux options supplémentaires permettent d'exporter note et libellé de couleur dans les fichiers sidecar. Lire le chapitre 9 pour plus de détails sur ces métadonnées et leur utilisation.
 
-A ce jour, XnViewMp est capable de lire et écrire les mots clés XMP, les mots clés hiérarchisés lightroom, les notations et labels.
+A ce jour, XnViewMP est capable de lire et écrire les mots clés XMP, les mots clés hiérarchisés lightroom, les notations et labels.
 - mots clés xmp-dc:Subject et xmp-lr:HierarchicalSubject (les deux types de mots clés XMP);
-- notation XMP:XMP-xmp:Rating et XMP:XMP-microsoft:RatingPercent (l'ancienne métadonnée exif n'est pas gérée par xnviewmp);
+- notation XMP:XMP-xmp:Rating et XMP:XMP-microsoft:RatingPercent (l'ancienne métadonnée exif n'est pas gérée par XnViewMP);
 - couleur XMP:XMP-xmp:label (ou plus simplement xmp:label).
 
 Les autres métadonnées (titre, légende, ville, copyright) n'étaient gérées par XnViewMP dans les fichiers sidecar jusqu'en V0.91. Depuis la V0.92, il y a une nouvelle fenêtre "Outils, Métadonnées, Editer XMP" qui, par exception, va utiliser le paramètre Sidecar que vous avez coché ici.
@@ -94,18 +90,17 @@ Ces photos raw doivent avoir leurs mots clés, au même titre que les jpg, mais 
 
 J'entre mes mots clés en une seule étape dans les photos JPG, simultanément en IPTC + XMP + XMP Sidecar. Puis je déplace mes fichiers XMP sidecar vers le dossier d'archivage des versions RAW. Résultat, mes photos JPG ont leurs métadonnées intégrées, et mes photos RAW ont leur sidecar XMP à leur côté.
 
-Notez cependant que dans le catalogue de xnviewmp, le lien entre les catégories et les images n'existe que pour les photos JPG. A ce stade, il faut choisir entre les JPG et les RAW si vous ne voulez pas que le catalogue contienne tout en double.
+Notez cependant que dans le catalogue de XnViewMP, le lien entre les catégories et les images n'existe que pour les photos JPG. A ce stade, il faut choisir entre les JPG et les RAW si vous ne voulez pas que le catalogue contienne tout en double.
 
-Deuxième astuce, destinée à inscrire dans les sidecar, pour les fichiers JPG, d'autres métadonnées que celles gérées par xnviewmp. Désormais, cette astuce ne servira que pour des mises à jour d'anciens fichiers Sidecar. En Effet, XnViewMP intègre depuis la V0.92 l'écriture de toutes les métadonnées dans les sidecar.
+Deuxième astuce, destinée à inscrire dans les sidecar, pour les fichiers JPG, d'autres métadonnées que celles gérées par XnViewMP. Désormais, cette astuce ne servira que pour des mises à jour d'anciens fichiers Sidecar. En Effet, XnViewMP intègre depuis la V0.92 l'écriture de toutes les métadonnées dans les sidecar.
 
-L'astuce consiste à utiliser Exiftool, utilitaire présent dans le dossier AddOn d'installation de xnviewmp.
+L'astuce consiste à utiliser Exiftool, utilitaire présent dans le dossier AddOn d'installation de XnViewMP.
 Il faut tout d'abord paramétrer la fonction "Ouvrir avec ..." dans XnViewMP, pour pouvoir "appeler" Exiftool avec les bons réglages.
 Sélectionnez une image, puis avec un clic-droit, choisissez "Ouvrir avec" puis "Configurer les programmes"
 
-Ouvrir avec...
-Figure 35
+![Ouvrir avec...](/tutoriel/xnvmp35.png)
 
-Cliquez "Ajouter", parcourez vos dossiers pour atteindre le dossier "Xnviewmp\AddOn" , sélectionnez exiftool et cliquez "ouvrir".
+Cliquez "Ajouter", parcourez vos dossiers pour atteindre le dossier "XnViewMP\AddOn" , sélectionnez exiftool et cliquez "ouvrir".
 Une nouvelle ligne se crée dans le tableau, double cliquez dans la première colonne pour y mettre un nom, par exemple "Exiftool sidecar"
 Double-cliquez dans la deuxième colonne et écrivez -o %d%f.xmp -xmp -k ou bien -o %d%f.xmp -xmp:all -k
 Cliquez OK.

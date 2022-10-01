@@ -12,7 +12,7 @@ La fonction de visionneuse est assez intuitive, et la retouche, qui un est vaste
 
 ### Téléchargement et installation
 
-Je suggère de télécharger XnViewMP en version portable (c'est à dire au format zip) et de le dézipper dans un dossier autre que les "program files" de Windows. Paramétrez XnViewMP pour qu'il enregistre tous ses réglages au même endroit, ça facilitera les sauvegardes, les changements de version et les réinstallations. Pour cela, passez dans le menu `Outils, Paramètres, Rubrique Intégration, onglet Chemins`, et dans chaque menu déroulant sélectionnez l'emplacement `Programme (Xnview)` ou `personnalisé`. Pour choisir la langue (Français) de XnViewMp, passez dans le menu `Outils, Paramètres, Général` (`Tools, Settings, General, Language`).
+Je suggère de télécharger XnViewMP en version portable (c'est à dire au format zip) et de le dézipper dans un dossier autre que les "program files" de Windows. Paramétrez XnViewMP pour qu'il enregistre tous ses réglages au même endroit, ça facilitera les sauvegardes, les changements de version et les réinstallations. Pour cela, passez dans le menu `Outils, Paramètres, Rubrique Intégration, onglet Chemins`, et dans chaque menu déroulant sélectionnez l'emplacement `Programme (Xnview)` ou `personnalisé`. Pour choisir la langue (Français) de XnViewMP, passez dans le menu `Outils, Paramètres, Général` (`Tools, Settings, General, Language`).
 
 ### Métadonnées
 
@@ -38,7 +38,7 @@ Cette méthode peut être utilisée pour les photos au format JPG, mais XnViewMP
 
 Quant aux données EXIF, il n'y a pas beaucoup d'interventions possibles sur leur contenu, qui est essentiellement constitué des données techniques enregistrées par l'appareil photo au moment de la prise de vue. Quelques champs ont été utilisés par le passé (commentaires, mots clés, notation, etc), mais je considère qu'ils sont obsolètes.
 
-Il reste à notre disposition, dans ce groupe exif, les données de géolocalisation GPS, les dates et heures des photos et la balise orientation. Pour éventuellement intervenir sur ces données, on utilsera les menus textuels en haut de la fenêtre de XnviewMP, je donnerai quelques indications dans différents chapitres.
+Il reste à notre disposition, dans ce groupe exif, les données de géolocalisation GPS, les dates et heures des photos et la balise orientation. Pour éventuellement intervenir sur ces données, on utilsera les menus textuels en haut de la fenêtre de XnViewMP, je donnerai quelques indications dans différents chapitres.
 
 ### Système
 
@@ -56,7 +56,7 @@ Pour gérer ces métadonnées dans les images JPG, XnViewMP n'utilise pas Exifto
 
 En voici une liste partielle, je n'ai mis ici que les champs couramment utilisés par des particuliers:
 
-Légende...
+![Métadonnées classiques](/tutoriel/xnview1.png)
 
 ### Les catégories
 

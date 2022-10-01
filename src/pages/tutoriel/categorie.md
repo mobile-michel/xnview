@@ -14,8 +14,7 @@ Nous avons vu dans le chapitre précédent le paramétrage à appliquer `Outils,
 
 J'ouvre une parenthèse importante sur la méthode décrite dans le chapitre 3: si vous le souhaitez, vous pouvez commencer à saisir vos premiers mots-clés dans l'écran `Editer les métadonnées` (Ctrl+i) sans utiliser le panneau de catégories. Il faut alors cocher la première option de métadonnées `Importer les mots-clés XMP ou IPTC dans les catégories` qu'on a vue au chapitre précédent:
 
-Outils Options métadonnées
-Figure 14
+![Importer les mots-clés XMP ou IPTC dans les catégories](/tutoriel/xnvmp04b.png)
 
 De cette façon, des catégories vont se créer automatiquement. Mais il est difficile de créer des véritables hiérarchies par cet écran de saisie sans artifices. Décochez donc cette première option pour passer à la suite et on n'utilisera plus la fenêtre d'édition IPTC/XMP pour les mots-clés, mais seulement le panneau `Catégories`.
 
@@ -37,8 +36,9 @@ Elle permet d'affecter des catégories aux photos et de construire l'organisatio
 
 Souvenez-vous que chaque mot présent dans cette liste de catégories est un mot-clé et doit être unique et précis. Evitez les mots "divers" ou "autres", écrivez par exemple "autre_reptile". Pas d'inquiétude excessive cependant, il sera toujours possible de remplacer une catégorie ou un mot-clé par un autre ultérieurement.
 
-Categories
-Figure 15 illustration des principales fonctions accessibles dans le volet des catégories.
+![Illustration des principales fonctions accessibles dans le volet des catégories](/tutoriel/xnvmp13.png)
+
+_Illustration des principales fonctions accessibles dans le volet des catégories_
 
 Repérez bien la petite flèche pointe en bas qui donne accès au menu des catégories que je détaillerai plus loin. Il y a à côté un bouton à trois petits points qui permet de déplier et replier l'ensemble des sous-catégories.
 
@@ -56,8 +56,9 @@ Donc, vous avez sélectionné une ou plusieurs photos et vous cliquez dans la ca
 
 Il y a d'autres façons de faire qui sont utiles si vous avez des centaines de catégories, mais ce sera précisé dans les paragraphes "Mode de recherche" et suivants, un peu plus bas. Vous pouvez aussi utiliser le bouton `Catégories` de la barre d'outils pour affecter des catégories à vos photos, c'est parfois plus commode.
 
-Categories
-Figure 16 Les catégories
+![Les catégories](/tutoriel/xnvmp14.png)
+
+_Les catégories_
 
 Si, dans les paramètres `Outils, Paramètres, Métadonnées` vous avez choisi d'affecter les catégories "parent" (6e option) vous verrez que le fait de cocher "moineau" va cocher automatiquement "oiseau" et "animal". Si, dans les paramètres, vous avez choisi la 2e option `exporter les catégories vers les mots clés (IPTC et XMP)`, eh bien votre photo contient désormais les mots-clés IPTC:keywords animal, oiseau, moineau et XMP-dc:subject(1) animal, subject(2) oiseau et subject(3) moineau.
 
@@ -74,8 +75,9 @@ Attention, pour que la correspondance entre les catégories affectées et les mo
 
 Les trois paragraphes qui suivent décrivent des réglages et options qui concernent l'utilisation des catégories. On accède à ces choix dans XnViewMP via le menu des catégories (la petite flèche blanche pointe en bas située à droite de la case de saisie de catégorie).
 
-Categories
-Figure 17 Menu des catégories
+![Menu des catégories](/tutoriel/xnvmp07.png)
+
+_Menu des catégories_
 
 ### Menu des catégories, mode de recherche
 
@@ -108,15 +110,17 @@ Vous allez pouvoir créer quelques groupes, par exemple "famille", "nature", "pa
 
 Cliquez sur le bouton `Gestion`, puis dans la fenêtre qui apparaît, cliquez sur `Ajouter un groupe`, disons "Nature". Dans la case `Recherche de catégorie`, tapez quelques lettres pour obtenir des suggestions de catégories parmi vos catégories existantes. Par exemple, tapez fle pour pouvoir cliquer "fleurs", puis ois pour oiseau, chat, arbre etc.
 
-Categories sets
-Figure 17b Gestion des groupes de catégories.
+![Gestion des groupes de catégories](/tutoriel/xnvmp53.png)
+
+_Gestion des groupes de catégories_
 
 Remarquez qu'un onglet s'ajoute dans cette fenêtre pour chaque groupe de catégories que vous créez. A la fin validez avec OK.
 
 Voilà, une rubrique "Nature" est disponible dans le panneau `Groupes de catégories`. "Dépliez" ce groupe en cliquant la petite flèche triangulaire, les boutons correspondants aux catégories sont maintenant accessibles.
 
-Categories sets
-Figure 17c Groupes de catégories.
+![Groupes de catégories](/tutoriel/xnvmp54.png)
+
+_Groupes de catégories_
 
 Sélectionnez une image, faites un clic sur le bouton "Chat" et si vous gérez les catégories parentes, les catégories Animal, Mammifère, Félidé, Chat sont aussitôt affectés à cette image. Et selon vos réglages de métadonnées, les mots-clés correspondants s'inscrivent dans les photos.
 
@@ -147,8 +151,9 @@ Repliez les autres groupes, et dépliez le groupe "Champignons" avec tous les mo
 
 Dans l'onglet `Filtre Catégories` à gauche de l'écran principal près de l'onglet `Dossiers`, vous visualisez la hiérarchie des catégories, avec le nombre de photos par catégories.
 
-Categories filtrage
-Figure 18 Le filtre de catégories
+![Le filtre de catégories](/tutoriel/xnvmp05.png)
+
+_Le filtre de catégories_
 
 Et là, en cliquant sur une catégorie, XnViewMP affiche les photos correspondantes dont le nombre est précisé entre parenthèses. C'est prodigieux! En utilisant le filtre de catégories, vous allez pouvoir regarder vos photos par thèmes, vous pourrez retrouver une photo parmi des milliers.
 
@@ -160,8 +165,9 @@ Je détaille maintenant les diverses options et méthodes de filtrage.
 
 Tout en haut de la zone `Filtre de catégories`, il y a un menu dont l'intitulé `Correspond` va vous permettre d'ajuster vos critères de recherche.
 
-Options de filtrage
-Figure 19 Les options de filtrage
+![Les options de filtrage](/tutoriel/xnvmp05b.png)
+
+_Les options de filtrage_
 
 Notez d'abord que vous pouvez sélectionner plusieurs catégories, en les cliquant en combinaison avec la touche Ctrl de votre clavier. Par défaut, XnViewMP va afficher l'addition des photos de toutes les catégories sélectionnées, c'est à dire qu'il s'agit d'un `OU`. En effet, dans le menu `Correspond`, la valeur `N'importe lequel` est cochée par défaut, c'est donc les photos correspondant à n'importe lequel des critères qui seront affichées.
 
@@ -173,8 +179,9 @@ Il y a une option qui perturbe l'usage du Control-Clic, c'est `Outils, Paramètr
 
 Si on a choisi `Tous` dans le menu `Correspond`, le résultat est presque toujours vide (c'est rare qu'un insecte soit à la fois coléoptère ET papillon). Soit vous désélectionnez les sous-catégories pour arriver au résultat, soit, et c'est le plus simple, vous décochez l'option en question quand vous utilisez les filtres de catégories.
 
-Options de filtrage
-Figure 20
+![Options de filtrage](/tutoriel/xnvmp05c.png)
+
+_Options de filtrage_
 
 Les trois autres options de la figure 19 définissent sur quel ensemble de photos vous souhaitez réaliser cette recherche:
 - global, c'est sur l'ensemble des photos qui sont présentes dans la base de données;
@@ -207,8 +214,9 @@ Le filtre de catégories de personnes est très restreint dans son fonctionnemen
 
 Dans le début de la zone `Filtre des catégories`, il y a la possibilité de rechercher ou filtrer des photos en utilisant ces deux types de marquages, de la même façon que les autres catégories. C'est à dire qu'on peut les utiliser séparément ou combinées avec d'autres catégories (avec Ctrl+clic), pour affiner votre recherche. Cette combinaison repose sur un `ET` logique: on recherche des photos d'une catégorie ET marquées par étoiles ou couleurs (le menu "correspond" ne s'applique qu'aux catégories).
 
-Rechercher
-Figure 21. Filtre catégories
+![Filtre catégories](/tutoriel/xnvmp28.png)
+
+_Filtre catégories_
 
 Il reste un bug décrit en fin de chapitre 9 si vous combinez des critères (étoiles, couleurs, catégories). Vous trouvez plus de précisions sur ces méthodes complémentaires de marquage par notes ou par couleurs dans le chapitre 9.
 
@@ -240,7 +248,7 @@ Les filtrages et tris utilisant les boutons de la barre d'outils sont décrits a
 
 ### La fonction Rechercher
 
-Celle-ci est accessible de quatre façons: dans le menu `Outils, Rechercher` ou avec le bouton représentant des jumelles dans la barre d'outils ou encore Ctrl+F. Une autre possibilité, dans la zone d'affichage des dossiers, avec un clic-droit sur un nom de dossier, cliquez `Rechercher`, ce qui préselectionne ce dossier pour la recherche. J'ai déplacé cette section, car elle est extrêmement riche, allez vite voir comment utiliser cette fonction dans le chapitre 11R.
+Celle-ci est accessible de quatre façons: dans le menu `Outils, Rechercher` ou avec le bouton représentant des jumelles dans la barre d'outils ou encore Ctrl+F. Une autre possibilité, dans la zone d'affichage des dossiers, avec un clic-droit sur un nom de dossier, cliquez `Rechercher`, ce qui préselectionne ce dossier pour la recherche. J'ai déplacé cette section, car elle est extrêmement riche, allez vite voir comment **utiliser cette fonction** dans le chapitre 11R.
 
 ### Conseils divers
 
@@ -264,10 +272,11 @@ Dans `Outils, Paramètres, Interface, Raccourcis`, on peut modifier ce Ctrl+o s'
 
 ## Gestion et paramétrage des Catégories
 
-Clic-droit sur une catégorie: 7 options pour gérér vos catégories. Dans la figure ci-dessous, on voit les 7 choix possibles obtenus par un clic-droit sur une catégorie.
+Clic-droit sur une catégorie: 7 options pour gérer vos catégories. Dans la figure ci-dessous, on voit les 7 choix possibles obtenus par un clic-droit sur une catégorie.
 
-Categories
-Figure 27
+![Options pour gérer les catégories](/tutoriel/xnvmp13b.png)
+
+_Options pour gérer les catégories_
 
 Les deux premiers choix, nouvelle catégorie et nouvelle sous-catégorie ne posent aucun problème, vous pouvez y aller à fond. Mais pour les autres actions, il faut savoir que les modifications faites ici ne seront pas répercutées automatiquement dans les métadonnées.
 
@@ -324,13 +333,15 @@ Ce menu n'est pas évident à trouver: c'est la flèche qui pointe en bas, sous 
 
 XnViewMP a une fonction d'exportation (et importation) des catégories vers un fichier texte qui est très pratique. Il s'agit d'exporter uniquement les libellés des catégories, ce qui équivaut au dictionnaire de mots clés (et non pas l'ensemble du contenu des catégories). Distinguez bien ce type d'importation/exportation de celui qui sera décrit au paragraphe suivant, qui justement gère le "contenu" des catégories.
 
-Gestion categories
-Figure 28
+![Gestion des catégories](/tutoriel/xnvmp07.png)
+
+_Gestion des catégories_
 
 Cliquez sur `Gestion des catégories`, puis `Exporter fichier de catégories`. Vous obtiendrez un fichier texte de ce genre:
 
-Categories
-Figure 29 Fichier texte exporté
+![Fichier texte exporté](/tutoriel/xnvmp15.png)
+
+_Fichier texte exporté_
 
 Ce fichier va vous aider à choisir vos mots-clés, à les repenser, les mémoriser, les réorganiser éventuellement. Faites de temps en temps un export quand vos catégories ont évolué et imprimez les pour l'avoir sous les yeux.
 
@@ -354,8 +365,10 @@ Vérifiez aussi si des catégories existantes entrent en conflit avec celles que
 
 Cette fonction permet, à partir de la base de données, d'exporter un fichier XML contenant un enregistrement pour chaque photo qui a des catégories affectées, ainsi que l'emplacement précis de chaque photo. Ca n'a rien à voir avec l'exportation des noms de catégories qu'on vient de voir au paragraphe précédent. Le choix de l'intitulé `Catégories Fichiers` n'est pas très judicieux car il faudrait bien distinguer cette forme d'export de celle qui est décrit dans le paragraphe précédent (fig 29).
 
-Categories Categories Export
-Figure 30a , 30b Catégories fichiers, Exporter
+![Catégories fichiers, Exporter](/tutoriel/xnvmp20.png)
+![Catégories fichiers, Exporter](/tutoriel/xnvmp20b.png)
+
+_Catégories fichiers, Exporter_
 
 Il s'agit d'une forme de sauvegarde de la base de données de XnViewMP ("le catalogue" qui est décrit au chapitre suivant), du moins si vous avez utilisé les catégories pour entrer les mots-clefs. Ce fichier exporté comporte de nombreux intérêts:
 - il contient les informations qui font le lien entre les catégories et les photos;
@@ -373,9 +386,9 @@ Elle implique que tous les fichiers et dossiers existants dans le catalogue soie
 
 Voici un extrait du contenu d'un fichier exporté dans lequel vous voyez le lien entre les images et leurs mots-clés:
 
-Categories Export
+![Catégories fichiers, Export](/tutoriel/xnvmp20c.png)
 
-Figure 30c Catégories fichiers, Export
+_Catégories fichiers, Export_
 
 Chaque rubrique `<File>` dans ce fichier contient les informations correspondant à une image:
 - le nom complet du fichier (avec le chemin complet des dossiers ou sous-dossiers);

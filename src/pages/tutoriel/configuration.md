@@ -1,5 +1,5 @@
 ---
-title: 1 - Configuration de l'affichage
+title: Configuration de l'affichage
 description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
@@ -16,8 +16,7 @@ Coller le panneau "Catégories" contre le bord droit, pour qu'il occupe toute la
 
 On obtient pour le moment ce type d'affichage, en ayant sélectionné l'onglet Catégories à droite :
 
-ecran principal
-Figure 1a
+![Onglet Catégories](/tutoriel/xnvmp001.jpg)
 
 Le bouton "Disposition" de la barre d'outils est illsutré sur la figure 1 , il permet de mémoriser les dispositions A, B, C, D, E. Cliquez ce bouton, et enregistrez cette disposition sous le nom "disposition A".
 
@@ -45,10 +44,9 @@ Il est donc maintenant "seul" dans sa zone, muni d'un bandeau, et au premier pla
 
 Maintenant, l'aperçu de la photo est affiché à côté des autres informations, dans une fenêtre indépendante. Ajustez la largeur des colonnes de dossiers et de catégories, puis la hauteur de la zone Informations pour avoir un aperçu confortable. Enregistrez à nouveau cette disposition, (Disposition B par exemple) : ces réglages sont enregistrés dans le fichier xnview.ini et en cas de problème ou de nouvelle installation, vous pourrez retrouver cette disposition d'affichage.
 
-Voici la disposition obtenue
+Voici la disposition obtenue:
 
-ecran principal
-Figure 1b
+![Disposition B](/tutoriel/xnvmp002.jpg)
 
 ## La zone principale, les vignettes et libellés, paramétrage
 
@@ -72,15 +70,11 @@ Depuis la V0.99, les étoiles (notes) et libellés de couleurs ont été ajouté
 
 En ajoutant trop de libellés, vous perdez de la surface d'affichage pour les vignettes. Si vous souhaitez voir beaucoup d'informations, une solution consiste à en mettre une partie dans les info-bulles qui apparaissent au-dessus des vignettes.
 
-Ces info-bulles sont paramétrables dans "Outils, Paramètres, Explorateur", dans le tableau sous l'option "utiliser les info-bulles". J'y ai mis les informations suivantes :
+Ces info-bulles sont paramétrables dans "Outils, Paramètres, Explorateur", dans le tableau sous l'option "utiliser les info-bulles". J'y ai mis les informations suivantes:
 
-{Folder name}
-Taille : {Width}x{Height} - {Size KB} K
-Date Exif : {EXIF:Date taken [d/m/Y]}
-Date modif : {Modified Date [d/m/Y]}
-Ville : {IPTC:City} ({IPTC:State})
-GPS : {EXIF:Latitude}{EXIF:Latitude Ref} {EXIF:Longitude}{EXIF:Longitude Ref}
-ce qui me permet de retrouver des infos qui me sont utiles dans diverses situations (le nom de dossier après une recherche, et les infos de localisation).
+![Info bulles](/tutoriel/xnview2.png)
+
+Ce qui me permet de retrouver des infos qui me sont utiles dans diverses situations (le nom de dossier après une recherche, et les infos de localisation).
 
 Dans ces info-bulles, on est beaucoup moins limité en espace ! Comme pour les libellés, on peut ici aussi afficher quelques informations XMP, bien qu'elles ne soient pas proposées dans les listes de choix. Il suffit d'écrire ou de modifier manuellement le champ souhaité; exemple : {XMP:City}.
 
@@ -118,13 +112,11 @@ Dans Outils, Paramètres, Interface, Souris, j'ai opté pour "zoom avant/arrièr
 
 Il est possible d'obtenir temporairement l'affichage des photos des sous-dossiers : faites un clic-droit sur un nom de dossier dans le volet des dossiers et cliquez "Voir tous les fichiers, récursif" (à partir de V0.94, il y a aussi le menu "Afficher, voir les fichiers des sous-dossiers"). Et enfin, j'ai choisi un thème d'affichage gris neutre (Afficher, Thème, Thème sombre).
 
-ecran principal
-Figure 1c
+![Thème d'affichage](/tutoriel/xnvmp10.png)
 
 Pendant votre travail de marquage de photos, vous pouvez basculer par moments sur un affichage en tableau; passez dans le menu Afficher, Afficher en, Détails. Cette fonction est aussi accessible avec le bouton "Afficher en" et son menu déroulant, situé juste à côté du curseur de réglage de taille des vignettes.
 
-ecran principal
-Figure 2a
+![Affichage en tableau](/tutoriel/xnvmp10b.png)
 
 Vous obtenez un grand tableau affichant la plupart des métadonnées IPTC de vos photos. En cliquant dans les en-têtes de colonnes, vous pouvez les déplacer, les élargir, trier le contenu en ordre croissant ou décroissant etc.
 Avec un clic-droit sur les en-têtes, vous pouvez diminuer le nombre de colonnes affichées, ou en ajouter. Retrouvez ensuite l'affichage normal en remettant dans le menu Afficher, Afficher en, Vignettes + libellés. Une possibilité d'affichage qui conserve ces en-têtes de colonnes est très intéressante, elle est décrite dans le chapitre 11C, c'est l'option "Voir l'en-tête".
@@ -133,8 +125,7 @@ Souvent dans cette page, j'utilise le mot "browser" pour désigner cet écran pr
 
 Une fonction importante et peu visible, "Voir les fichiers des sous-dossiers", consiste à afficher toutes les images des sous-dossiers du dossier actuellement affiché. Cette fonction est accessible soit par un bouton de la barre d'outils :
 
-fichiers des sous-dossiers
-Figure 2b
+![Voir les fichiers des sous-dossiers](/tutoriel/xnvmp10c.png)
 
 ...soit en faisant un clic-droit sur le nom du dossier considéré, et en cliquant sur "Voir tous les fichiers (récursif)". A partir de V0.94, il y a aussi le menu "Afficher, Voir les fichiers des sous-dossiers". Ce type d'affichage récursif est indispensable pour travailler sur un ensemble d'images dispersées dans divers sous-dossiers, mais il n'est pas permanent, il faut le relancer en cas de besoin.
 
@@ -146,8 +137,7 @@ Un outil déjà présent (dans la liste de droite) peut être supprimé (flèche
 
 Notez qu'il y a deux instances de la barre d'outils, l'une dans le mode "explorateur", l'autre dans le mode "image" quand une image est ouverte dans un onglet. Si vous avez modifié plein de choses dans les barres d'outils, il peut être utile d'enregistrer ces réglages, utilisez le bouton "Enregistrer" en haut à droite.
 
-barre d'outils
-Figure 2c
+![Modifier la barre d'outils](/tutoriel/xnvmp46.png)
 
 On peut également ajouter une "commande" dans la barre d'outils. Cette fonctionnalité vous permet de créer un bouton pour lancer un programme extérieur à XnViewMP. Après avoir fait passer l'intitulé "COMMANDE" dans la liste de droite, les trois boutons du bas (Commande, Libellé et Icône) vont permettre de faire le paramétrage.
 
@@ -163,15 +153,13 @@ L'aperçu est maintenant indépendant, en bas de l'écran. Posez-le en bas à dr
 
 L'avantage de cette disposition est de laisser plus d'espace aux vignettes, et une surface plus grande pour l'aperçu, surtout pour les photos verticales. Enregistrez cette dispostion en "disposition C" via la barre d'outils.
 
-disposition7
-Figure 2d
+![Disposition 7](/tutoriel/xnvmp47.png)
 
 ## Symboles affichés sur les vignettes
 
 Il y a des options qui vous permettent d'afficher plusieurs symboles autour des vignettes. Ces options sont regroupées dans l'écran "Outils, Paramètres, Explorateur" et une sous-rubrique "Vignette". Une image valant mieux que de longs discours, vous trouverez dans la figure ci-dessous une illustration des différentes fonctionnalités.
 
-affichage symboles
-Figure 2e
+![Symboles affichés sur les vignettes](/tutoriel/xnvmp100.jpg)
 
 Dans l'onglet libellés, vous définissez ce qui est affiché sous chaque vignette. Dans l'onglet superposition des icônes sont précisés l'affichage des symboles en bas à droite, et les marquages, étoiles, couleurs en haut à gauche.
 
@@ -179,11 +167,7 @@ Il y a également la bannière jaune qui indique que la photo est reliée à au 
 
 J'attire l'attention sur deux symboles discrets, le "GPS" qui s'affiche quand la photo contient des coordonnées, et le symbole avec une flèche tournante qui indique que l'image a été tournée automatiquement pour l'affichage (en lisant la balise EXIF rotation).
 
-Pour augmenter la visibilité des icônes, vous pouvez les coloriser. Pour cela, créez d'abord un dossier "icons" dans le dossier de XnviewMP; puis copiez dedans une image nommée info.png . Cette image doit respecter la taille et la forme du modèle ci-dessous, que je donne à titre d'exemple.
-
-## Icones colorées
-
-Vous pouvez donc copier cette petite image, la modifier si besoin, et l'utiliser. Avec ces couleurs, on voit tout de suite les images ayant des données GPS.
+Pour augmenter la visibilité des icônes, vous pouvez les coloriser. Pour cela, créez d'abord un dossier "icons" dans le dossier de XnViewMP; puis copiez dedans une image nommée info.png . Cette image doit respecter la taille et la forme du modèle ci-dessous, que je donne à titre d'exemple. Vous pouvez donc copier cette petite image, la modifier si besoin, et l'utiliser. Avec ces couleurs, on voit tout de suite les images ayant des données GPS.
 
 ## Le mode Vue et le mode Plein écran
 

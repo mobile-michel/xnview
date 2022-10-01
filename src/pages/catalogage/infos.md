@@ -55,13 +55,13 @@ A moins d'avoir des critères restreints et fixés (des stocks de pièces détac
 
 C'est beaucoup trop long à réaliser (une par une !). Ce n'est pas assez souple en termes de critères pertinents à y faire figurer, et trop restreint pour apporter des compléments d'information. Ne permet pas facilement des tris multi-critères. Vous risquez de mettre le même nom sur plusieurs photos.
 
-Renommer les photos avec leur date de prise de vue n'apporte pas de bénéfice non plus par rapport à un logiciel de catalogage, la date étant déjà intégrée aux photos. Et si vous souhaitez tout de même renommer vos photos, XnViewMp peut le faire en masse en utilisant des informations existantes ou que vous aurez ajoutées aux photos.
+Renommer les photos avec leur date de prise de vue n'apporte pas de bénéfice non plus par rapport à un logiciel de catalogage, la date étant déjà intégrée aux photos. Et si vous souhaitez tout de même renommer vos photos, XnViewMP peut le faire en masse en utilisant des informations existantes ou que vous aurez ajoutées aux photos.
 
 ### Ecrire sur les images
 
 Que ce soit sur l'image directement, ce qui la déteriore irrémédiablement, ou dans bandeau ajouté sous la photo, là encore cela prend beaucoup de temps. Ça vous amène à éditer une ou plusieurs fois l'image ce qui en dégrade la qualité (inhérente au codage / décodage JPG). Ca ne permet aucune fonction de tri, de classement, de recherche.
 
-Comme pour les renommages, XnViewMp peut automatiser l'ajout d'un texte au bas des photos en recopiant des données existantes (Chapitre 11V du tuto). En résumé, il est bien plus efficace d'associer d'abord des informations aux photos sous forme de métadonnées, comme on va le voir plus loin ; Ensuite, il y a des méthodes simples dans XnViewMP pour automatiser des travaux de titrage, renommages, tris etc.
+Comme pour les renommages, XnViewMP peut automatiser l'ajout d'un texte au bas des photos en recopiant des données existantes (Chapitre 11V du tuto). En résumé, il est bien plus efficace d'associer d'abord des informations aux photos sous forme de métadonnées, comme on va le voir plus loin ; Ensuite, il y a des méthodes simples dans XnViewMP pour automatiser des travaux de titrage, renommages, tris etc.
 
 ## Ranger les photos
 
@@ -140,7 +140,7 @@ Dans XnViewMP, c'est la fonctionnalité "Catégories" qui va permettre d'ajouter
 
 ### Le Browser
 
-La partie centrale de l'écran de XnViewMp, divisée en deux, est nommée "Le Browser". C'est un vilain mot anglais, mais ce mot contient une notion de "traitement" de données que ne reflèterait pas bien le mot "navigateur". De plus, on pourrait comprendre de façon restrictive "le navigateur" comme étant la partie gauche où sont affichés les dossiers, et dans laquelle on navigue.
+La partie centrale de l'écran de XnViewMP, divisée en deux, est nommée "Le Browser". C'est un vilain mot anglais, mais ce mot contient une notion de "traitement" de données que ne reflèterait pas bien le mot "navigateur". De plus, on pourrait comprendre de façon restrictive "le navigateur" comme étant la partie gauche où sont affichés les dossiers, et dans laquelle on navigue.
 
 Donc, les dossiers et sous-dossiers sont affichés à gauche du browser, et les miniatures des photos du dossier actif sont affichées à droite. Il y a une zone "Informations" plus bas qui contient de 3 à 8 onglets selon le contenu de la photo: Propriétés, Histogramme, Exif, IPTC-IIM, XMP, ExifTool, GPS , Aperçu.
 
@@ -154,7 +154,7 @@ C'est le nom donné à la base de données interne de XnViewMP. Quand XnViewMP e
 
 ### Les catégories
 
-Portez une attention particulière à ce mot, car dans d'autres logiciels il a une signification différente. Il a été aussi utilisé pour une métadonnée IPTC&nbsp;: la "catégorie iptc". Cette métadonnée, bien qu'elle ne soit plus utilisée, apparait encore dans quelques cas dans XnviewMP.
+Portez une attention particulière à ce mot, car dans d'autres logiciels il a une signification différente. Il a été aussi utilisé pour une métadonnée IPTC&nbsp;: la "catégorie iptc". Cette métadonnée, bien qu'elle ne soit plus utilisée, apparait encore dans quelques cas dans XnViewMP.
 
 Je précise donc à nouveau, les "catégories" de XnViewMP sont un ensemble de fonctionnalités, en rapport étroit avec les mots-clés, correspondant aussi à des informations du catalogue, donc globalement c'est un outil logiciel pour que vous puissiez gérer facilement vos mots-clés, aussi bien en écriture qu'en filtrage.
 
