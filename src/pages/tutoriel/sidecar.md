@@ -26,21 +26,21 @@ D'où la présence d'une option de nommage -avec ou -sans extension, dans les pa
 
 ### Comment sont liés un fichier image et son sidecar
 
-Le "lien" entre ces deux fichiers n'existe que si un critère peut être utilisé pour cela : c'est en principe le nom du fichier qui est commun aux deux. On a donc une image, nommée par exemple DSCN00222.MRW, et un fichier sidecar DSCN00222.XMP qui contient des métadonnées XMP de cette image.
+Le "lien" entre ces deux fichiers n'existe que si un critère peut être utilisé pour cela: c'est en principe le nom du fichier qui est commun aux deux. On a donc une image, nommée par exemple DSCN00222.MRW, et un fichier sidecar DSCN00222.XMP qui contient des métadonnées XMP de cette image.
 
 Je crois savoir qu'un logiciel de chez Adobe "gère" ces deux fichiers comme un ensemble indissociable; ce n'est pas le cas de XnViewMP, ni de Windows. En fait, rien ne lie ces deux fichiers si ce n'est la méthode utilisée par le logiciel (et la personne qui l'utilise). Mais j'ai lu quelque part que Adobe Bridge serait sensible aux éventuelles différences de dates entre la photo et son sidecar.
 
-Plus généralement, tout logiciel qui exploite ces fichiers fait le lien entre l'image et le sidecar uniquement parce-qu'ils portent le même nom. Ce qui ouvre la possibilité de fabriquer des fichiers sidecar en partant de photos jpg, puis de les déplacer vers un dossier contenant des photos RAW ayant les mêmes noms.
+Plus généralement, tout logiciel qui exploite ces fichiers fait le lien entre l'image et le sidecar uniquement parce-qu'ils portent le même nom. Ce qui ouvre la possibilité de fabriquer des fichiers sidecar en partant de photos JPG, puis de les déplacer vers un dossier contenant des photos RAW ayant les mêmes noms.
 
-Il y a eu pas mal d'évolutions dans la gestion des fichiers Sidecar depuis la version V0.91 de XnViewMP, et je n'ai pas forcément tout testé. Il y a des réglages à faire dans la partie basse de la fenêtre Outils, Paramètres, Liste fichiers, pour lier les fichiers images à leur compagnon, ou l'afficher:
+Il y a eu pas mal d'évolutions dans la gestion des fichiers Sidecar depuis la version V0.91 de XnViewMP, et je n'ai pas forcément tout testé. Il y a des réglages à faire dans la partie basse de la fenêtre `Outils, Paramètres, Liste fichiers`, pour lier les fichiers images à leur compagnon, ou l'afficher:
 
 ![Paramètres de gestion des fichiers sidecar](/tutoriel/xnvmp43.png)
 
-Par défaut, la case "Montrer les fichiers compagnons" est cochée, ce qui me convient bien. Le fait de lier les deux fichiers consiste seulement à indiquer à XnViewMP si les manipulations faites sur l'un des deux fichiers doivent être faites également sur l'autre. Le lien n'existe donc que dans le fonctionnement de XnViewMP, et pas dans le disque dur où sont stockés les fichiers.
+Par défaut, la case `Montrer les fichiers compagnons` est cochée, ce qui me convient bien. Le fait de lier les deux fichiers consiste seulement à indiquer à XnViewMP si les manipulations faites sur l'un des deux fichiers doivent être faites également sur l'autre. Le lien n'existe donc que dans le fonctionnement de XnViewMP et pas dans le disque dur où sont stockés les fichiers.
 
 ### Lecture des fichiers sidecar
 
-Il n'y a pas de paramétrage spécifique pour que XnViewMP lise les fichiers sidecar. Il le fait de la même façon que l'importation des mots clés intégrés aux photos, avec les mêmes options (importer les mots clés XMP ou IPTC dans les catégories DB) et avec le bouton "Import folder" de l'écran Outils, Paramètres, Catalogue.
+Il n'y a pas de paramétrage spécifique pour que XnViewMP lise les fichiers sidecar. Il le fait de la même façon que l'importation des mots clés intégrés aux photos, avec les mêmes options (importer les mots clés XMP ou IPTC dans les catégories DB) et avec le bouton `Import folder` de l'écran `Outils, Paramètres, Catalogue`.
 
 À partir de V0.90 on peut sélectionner le lot de fichiers dans le browser et utiliser la fonction `Mise à jour du catalogue avec les fichiers` du menu Afficher.
 
@@ -48,32 +48,31 @@ Il n'y a pas de paramétrage spécifique pour que XnViewMP lise les fichiers sid
 
 Les données XMP contenues dans ce type de fichier sont affichées de la façon suivante:
 - en sélectionnant le fichier image, l'affichage des données est dans l'onglet XMP de la zone informations (et vous ne pouvez pas les différencier des données xmp intégrées). S'il y a des mots clés XMP, vous voyez les cases cochées correspondantes dans la zone catégories (selon vos options de métadonnées);
-- ou en sélectionnant le fichier XMP lui même, les données XMP sont visibles dans l'aperçu, c'est le plus fiable (pour vérifier avec certitude si des métadonnées existent aussi dans le fichier image, renommez provisoirement le sidecar xmp, et rafraichissez l'affichage)
-- pour que l'aperçu du sidecar fonctionne, dans "Outils, Paramètres, Liste fichiers", dans l'onglet "filtre personnalisé" ligne "Texte" l'extension xmp doit être présente (allez voir la fig 43 et utilisez la fonction "précédent" de votre navigateur pour revenir ici). Vous pouvez aussi double-cliquer le fichier xmp, en général ce type de fichier est associé à une appli Windows comme Bloc-notes ou Notepad++, qui va s'ouvrir pour afficher le contenu du fichier XMP;
+- ou en sélectionnant le fichier XMP lui même, les données XMP sont visibles dans l'aperçu, c'est le plus fiable (pour vérifier avec certitude si des métadonnées existent aussi dans le fichier image, renommez provisoirement le sidecar xmp, et rafraichissez l'affichage);
+- pour que l'aperçu du sidecar fonctionne, dans `Outils, Paramètres, Liste fichiers`, dans l'onglet `Filtre personnalisé` ligne `Texte` l'extension XMP doit être présente (allez voir la fig 43 et utilisez la fonction "précédent" de votre navigateur pour revenir ici). Vous pouvez aussi double-cliquer le fichier XMP, en général ce type de fichier est associé à une appli Windows comme Bloc-notes ou Notepad++, qui va s'ouvrir pour afficher le contenu du fichier XMP;
 - les mots clés, notations et labels sont dans le catalogue, donc sont exploitables via le filtre des catégories, ce qui permet de s'assurer que les photos concernées sont bien marquées;
-- les notations et labels peuvent aussi être visualisés par des petits pictogrammes au-dessus des vignettes. (Outils, Paramètres, (explorateur), Vignettes, Superposition des icônes).
+- les notations et labels peuvent aussi être visualisés par des petits pictogrammes au-dessus des vignettes (`Outils, Paramètres, explorateur, Vignettes, Superposition des icônes`).
 
 ### Paramètres de XnViewMP pour l'écriture des fichiers sidecar
 
-L'option qui permet de paramétrer XnViewMP pour provoquer l'écriture de fichiers sidecar est située dans l'écran "Outils, Paramètres, Métadonnées" (voir plus haut la figure 33) "Mise à jour ou création du sidecar XMP". Cette option est indépendante des deux situées au-dessus, qui agissent sur les métadonnées intégrées aux photos. Si cette option est cochée, le fait d'affecter une catégorie à une photo va provoquer la création d'un fichier sidecar contenant les mots clés correspondants.
+L'option qui permet de paramétrer XnViewMP pour provoquer l'écriture de fichiers sidecar est située dans l'écran `Outils, Paramètres, Métadonnées` (voir plus haut la figure 33) `Mise à jour ou création du sidecar XMP`. Cette option est indépendante des deux situées au-dessus, qui agissent sur les métadonnées intégrées aux photos. Si cette option est cochée, le fait d'affecter une catégorie à une photo va provoquer la création d'un fichier sidecar contenant les mots clés correspondants.
 
 Il y a deux formes possibles pour nommer les fichiers sidecar, l'extension .xmp va remplacer, ou s'ajouter à l'extension de nom du fichier image. Dans ce même écran, deux options supplémentaires permettent d'exporter note et libellé de couleur dans les fichiers sidecar. Lire le chapitre 9 pour plus de détails sur ces métadonnées et leur utilisation.
 
-A ce jour, XnViewMP est capable de lire et écrire les mots clés XMP, les mots clés hiérarchisés lightroom, les notations et labels.
+À ce jour, XnViewMP est capable de lire et écrire les mots clés XMP, les mots clés hiérarchisés Lightroom, les notations et labels.
 - mots clés xmp-dc:Subject et xmp-lr:HierarchicalSubject (les deux types de mots clés XMP);
 - notation XMP:XMP-xmp:Rating et XMP:XMP-microsoft:RatingPercent (l'ancienne métadonnée exif n'est pas gérée par XnViewMP);
 - couleur XMP:XMP-xmp:label (ou plus simplement xmp:label).
 
-Les autres métadonnées (titre, légende, ville, copyright) n'étaient gérées par XnViewMP dans les fichiers sidecar jusqu'en V0.91. Depuis la V0.92, il y a une nouvelle fenêtre "Outils, Métadonnées, Editer XMP" qui, par exception, va utiliser le paramètre Sidecar que vous avez coché ici.
+Les autres métadonnées (titre, légende, ville, copyright) n'étaient gérées par XnViewMP dans les fichiers sidecar jusqu'en V0.91. Depuis la V0.92, il y a une nouvelle fenêtre `Outils, Métadonnées, Editer XMP` qui, par exception, va utiliser le paramètre Sidecar que vous avez coché ici.
 
-Et donc les métadonnées que vous ajoutez dans la fenêtre "Editer XMP" iront s'ajouter dans le Sidecar. Je n'ai pas testé cette fonctionnalité qui, a mon sens, est une évolution majeure, pour les photographes utilisant essentiellement les fichiers RAW.
+Et donc les métadonnées que vous ajoutez dans la fenêtre `Editer XMP` iront s'ajouter dans le Sidecar. Je n'ai pas testé cette fonctionnalité qui, a mon sens, est une évolution majeure, pour les photographes utilisant essentiellement les fichiers RAW.
 
 ### Quand l'écriture se fait-elle effectivement
 
-L'écriture de mots clés dans le sidecar peut se faire en attribuant une catégorie à l'image, si l'option "Exporter les catégories DB... " dans Outils, Paramètres, Métadonnées est aussi cochée. L'écriture pour les notes ou labels se fait au moment où on affecte ce type de marquage, en ayant activé les deux options correspondantes plus la même option que ci-dessus.
+L'écriture de mots clés dans le sidecar peut se faire en attribuant une catégorie à l'image, si l'option `Exporter les catégories DB` dans `Outils, Paramètres, Métadonnées` est aussi cochée. L'écriture pour les notes ou labels se fait au moment où on affecte ce type de marquage, en ayant activé les deux options correspondantes plus la même option que ci-dessus.
 
-Ou, pour ces deux groupes de métadonnées, avec la fonction "Mise à jour des fichiers avec le catalogue" du menu Afficher.
-Et enfin, pour les autres métadonnées de la fenêtre "Editer XMP", c'est l'utilisation du bouton "Ecrire"
+Ou, pour ces deux groupes de métadonnées, avec la fonction `Mise à jour des fichiers avec le catalogue` du menu `Afficher`. Et enfin, pour les autres métadonnées de la fenêtre `Éditer XMP`, c'est l'utilisation du bouton "Ecrire"
 
 Pour information, on peut générer un fichier xmp externe contenant les exif de la photo, ça m'est arrivé par hasard ; voici la méthode :
 - Dans la fenêtre Outils, Paramètres, Métadonnées, décochez la deuxième et la troisième options (oui ! décochez la création de xmp Sidecar et "exporter ..." !)
