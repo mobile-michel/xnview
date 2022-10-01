@@ -1,5 +1,5 @@
 ---
-title: 5 - Les Catégories de XnViewMP
+title: Les Catégories de XnViewMP
 description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
