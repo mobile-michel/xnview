@@ -4,23 +4,21 @@ description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/MainLayout.astro
 ---
 
-## Avant-propos
-
 Parmi les logiciels gratuits pour un usage personnel, c'est pour moi LE logiciel de référence pour gérer les métadonnées. XnViewMP est à la fois une visionneuse de photos, un outil de retouche, un logiciel de catalogage et de tri de photos.
 
 La fonction de visionneuse est assez intuitive et la retouche, qui un est vaste sujet, n'est pas l'objet de cette page. Je vais donc parler ici uniquement de l'aspect catalogage (ajouter des mots-clés et autres commentaires aux photos) et de tris des photos. Tous mes test sont réalisés sous Windows7, donc si vous utilisez Linux ou Mac OS, vous devrez probablement tenir compte de quelques différences d'ergonomie.
 
 ### Téléchargement et installation
 
-Je suggère de télécharger XnViewMP en version portable (c'est à dire au format zip) et de le dézipper dans un dossier autre que les "program files" de Windows. Paramétrez XnViewMP pour qu'il enregistre tous ses réglages au même endroit, ça facilitera les sauvegardes, les changements de version et les réinstallations. Pour cela, passez dans le menu `Outils, Paramètres, Rubrique Intégration, onglet Chemins` et dans chaque menu déroulant sélectionnez l'emplacement `Programme (Xnview)` ou `personnalisé`. Pour choisir la langue (Français) de XnViewMP, passez dans le menu `Outils, Paramètres, Général`.
+Je suggère de télécharger XnViewMP en version portable (c'est à dire au format zip) et de le dézipper dans un dossier autre que les _program files_ de Windows. Paramétrez XnViewMP pour qu'il enregistre tous ses réglages au même endroit, ça facilitera les sauvegardes, les changements de version et les réinstallations. Pour cela, passez dans le menu `Outils, Paramètres, Rubrique Intégration, onglet Chemins` et dans chaque menu déroulant sélectionnez l'emplacement `Programme (Xnview)` ou `personnalisé`. Pour choisir la langue (Français) de XnViewMP, passez dans le menu `Outils, Paramètres, Général`.
 
 ### Métadonnées
 
-Avant de "foncer" dans l'utilisation de XnViewMP, prenez le temps de comprendre et de choisir l'endroit où devront être enregistrés vos mots-clés et métadonnées. Il y a des réglages à effectuer pour que XnViewMP écrive vos informations de manière standardisée et à l'abri de toute perte accidentelle.
+Avant de _foncer_ dans l'utilisation de XnViewMP, prenez le temps de comprendre et de choisir l'endroit où devront être enregistrés vos mots-clés et métadonnées. Il y a des réglages à effectuer pour que XnViewMP écrive vos informations de manière standardisée et à l'abri de toute perte accidentelle.
 
 En effet, il n'est pas prudent de laisser les catégories, marquages, étoiles, couleurs à la merci d'une fausse manipulation. J'insiste sur la nécessité d'assurer la pérennité du travail d'indexation que vous allez faire, en utilisant les métadonnées normalisées. Pérennité qui s'étend d'ailleurs à votre collection de photos, qui, une fois correctement indexée, sera beaucoup plus intéressante pour vos héritiers.
 
-Dans cette page transparaissent des choix que j'ai faits pour ma propre gestion de photos, choix qui sont peut-être discutables. On va supposer que vous savez à quoi servent les métadonnées, ce que sont EXIF, IPTC ou XMP. Sinon, parcourez d'abord les autres pages de ce site.
+Dans cette page transparaissent des choix que j'ai fait pour ma propre gestion de photos, choix qui sont peut-être discutables. On va supposer que vous savez à quoi servent les métadonnées, ce que sont EXIF, IPTC ou XMP. Sinon, parcourez d'abord les autres pages de ce site.
 
 Pour représenter le nom des métadonnées, j'ai choisi d'utiliser la syntaxe définie pour l'utilitaire ExifTool, qui ne comporte pas d'ambiguïté. Vous pouvez lire aussi dans le site Chez Iceman un court article qui explique bien le sujet. Plus technique, il y a aussi cet excellent document de Bogdan Hrastnik, traduit en français: Quelles métadonnées utiliser?
 
@@ -30,7 +28,7 @@ La plupart des manipulations décrites ici vont donc concerner les métadonnées
 
 ### Sidecar
 
-Il existe une autre forme de marquage, pour la norme XMP, qui consiste à écrire un fichier contenant les métadonnées "à côté" de chaque photo. On nomme ces fichiers "sidecar" ou "compagnons". Ils portent le même nom que la photo qu'ils accompagnent, mais avec l'extension `.xmp` dans leur nom.
+Il existe une autre forme de marquage, pour la norme XMP, qui consiste à écrire un fichier contenant les métadonnées _à côté_ de chaque photo. On nomme ces fichiers _sidecar_ ou _compagnons_. Ils portent le même nom que la photo qu'ils accompagnent, mais avec l'extension `.xmp` dans leur nom.
 
 Cette méthode peut être utilisée pour les photos au format JPG, mais XnViewMP ne gère pas encore complètement ce type de marquage. La méthode est surtout adaptée aux photos au format RAW (NEF, CR2, MRW, ORF, etc), car ces formats d'image ne supportent pas les métadonnées intégrées. Les particularités de ce marquage par fichiers sidecar sont décrites dans le chapitre 7.
 
