@@ -6,13 +6,13 @@ layout: ../../layouts/MainLayout.astro
 
 ## Avant-propos
 
-Parmi les logiciels gratuits pour un usage personnel, c'est pour moi LE logiciel de référence pour gérer les métadonnées. XnViewMP est à la fois une visionneuse de photos, un outil de retouche, et un logiciel de catalogage et de tri de photos.
+Parmi les logiciels gratuits pour un usage personnel, c'est pour moi LE logiciel de référence pour gérer les métadonnées. XnViewMP est à la fois une visionneuse de photos, un outil de retouche, un logiciel de catalogage et de tri de photos.
 
-La fonction de visionneuse est assez intuitive, et la retouche, qui un est vaste sujet, n'est pas l'objet de cette page. Je vais donc parler ici uniquement de l'aspect catalogage (ajouter des mots clés et autres commentaires aux photos) et de tris des photos. Tous mes test sont réalisés sous Windows7, donc si vous utilisez Linux ou Mac OS, vous devrez probablement tenir compte de quelques différences d'ergonomie.
+La fonction de visionneuse est assez intuitive et la retouche, qui un est vaste sujet, n'est pas l'objet de cette page. Je vais donc parler ici uniquement de l'aspect catalogage (ajouter des mots-clés et autres commentaires aux photos) et de tris des photos. Tous mes test sont réalisés sous Windows7, donc si vous utilisez Linux ou Mac OS, vous devrez probablement tenir compte de quelques différences d'ergonomie.
 
 ### Téléchargement et installation
 
-Je suggère de télécharger XnViewMP en version portable (c'est à dire au format zip) et de le dézipper dans un dossier autre que les "program files" de Windows. Paramétrez XnViewMP pour qu'il enregistre tous ses réglages au même endroit, ça facilitera les sauvegardes, les changements de version et les réinstallations. Pour cela, passez dans le menu `Outils, Paramètres, Rubrique Intégration, onglet Chemins`, et dans chaque menu déroulant sélectionnez l'emplacement `Programme (Xnview)` ou `personnalisé`. Pour choisir la langue (Français) de XnViewMP, passez dans le menu `Outils, Paramètres, Général` (`Tools, Settings, General, Language`).
+Je suggère de télécharger XnViewMP en version portable (c'est à dire au format zip) et de le dézipper dans un dossier autre que les "program files" de Windows. Paramétrez XnViewMP pour qu'il enregistre tous ses réglages au même endroit, ça facilitera les sauvegardes, les changements de version et les réinstallations. Pour cela, passez dans le menu `Outils, Paramètres, Rubrique Intégration, onglet Chemins` et dans chaque menu déroulant sélectionnez l'emplacement `Programme (Xnview)` ou `personnalisé`. Pour choisir la langue (Français) de XnViewMP, passez dans le menu `Outils, Paramètres, Général`.
 
 ### Métadonnées
 
@@ -36,13 +36,13 @@ Cette méthode peut être utilisée pour les photos au format JPG, mais XnViewMP
 
 ### EXIF
 
-Quant aux données EXIF, il n'y a pas beaucoup d'interventions possibles sur leur contenu, qui est essentiellement constitué des données techniques enregistrées par l'appareil photo au moment de la prise de vue. Quelques champs ont été utilisés par le passé (commentaires, mots clés, notation, etc), mais je considère qu'ils sont obsolètes.
+Quant aux données EXIF, il n'y a pas beaucoup d'interventions possibles sur leur contenu, qui est essentiellement constitué des données techniques enregistrées par l'appareil photo au moment de la prise de vue. Quelques champs ont été utilisés par le passé (commentaires, mots-clés, notation, etc), mais je considère qu'ils sont obsolètes.
 
-Il reste à notre disposition, dans ce groupe exif, les données de géolocalisation GPS, les dates et heures des photos et la balise orientation. Pour éventuellement intervenir sur ces données, on utilsera les menus textuels en haut de la fenêtre de XnViewMP, je donnerai quelques indications dans différents chapitres.
+Il reste à notre disposition, dans ce groupe EXIF, les données de géolocalisation GPS, les dates et heures des photos et la balise orientation. Pour éventuellement intervenir sur ces données, on utilsera les menus textuels en haut de la fenêtre de XnViewMP, je donnerai quelques indications dans différents chapitres.
 
 ### Système
 
-On peut citer aussi les données "système", qui sont gérées par Windows (dates, tailles, types, dossiers, noms de fichiers) pour lesquelles XnViewMP offre quelques outils et traitements possibles (pour cet aspect, recherchez avec un Ctrl+F dans cette page le mot `système`).
+On peut citer aussi les données "système" qui sont gérées par Windows (dates, tailles, types, dossiers, noms de fichiers) pour lesquelles XnViewMP offre quelques outils et traitements possibles (pour cet aspect, recherchez avec un Ctrl+F dans cette page le mot `système`).
 
 ### JPG
 
@@ -64,7 +64,7 @@ Mais le sujet central de cette page de documentation est abordé dans les chapit
 
 ### Attention aux confusions
 
-Ne confondez pas les "catégories" de XnViewMP et les métadonnées (mots-clés), bien qu'elles soient souvent utilisées simultanément et qu'elles interagissent avec les mots clés. Les catégories (expliquées dans les chapitres 5 et 6) sont avant tout un outil de gestion du "catalogue" interne de XnViewMP alors que les métadonnées sont des informations normalisées (exif, iptc, xmp) à écrire dans le fichier photo (ou "à côté" dans certains cas).
+Ne confondez pas les "catégories" de XnViewMP et les métadonnées (mots-clés), bien qu'elles soient souvent utilisées simultanément et qu'elles interagissent avec les mots clés. Les catégories (expliquées dans les chapitres 5 et 6) sont avant tout un outil de gestion du "catalogue" interne de XnViewMP alors que les métadonnées sont des informations normalisées (EXIF, IPTC, XMP) à écrire dans le fichier photo (ou "à côté" dans certains cas).
 
 Il existe d'autres définitions du mot "catégories" dans l'univers des métadonnées, il faudra veiller à ne pas les confondre. Par exemple, pour DarkTable, le mot "catégorie" sert à désigner un cas particulier d'élément dans une hiérachie de mots-clés qui ne produit pas de mot-clé et ne sert qu'à les regrouper.
 
@@ -73,16 +73,16 @@ Dans XnViewMP, ce type de regroupement de mot-clés est plutôt proposé dans le
 ### Fonctionnalités des catégories
 
 Les catégories de XnViewMP permettent les opérations suivantes:
-- mettre de façon pratique et rapide des mots clés dans les photos;
+- mettre de façon pratique et rapide des mots-clés dans les photos;
 - en utilisant les `Groupes de catégories`, le confort de saisie des mots-clés est encore meilleur;
-- modifier des mots clés dans des lots de photos;
-- gérer des mots clés hiérarchisés en respectant la forme Adobe Lightroom `XMP-Lr:HierarchicalSubject`;
-- éventuellement créer une hiérarchie dans les mots clés IPTC;
+- modifier des mots-clés dans des lots de photos;
+- gérer des mots-clés hiérarchisés en respectant la forme Adobe Lightroom `XMP-Lr:HierarchicalSubject`;
+- éventuellement créer une hiérarchie dans les mots-clés IPTC;
 - créer des fichiers XMP compagnons ou sidecar pour vos photos au format RAW;
-- gérer votre dictionnaire de mots clés en exportant les catégories dans un fichier texte ou en important des dictionnaires vers les catégories;
+- gérer votre dictionnaire de mots-clés en exportant les catégories dans un fichier texte ou en important des dictionnaires vers les catégories;
 - créer automatiquement une base de données interne à XnViewMP qui indexe les photos marquées par catégories pour faciliter ensuite les recherches;
 - filtrer des photos par mots-clés pour réaliser des sélections ou des recherches multicritères;
-- inclure des dossiers entiers de photos (avec sous-dossiers) contenant déjà des mots clés:
+- inclure des dossiers entiers de photos (avec sous-dossiers) contenant déjà des mots-clés:
 - éventuellement cataloguer des fichiers autres que des photos, avec la même efficacité, mais sans métadonnées (voir Chapitre 11L).
 
 Bonne lecture
