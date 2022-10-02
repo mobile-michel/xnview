@@ -10,8 +10,7 @@ C'est en fait un moyen d'exporter toutes sortes de données. Sélectionnez une s
 
 La liste ainsi obtenue aura la forme d'un tableau avec une ligne par photo et autant de colonnes de données que vous aurez ajouté de paramètres. Pour commencer, dans la petite case format, on va utiliser le format texte, les informations seront simplement séparées par des tabulations.
 
-liste fichiers
-Figure 38a
+!(Liste de fichiers)[/autre/xnvmp23.png]
 
 Vous pouvez choisir les informations qui seront inscrites dans cette liste parmi une multitude de choix possibles, en cliquant sur la flèche triangulaire au bout de la case. Pour ajouter des informations ou des champs il y a un `+` vert pour ajouter une case, ou un `X` rouge pour en enlever une. On peut aussi bien mettre plusieurs informations dans une même ligne, ou créer plusieurs lignes séparées pour une meilleure lisibilité.
 
