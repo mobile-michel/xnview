@@ -16,7 +16,7 @@ Cette fonction de tri personnalisé peut être désactivée uniquement dans le f
 
 Il y a enfin une dernière option `Voir l'entête`. Celle-ci affiche des sortes d'en-têtes de colonnes ressemblant à ce que je décris en fin de chapitre 1 (figure 2) mais en gardant l'affichage des vignettes.
 
-![En-têtes](/tutoriel/xnvmp21)
+![En-têtes](/tutoriel/xnvmp21.png)
 
 De la même façon que décrit en fin de chapitre 1, avec un clic droit on peut modifier les en-têtes et ainsi obtenir de nouveaux critères de tri. Pour accéder plus facilement à tous les en-têtes de colonnes, passez provisoirement l'affichage en mode `Détails`, vous aurez un ascenseur horizontal en bas.
 
