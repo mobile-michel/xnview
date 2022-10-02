@@ -30,7 +30,7 @@ La fonction de visionneuse est assez intuitive, même si certaines astuces que j
 
 ### Choisir un logiciel de catalogage
 
-Pourquoi choisir XnViewMP plutôt qu'un autre logiciel de catalogage? XnViewMP répond parfaitement à tous les critères que j'ai mis en avant dans le [paragraphe 1A](/infos#1a). D'autre part, j'essaie ici d'atteindre un objectif, qui est d'aider un utilisateur à démarrer du bon pied en matière de catalogage. Or, le choix éclairé d'un logiciel impose des essais, des questionnements et une bonne compréhension du sujet.
+Pourquoi choisir XnViewMP plutôt qu'un autre logiciel de catalogage? XnViewMP répond parfaitement à tous les critères que j'ai mis en avant dans le [paragraphe 1A](/infos#le-catalogage-des-photos). D'autre part, j'essaie ici d'atteindre un objectif, qui est d'aider un utilisateur à démarrer du bon pied en matière de catalogage. Or, le choix éclairé d'un logiciel impose des essais, des questionnements et une bonne compréhension du sujet.
 
 Tout ceci ne peut s'obtenir que par la mise en pratique directe et XnViewMP me parait être le meilleur logiciel pour débuter sans risque. Les points forts de XnViewMP sont la gratuité, l'excellente conformité aux normes, l'éventail de métadonnées proposées, les possibilités de personnalisation, la qualité de la présentation, la grande richesse d'outils disponibles et une ergonomie correcte.
 
