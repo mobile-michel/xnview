@@ -12,11 +12,11 @@ Dans les versions précédentes de XnViewMP, on trouvait la même fonction dans 
 
 Le premier élément à choisir avec le bouton `Ajouter` et son `+` vert, est le nom de la métadonnée qui va recevoir une valeur. Les possibilités sont `Annotation`, `Commentaire`, `IPTC`, `EXIF`, `XMP`, ces trois derniers offrant chacun une liste de possibilités illustrées dans la figure 37a
 
-!(Transfert de métadonnées)[/autre/xnvmp50.png]
+![Transfert de métadonnées](/autre/xnvmp50.png)
 
 On remarque qu'il est possible ici d'écrire quelques données EXIF que XnViewMP n'avait jamais gérées. Les métadonnées qui me semblent manquantes dans ces listes sont, en EXIF XP Keywords, date de digitalisation, date de prise. Et en IPTC, Ville, Province, Etat. Comme on ne peut sélectionner en écriture qu'une métadonnée à la fois, il faudra créer plusieurs lignes pour mettre à jour simultanément des valeurs IPTC et XMP, comme illustré dans la figure ci-dessous où on a souhaité mettre le nom du dossier contenant les photos dans les métadonnées légende IPTC et XMP.
 
-!(Transfert de métadonnées)[/autre/xnvmp51.png]
+![Transfert de métadonnées](/autre/xnvmp51.png)
 
 Cet exemple illustre justement une des possibilités de cet outil qui permet de manipuler une info système, ici le nom de dossier. En effet, si vos photos étaient dans des dossiers à thème, vous pourrez faire entrer le nom de dossier dans les métadonnées de votre choix, comme les mots-clés, le titre ou la légende. De même, si vos photos ont des noms évocateurs, il peut être utile de faire entrer aussi le nom de la photo dans l'une de ces métadonnées.
 
@@ -26,7 +26,7 @@ Il est possible d'entrer en même temps plusieurs informations et du texte dans 
 
 Cette liste est très complète, hormis les métadonnées XMP dont j'espère l'arrivée dans une future version. Il y a cependant une astuce pour contourner cette absence: utilisez une autre métadonnée, par exemple IPTC Légende et modifiez le champ obtenu dans la case. Il suffit de remplacer {iptc:caption} par le champ que vous souhaitez, par exemple {XMP:City} et le tour est joué.
 
-!(Les données sources)[/autre/xnvmp52.png]
+![Les données sources](/autre/xnvmp52.png)
 
 Attention cependant, cet outil "écrase" toute valeur qui pouvait exister dans la métadonnée cible, même si la nouvelle valeur est vide.
 
