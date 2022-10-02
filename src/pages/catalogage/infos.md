@@ -22,7 +22,7 @@ En résumé, il s'agit de valoriser vos photos, que ce soit pour votre famille e
 
 ## Pourquoi choisir XnViewMP
 
-### Visionneuse, Logiciel de retouche, logiciel de catalogage
+### Visionneuse, logiciel de retouche, logiciel de catalogage
 
 XnViewMP est un logiciel gratuit pour un usage personnel, successeur de XnView, et du même auteur, P.E. Gougelet. C'est à la fois une visionneuse de photos, un outil de retouche d'images, et un logiciel de catalogage et de tri des photos. Il peut être installé sur des machines avec Windows, Linux ou Mac OS, MP signifiant Multi-Plateformes. Il y a quelques différences de fonctions entre XnView Classic et XnViewMP, mais le catalogage est bien plus abouti dans XnViewMP.
 
