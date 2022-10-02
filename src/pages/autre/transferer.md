@@ -30,7 +30,7 @@ Cette liste est très complète, hormis les métadonnées XMP dont j'espère l'a
 
 Attention cependant, cet outil "écrase" toute valeur qui pouvait exister dans la métadonnée cible, même si la nouvelle valeur est vide.
 
-## entrer les noms de dossiers dans les mots-clés
+## Entrer les noms de dossiers dans les mots-clés
 
 Un exemple de traitement qui me paraît possible est le suivant:
 
