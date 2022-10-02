@@ -1,6 +1,6 @@
 ---
-title: 3 - Les autres métadonnées classiques
-description: Lorem ipsum dolor sit amet - 3
+title: Les autres métadonnées classiques
+description: 
 layout: ../../layouts/MainLayout.astro
 ---
 
@@ -8,13 +8,13 @@ Ce chapitre illustre l'utilisation de la fenêtre `Editer les métadonnées IPTC
 
 Les paramètres ne sont pas les mêmes que ceux utilisés avec les catégories. Il s'agit ici d'écrire, mettre à jour ou effacer d'autres métadonnées "classiques", par exemple celles que j'ai citées au premier chapitre.
 
-Ces métadonnées "classiques" sont situées dans les deux groupes, IPTC et XMP, chaque métadonnée du groupe IPTC étant "mise en parallèle" avec une du groupe XMP. En voici une liste partielle, je n'ai mis ici que les champs couramment utilisés par des particuliers&nbsp;:
+Ces métadonnées "classiques" sont situées dans les deux groupes, IPTC et XMP, chaque métadonnée du groupe IPTC étant "mise en parallèle" avec une du groupe XMP. En voici une liste partielle, je n'ai mis ici que les champs couramment utilisés par des particuliers:
 
 ![Options de filtrage](/catalogage/xnvmp13.png)
 
 ## Paramétrage
 
-Sélectionnez au moins deux photos, puis ouvrez la fenêtre `Éditer IPTC`&nbsp;: vous obtenez 8 onglets, permettant de travailler sur les métadonnées. Pour obtenir cette fenêtre, utilisez le menu `Outils, Métadonnées, Éditer IPTC`, ou le bouton correspondant dans la barre d'outils, ou encore les touches Ctrl+i.
+Sélectionnez au moins deux photos, puis ouvrez la fenêtre `Éditer IPTC`: vous obtenez 8 onglets, permettant de travailler sur les métadonnées. Pour obtenir cette fenêtre, utilisez le menu `Outils, Métadonnées, Éditer IPTC`, ou le bouton correspondant dans la barre d'outils, ou encore les touches Ctrl+i.
 
 Vous pouvez agrandir cette fenêtre de manière à avoir un aperçu assez grand, plutôt qu'une vignette. Sept onglets regroupent l'essentiel des champs IPTC (ou XMP) proposés par XnViewMP, et le huitième onglet, Options est celui du paramétrage.
 
@@ -23,15 +23,15 @@ Pour le moment ignorons-la, car elle concerne des métadonnées XMP spécifiques
 
 ![Editer métadonnées Options](/catalogage/xnvmp02.png)
 
-Dans cet onglet Options, pour le premier cadre `Sélection multiple`&nbsp;:
+Dans cet onglet Options, pour le premier cadre `Sélection multiple`:
 - cochez les trois premières cases, afin de n'effacer aucune métadonnée sur des lots de photos par inadvertance;
 - cochez `Ne pas charger les champs` (en bas à droite).
 
-Il faut sélectionner au moins deux images justement pour pouvoir agir sur ces paramètres de sélection multiple. Ensuite le paramètre `Mode`&nbsp;: Choisissez `IPTC-IIM, création ou mise à jour XMP`. Ça permet de garder les mêmes informations en IPTC et XMP.
+Il faut sélectionner au moins deux images justement pour pouvoir agir sur ces paramètres de sélection multiple. Ensuite le paramètre `Mode`: Choisissez `IPTC-IIM, création ou mise à jour XMP`. Ça permet de garder les mêmes informations en IPTC et XMP.
 
-La fenêtre à huit onglets est une fenêtre de saisie de données, c'est à dire qu'on n'écrit pas directement les métadonnées dans les photos, mais qu'on prépare leur écriture. La deuxième case des options que vous avez cochée est la plus importante&nbsp;: `Garder la valeur courante du tag si le champ est vide`.
+La fenêtre à huit onglets est une fenêtre de saisie de données, c'est à dire qu'on n'écrit pas directement les métadonnées dans les photos, mais qu'on prépare leur écriture. La deuxième case des options que vous avez cochée est la plus importante: `Garder la valeur courante du tag si le champ est vide`.
 
-En résumé, voici comment il faut comprendre tout ceci&nbsp;:
+En résumé, voici comment il faut comprendre tout ceci:
 - `Ne pas charger les champs` induit que toutes les cases de saisie sont vides à l'ouverture;
 - aucune métadonnée existante ne sera effacée, même si on laisse sa zone de saisie vide;
 - il suffit d'écrire du texte dans les champs que vous souhaitez utiliser pour préparer l'écriture des métadonnées;
@@ -40,15 +40,15 @@ En résumé, voici comment il faut comprendre tout ceci&nbsp;:
 
 ## La méthode pour ajouter ou modifier des métadonnées
 
-Avec la pratique, vous pourrez décocher la troisième case&nbsp;: `Modifier le tag seulement si il est vide`
+Avec la pratique, vous pourrez décocher la troisième case: `Modifier le tag seulement si il est vide`
 - à partir de là, les ajouts ou modifications de contenus que vous ferez écraseront d'éventuelles valeurs qui pouvaient déjà être dans les photos;
 - au bout de deux ans de pratique, je ne fais plus de dégâts dans mes métadonnées, je sais ce que je modifie, et j'ai décoché la case.
 
-La deuxième case est bien plus dangereuse, si vous la décochez, les résultats sont assez imprévisibles. Je ne connais qu'une situation raisonnable pour décocher cette option, c'est pour supprimer des métadonnées dans une seule photo&nbsp;:
+La deuxième case est bien plus dangereuse, si vous la décochez, les résultats sont assez imprévisibles. Je ne connais qu'une situation raisonnable pour décocher cette option, c'est pour supprimer des métadonnées dans une seule photo:
 - sélectionnez UNE photo, effacez un champ, cliquez `Écrire` . Voilà, cela efface le champ;
 - retournez dans `Options`, et remettez tout de suite la coche dans la deuxième case !
 
-J'ai choisi de garder pour la fin le cas le plus simple&nbsp;: lorsqu'une seule photo est sélectionnée, la plupart des paramètres ci-dessus n'ont plus d'effet ni de raison d'être. On voit directement les métadonnées IPTC existantes dans la photo, on en modifie ou on en ajoute, on clique sur `Écrire` et le tour est joué.
+J'ai choisi de garder pour la fin le cas le plus simple: lorsqu'une seule photo est sélectionnée, la plupart des paramètres ci-dessus n'ont plus d'effet ni de raison d'être. On voit directement les métadonnées IPTC existantes dans la photo, on en modifie ou on en ajoute, on clique sur `Écrire` et le tour est joué.
 
 ### À éviter
 
@@ -56,7 +56,7 @@ L'onglet `Catégories` est un vestige du passé, c'est une métadonnée que pers
 
 ### En pratique
 
-Finalement, il ne reste que deux onglets utiles, le premier pour légender les photos et l'onglet `Source` pour les lieux (et éventuellement l'onglet `Crédits` pour les Copyrights). Pour entrer des légendes une par une&nbsp;: Sélectionnez quelques images et ouvrez la fenêtre d'édition. Entrez une légende dans le premier onglet, cliquez `Écrire`, passez à la photo suivante avec le bouton `>`, écrivez sa légende, cliquez `Écrire`, etc...
+Finalement, il ne reste que deux onglets utiles, le premier pour légender les photos et l'onglet `Source` pour les lieux (et éventuellement l'onglet `Crédits` pour les Copyrights). Pour entrer des légendes une par une: Sélectionnez quelques images et ouvrez la fenêtre d'édition. Entrez une légende dans le premier onglet, cliquez `Écrire`, passez à la photo suivante avec le bouton `>`, écrivez sa légende, cliquez `Écrire`, etc...
 
 Vous pouvez aussi sélectionner des lots de photos qui doivent recevoir les mêmes données (Ville et département par exemple), ouvrez la fenêtre d'édition, entrez Ville et Département, et cliquez le bouton `Écrire tous` pour écrire les métadonnées de toutes les photos à la fois.
 
@@ -84,7 +84,7 @@ Il y a trois dates EXIF (de prise, de numérisation, de modification) plus deux 
 
 ### Les noms de fichiers et noms de dossiers
 
-D'une certaine façon, ce sont aussi des métadonnées système (onglet `Propriétés`). Dans certaines manipulations, on peut souhaiter les lire pour les copier dans une légende ou un titre par exemple. Parfois, le nom de la photo est une date, qu'on peut vouloir mettre dans un champ date EXIF. On peut même les modifier, ce qui a des conséquences parfois étonnantes, notamment si vous modifez le nom du dossier d'une image, ce qui va la déplacer&nbsp;!
+D'une certaine façon, ce sont aussi des métadonnées système (onglet `Propriétés`). Dans certaines manipulations, on peut souhaiter les lire pour les copier dans une légende ou un titre par exemple. Parfois, le nom de la photo est une date, qu'on peut vouloir mettre dans un champ date EXIF. On peut même les modifier, ce qui a des conséquences parfois étonnantes, notamment si vous modifez le nom du dossier d'une image, ce qui va la déplacer!
 
 ## Recherches et tris
 
@@ -100,7 +100,7 @@ Il y a ensuite la fonction `Rechercher` du menu Outils. Celle-ci est très riche
 
 ### Options d'affichage
 
-Il y a enfin des options d'affichage&nbsp;: le menu `Afficher, Afficher en..., Détails` permet de parcourir rapidement du regard la plupart des métadonnées. En cliquant sur une en-tête de colonne, les photos seront triées sur ce critère, ce qui permet de trouver rapidement une information. Les en-têtes de colonnes sont modifiables&nbsp;: avec un clic-droit, vous pouvez en ajouter ou en supprimer de l'affichage, ou déplacer les colonnes. Revenez ensuite à l'affichage classique&nbsp;: `Afficher en, Vignettes + Libellés`. Pour conserver les en-têtes de colonnes, activez l'option `Afficher, Trier les fichiers par, Voir l'en-tête`.
+Il y a enfin des options d'affichage: le menu `Afficher, Afficher en..., Détails` permet de parcourir rapidement du regard la plupart des métadonnées. En cliquant sur une en-tête de colonne, les photos seront triées sur ce critère, ce qui permet de trouver rapidement une information. Les en-têtes de colonnes sont modifiables: avec un clic-droit, vous pouvez en ajouter ou en supprimer de l'affichage, ou déplacer les colonnes. Revenez ensuite à l'affichage classique: `Afficher en, Vignettes + Libellés`. Pour conserver les en-têtes de colonnes, activez l'option `Afficher, Trier les fichiers par, Voir l'en-tête`.
 
 ### Picasa
 
