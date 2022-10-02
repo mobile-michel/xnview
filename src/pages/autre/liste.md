@@ -10,13 +10,13 @@ C'est en fait un moyen d'exporter toutes sortes de données. Sélectionnez une s
 
 La liste ainsi obtenue aura la forme d'un tableau avec une ligne par photo et autant de colonnes de données que vous aurez ajouté de paramètres. Pour commencer, dans la petite case format, on va utiliser le format texte, les informations seront simplement séparées par des tabulations.
 
-![Liste de fichiers](/autre/xnvmp23.png)
+![Liste de fichiers](/tutoriel/xnvmp23.png)
 
 Vous pouvez choisir les informations qui seront inscrites dans cette liste parmi une multitude de choix possibles, en cliquant sur la flèche triangulaire au bout de la case. Pour ajouter des informations ou des champs il y a un `+` vert pour ajouter une case, ou un `X` rouge pour en enlever une. On peut aussi bien mettre plusieurs informations dans une même ligne, ou créer plusieurs lignes séparées pour une meilleure lisibilité.
 
 J'ai illustré des possibilités de métadonnées dans la figure 38a en utilisant par exemple quatre "champs" (nom complet du fichier, couleur, légende, mot-clés), le tableau aura donc 4 colonnes. Et dans la figure suivante vous trouvez les listes de données disponibles, avec en exemple le détail du groupe EXIF-camera et aussi le détail des formats de dates.
 
-![Liste de fichiers](/autre/xnvmp23b.png)
+![Liste de fichiers](/tutoriel/xnvmp23b.png)
 
 Il semble souhaitable dans tous les cas que le nom des fichiers figure dans la liste, utilisez par exemple `nom de fichier` donc {filename} sera inscrit dans la case. Vous pouvez aussi ajouter des caractères dans une case, ils seront ajoutés tels quels. Exemple: Photo-{Filename Number}.jpg produira des listes de noms du type: Photo-00123.jpg.
 
@@ -32,7 +32,7 @@ Ensuite, cliquez sur `Aperçu`, ou `Enregistrer sous` pour obtenir un fichier en
 
 Si vous voulez ouvrir ensuite ce fichier avec un tableur, utilisez plutôt le format de sortie CSV. Voici un exemple de ce qu'on peut obtenir:
 
-![Liste en CSV](/autre/xnvmp23c.png)
+![Liste en CSV](/tutoriel/xnvmp23c.png)
 
 Dans cet exemple avec le formatage CSV, les données des trois colonnes ont été automatiquement délimitées par des guillemets et séparées par `:`. Si vous mettez plusieurs informations dans une case, les guillemets vont encadrer le contenu de l'ensemble de la case.
 
@@ -61,7 +61,7 @@ Si vous souhaitez intégrer d'autres informations, il faut recourir à une astuc
 Il est possible aussi de préparer une partie de page HTML comme dans cet exemple:
 
 liste html
-![Portion de code en HTML](/autre/xnvmp31.png)
+![Portion de code en HTML](/tutoriel/xnvmp31.png)
 
 Dans cet exemple, vos images sont dans un dossier `/images/`, les vgnettes dans un dossier `/thumb/` et vous créez une page HTML avec des vignettes cliquables, dont la balise `Title` reprend le champ IPTC légende de chaque image. Les lignes de codes ainsi obtenues pourront être intégrées dans votre site web. Notez que ce type de pages HTML peuvent rester dans votre ordinateur et constituer des albums photos locaux, consultables avec un navigateur.
 
