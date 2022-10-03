@@ -1,6 +1,6 @@
 ---
 title: Favoris
-description: Lorem ipsum dolor sit amet - 3
+description: 3e
 layout: ../../layouts/MainLayout.astro
 ---
 
