@@ -1,6 +1,6 @@
 ---
 title: Notes et couleurs
-description: Lorem ipsum dolor sit amet - 3
+description: Un moyen rapide utilisé par de nombreux photographes pour faire un premier tri des photos
 layout: ../../layouts/MainLayout.astro
 ---
 
