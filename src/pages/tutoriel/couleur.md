@@ -56,7 +56,7 @@ On peut changer les libellés dans cet écran d'options pour y mettre des inform
 
 Mais n'importe quel usage peut y être associé (à trier, à sauvegarder, urgent, personnel, public, etc). Pour XnViewMP, la métadonnée correspondante, XMP:XMP-xmp:Label (disons xmp:label) prend une valeur parmi cinq: red, yellow, green, blue, purple.
 
-Mais il est possible dans certains logiciels de traduire les noms des couleurs dans la langue de l'utilisateur. Ça signifie que les métadonnées _xmp:label_ sont susceptibles de contenir des noms de couleurs dans diverses langues mais XnViewMP ne les reconnaitra pas. Voire même certains logiciels inscrivent des valeurs qui leur sont propres dans cette métadonnée (valeurs numériques 1,2,3 par exemple pour Digikam).
+Mais il est possible dans certains logiciels de traduire les noms des couleurs dans la langue de l'utilisateur. Ça signifie que les métadonnées _xmp:label_ sont susceptibles de contenir des noms de couleurs dans diverses langues mais XnViewMP ne les reconnaitra pas. Voire même certains logiciels inscrivent des valeurs qui leur sont propres dans cette métadonnée (valeurs numériques 1, 2, 3 par exemple pour Digikam).
 
 Les cinq couleurs en anglais sont reconnues par défaut par XnViewMP lors de l'importation de photos (red, yellow, green, blue, purple). Depuis la V0.93, une nouvelle gestion des labels de couleur est disponible dans l'onglet `Libellés` des options de métadonnées: il est maintenant possible de lire et écrire les noms des couleurs de son choix, c'est surtout intéressant en lecture pour les autres langues. Cette métadonnée manque donc de normalisation, à mon avis il aurait fallu utiliser des valeurs numériques et les afficher ensuite selon son goût.
 
