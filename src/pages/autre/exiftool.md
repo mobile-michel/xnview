@@ -1,63 +1,53 @@
 ---
 title: ExifTool
-description: Lorem ipsum dolor sit amet - 3
+description: 
 layout: ../../layouts/MainLayout.astro
 ---
 
-Exiftool est un utilitaire indépendant de XnViewMP, permettant de lire ou écrire des métadonnées, avec des possibilités quasi illimitées.
-J'ai mis quelques mots sur l'auteur Phil Harvey en annexe, dans le (Chapitre 12).
- (01/10/2018) J'ai ajouté une page, encore en construction, spécialement pour exiftool ici Suivant
+Exiftool est un utilitaire indépendant de XnViewMP, permettant de lire ou écrire des métadonnées, avec des possibilités quasi illimitées. J'ai mis quelques mots sur l'auteur Phil Harvey en annexe dans le (Chapitre 12). J'ai ajouté une page, encore en construction, spécialement pour ExifTool ici.
 
-XnViewMP utilise Exiftool seulement dans quelques cas particuliers, par exemple pour modifier des données Exif (Date, heure, GPS)
-C'est le cas aussi je crois pour la manipulation de métadonnées de certains fichiers raw, mais ça demande vérification.
-Dans le dossier d'installation de XnViewMP, il y a un dossier AddOn qui contient donc cet utilitaire : exiftool.exe
+XnViewMP utilise ExifTool seulement dans quelques cas particuliers, par exemple pour modifier des données EXIF (Date, heure, GPS). C'est le cas aussi je crois pour la manipulation de métadonnées de certains fichiers RAW, mais ça demande vérification. Dans le dossier d'installation de XnViewMP, il y a un dossier AddOn qui contient donc cet utilitaire: exiftool.exe.
 
-Affichage avec Exiftool
-L'utilisation par défaut d'Exiftool par XnViewMP consiste à afficher l'ensemble des métadonnées d'une image, vues par cet utilitaire.
-Sélectionnez une image, puis dans le volet de visualisation, cliquez l'onglet Exiftool :
+## Affichage avec Exiftool
+
+L'utilisation par défaut d'ExifTool par XnViewMP consiste à afficher l'ensemble des métadonnées d'une image, vues par cet utilitaire. Sélectionnez une image, puis dans le volet de visualisation, cliquez l'onglet `ExifTool`:
 
 Affichage Exiftool
 Figure 50
 
-Pour cette illustration, j'ai réduit l'affichage de toutes les familles de métadonnées sauf les deux dernières, en utilisant les flèches triangulaires.
-Si vous avez un doute sur la façon dont XnViewMP écrit ou lit des métadonnées, cet affichage vous offre la possibilité de tout vérifier.
-Une autre utilité est d'afficher la "version officielle en anglais" des noms des métadonnées, noms qui sont souvent arbitraires pour chaque logiciel.
+Pour cette illustration, j'ai réduit l'affichage de toutes les familles de métadonnées sauf les deux dernières en utilisant les flèches triangulaires. Si vous avez un doute sur la façon dont XnViewMP écrit ou lit des métadonnées, cet affichage vous offre la possibilité de tout vérifier. Une autre utilité est d'afficher la _version officielle en anglais_ des noms des métadonnées, noms qui sont souvent arbitraires pour chaque logiciel.
 
-Paramètres pour Exiftool, menu "Ouvrir avec..."
-XnViewMP offre la possibilité d'utiliser Exiftool, à travers le menu "Outils, Ouvrir avec ..."
-On verra ici seulement quelques exemples d'utilisation, car une doc complète d'utilisation d'Exiftool, si elle existait, ferait des centaines de pages.
+## Paramètres pour Exiftool, menu Ouvrir avec
 
-Exemple 1 :
-Sélectionnez une image, puis avec un clic-droit, choisissez "Ouvrir avec" puis "Configurer les programmes"
+XnViewMP offre la possibilité d'utiliser ExifTool, à travers le menu `Outils, Ouvrir avec`. On verra ici seulement quelques exemples d'utilisation, car une documentation complète d'utilisation d'ExifTool, si elle existait, ferait des centaines de pages.
+
+### Exemple 1
+
+Sélectionnez une image, puis avec un clic-droit, choisissez `Ouvrir avec` puis `Configurer les programmes`.
 
 Exiftool Ouvrir avec
 Figure 51
 
-Cliquez "Ajouter", parcourez vos dossiers pour atteindre le dossier "Xnviewmp\AddOn" , sélectionnez exiftool et cliquez "ouvrir".
-Une nouvelle ligne se crée dans le tableau, mais elle semble vide, ou bien contient juste l'icône de exiftool.
-Double cliquez dans la première colonne pour y mettre un nom, par exemple : Exiftool nom legende
-Double-cliquez dans la deuxième colonne (paramètres) et écrivez : -IPTC:Caption-Abstract<Filename -L
+Cliquez `Ajouter`, parcourez vos dossiers pour atteindre le dossier _Xnviewmp\AddOn_, sélectionnez `ExifT̀ool` et cliquez `Ouvrir`. Une nouvelle ligne se crée dans le tableau, mais elle semble vide ou bien contient juste l'icône d'ExifTool.
+
+Double cliquez dans la première colonne pour y mettre un nom, par exemple: Exiftool nom legende. Double-cliquez dans la deuxième colonne (paramètres) et écrivez: -IPTC:Caption-Abstract<Filename -L.
 
 Exiftool filename légende 
 Figure 52
 
 Cliquez OK.
-Pour utiliser cette fonction, qui consiste à recopier le nom du fichier dans la légende IPTC, il suffit de sélectionner une ou plusieurs images,
-Puis avec un clic-droit, choisissez "Ouvrir avec..." , "Exiftool nom legende" et le traitement Exiftool va s'effectuer...
-Cette opération permet d'avoir automatiquement le nom du fichier comme légende, ce qui est utilisé dans certaines galeries de photos en ligne.
-Pour info, pour mettre le nom de fichier sans extension dans le titre de l'image, le paramètre sera : -IPTC:Headline<${FileName;s/\.[^.]*$//}
 
--overwrite_original
-Par défaut, lorsqu'il modifie un fichier, Exiftool laisse une copie du fichier original dans le même dossier.
-Ainsi, après l'opération sur un fichier DSC000.JPG, vous trouvez aussi un fichier nommé DSC000.JPG_original
-Si vous souhaitez éviter de garder ces copies d'originaux, l'option -overwrite_original doit être ajoutée aux paramètres. (comme illustré sur la fig 53)
+Pour utiliser cette fonction qui consiste à recopier le nom du fichier dans la légende IPTC, il suffit de sélectionner une ou plusieurs images. Puis avec un clic-droit, choisissez `Ouvrir avec`, `Exiftool nom legende` et le traitement ExifTool va s'effectuer.
+ 
+Cette opération permet d'avoir automatiquement le nom du fichier comme légende, ce qui est utilisé dans certaines galeries de photos en ligne. Pour info, pour mettre le nom de fichier sans extension dans le titre de l'image, le paramètre sera: -IPTC:Headline<${FileName;s/\.[^.]*$//}.
 
-Exemple 2, recopier des champs EXIF:
-Utilisez de nouveau "Ouvrir avec" , "Configurer les programmes" , Ajouter , sélectionnez exiftool,
-Mettez un nom dans la première colonne, par exemple "Exiftool exif iptc"
-Double-cliquez dans la deuxième colonne (paramètres) et écrivez :
--iptc:caption-abstract<exif:xpcomment -iptc:copyrightnotice<exif:copyright -iptc:by-line<exif:xpauthor -overwrite_original
-Cliquez OK. Vous avez un aperçu de cette commande dans la deuxième ligne du tableau de la figure 53
+Par défaut, lorsqu'il modifie un fichier, Exiftool laisse une copie du fichier original dans le même dossier. Ainsi, après l'opération sur un fichier DSC000.JPG, vous trouvez aussi un fichier nomméDSC000.JPG_original. Si vous souhaitez éviter de garder ces copies d'originaux, l'option -overwrite_original doit être ajoutée aux paramètres (comme illustré sur la fig 53).
+
+### Exemple 2, recopier des champs EXIF
+ 
+Utilisez de nouveau `Ouvrir avec, Configurer les programmes, Ajouter`, sélectionnez ÈxifTool. Mettez un nom dans la première colonne, par exemple _Exiftool exif iptc_. Double-cliquez dans la deuxième colonne (paramètres) et écrivez: -iptc:caption-abstract<exif:xpcomment -iptc:copyrightnotice<exif:copyright -iptc:by-line<exif:xpauthor -overwrite_original.
+ 
+Cliquez OK. Vous avez un aperçu de cette commande dans la deuxième ligne du tableau de la figure 53.
 
 Cet exemple permet de recopier trois métadonnées EXIF vers les champs IPTC correspondants.
 (Ces champs exif sont anciens, voire abandonnés, et on peut les transcrire en IPTC de cette façon)
